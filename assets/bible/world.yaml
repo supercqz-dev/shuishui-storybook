@@ -1,0 +1,25 @@
+id: world
+name: 水水的绘本世界
+inspiration: Disney 疯狂动物城 (Zootopia, 2016)
+
+setting: |
+  一个温暖的拟人动物世界，所有角色都是直立行走、穿衣服、说话的动物。
+  环境是现代家庭日常生活：家、幼儿园、公园、超市、街道。
+  画面里不出现真人——所有"人"都是拟人动物。
+
+rules:
+  - 所有角色双足直立，类人比例（头大身小一点，更适合儿童绘本）
+  - 保留显著的动物特征：耳朵、尾巴、毛色、口鼻轮廓
+  - 穿全套人类风格衣服（不是动物原始毛皮）
+  - 家庭混合物种是常态（兔妈+狐爸+兔宝）——不要带任何 Zootopia 原作里的物种张力情节
+  - 现代都市/家庭背景，不出现奇幻元素
+
+family:
+  protagonist: shuishui
+  members: [shuishui, papa, mama, laolao]
+
+prompt_anchor: |
+  anthropomorphic animal world inspired by Disney Zootopia,
+  bipedal animal characters wearing modern human clothing,
+  warm domestic and urban settings,
+  children's storybook tone, no real humans

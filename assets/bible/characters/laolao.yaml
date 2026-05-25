@@ -1,0 +1,58 @@
+id: laolao
+name_cn: 姥姥
+name_en: Laolao
+role: 水水的姥姥（妈妈的妈妈）
+relation: 从小照顾水水
+
+# ━━━ 基础信息 ━━━
+human_age: 57
+origin: 东北
+zodiac_west: 白羊座
+descriptor: 利索能干、爱时髦的小老太
+
+# ━━━ 拟人动物设定 ━━━
+animal: 绵羊
+species_en: sheep
+build_cn: 微微胖
+height_human_equivalent: 156cm
+
+# ━━━ 视觉外观锁 ━━━
+visual:
+  wool: 奶白色卷毛（不要太蓬松，是利落整洁版的卷毛）
+  head: 头顶卷毛打理整齐，体现"爱时髦"——不是邋遢老奶奶
+  ears: 绵羊耳朵，软软地垂在两侧
+  eyes: 笑起来眯眯眼，慈祥但有精气神
+  outfit:
+    top: 白色亚麻衬衫
+    pants: 浅棕色棉麻宽松裤
+    shoes: 暖灰色穆勒鞋（mules）
+    accessory: （可加细金耳钉/简单丝巾以体现爱时髦，可选）
+  always_wears: [白色亚麻衬衫+浅棕棉麻宽松裤+暖灰穆勒鞋]
+  style_keyword: 时髦但不刻意，老太太里的"会穿衣服的"
+
+# ━━━ 性格 ━━━
+personality:
+  core: 利索能干、爱时髦、超级社牛
+  traits:
+    - 一手改衣服的好技能（缝纫机巧手）
+    - 会变着花样给水水做吃的（南北菜都会）
+    - 无微不至照顾水水
+    - 全小区太太都认识（社交达人）
+    - 给水水买衣服会精心搭配
+  role_in_family: 生活照料 + 物质丰足的来源 + 社区脉络
+
+# ━━━ 故事素材 ━━━
+story_seeds:
+  - 姥姥给水水变魔法做新菜
+  - 姥姥改衣服／搭配新衣服
+  - 姥姥带水水在小区遇到各种邻居（社牛 demo）
+  - 姥姥的东北话词汇（口语化故事素材）
+
+# ━━━ 图像生成锚点 ━━━
+prompt_anchor: |
+  a slightly plump elderly anthropomorphic sheep woman, around 57 years old, 156cm-tall,
+  neat creamy-white curly wool styled tidily (not messy or fluffy),
+  soft floppy sheep ears on the sides, kind eyes that crinkle when smiling,
+  energetic vibe despite being elderly,
+  wearing a white linen shirt, light brown loose linen-cotton trousers, warm grey mule shoes,
+  Disney Zootopia 3D animation style, fashionable elderly auntie aesthetic

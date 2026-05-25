@@ -1,0 +1,75 @@
+id: shuishui
+name_cn: 水水
+name_en: Shuishui
+role: protagonist
+relation: 家中独女
+
+# ━━━ 基础信息 ━━━
+human_age: 3.5
+human_age_stage: 幼儿园宝宝班
+zodiac_cn: 虎
+zodiac_west: 天秤座
+
+# ━━━ 拟人动物设定 ━━━
+animal: 白色小兔子
+species_en: white rabbit
+build_cn: 体型匀称、小巧
+height_relative: 同年龄段儿童身高，比成人角色明显矮小
+
+# ━━━ 视觉外观锁（不要随意改！）━━━
+visual:
+  signature_color: 粉色
+  fur: 纯白色绒毛
+  ears: 长长的兔耳朵，竖直向上
+  tail: 短小毛茸茸的兔尾巴
+  eyes: 明亮有神，温暖琥珀色
+  outfit:
+    dress: 粉色小裙子
+    shoes: 粉色运动鞋
+    accessory: 粉色爱心小发卡（戴在头顶/耳边）
+  always_wears: [粉色裙子, 粉色运动鞋, 粉色爱心发卡]
+
+# ━━━ 性格 ━━━
+personality:
+  core: 爱笑、活泼、好奇、机灵、有点害羞
+  traits:
+    - 爱笑
+    - 爱听歌
+    - 活泼但体力有限（玩一会儿就累）
+    - 语言天赋好，模仿能力强
+    - 小机灵鬼
+    - 对陌生人有点害羞
+    - 喜欢和大哥哥大姐姐玩
+    - 不抗拒同龄又社牛的小朋友
+  social_style: 内核温暖+外圈害羞
+
+# ━━━ 喜好 ━━━
+favorites:
+  characters: [艾莎公主, 朱迪 (Zootopia)]
+  food_likes: [肉, 海鲜]
+  food_dislikes: [蔬菜]
+  food_note: 南北融合胃
+
+# ━━━ 日常 ━━━
+daily:
+  daycare: 幼儿园宝宝班
+  sleep: 睡觉困难户
+  daycare_struggle: 幼儿园午睡时老师怎么哄都哄不睡
+  best_playmate: 爸爸
+
+# ━━━ 故事素材库（写绘本时参考）━━━
+story_seeds:
+  recurring_themes:
+    - 不爱吃蔬菜怎么办
+    - 午睡困难怎么办
+    - 害羞遇到陌生人怎么办
+    - 体力有限但又想玩
+    - 跟着大哥哥大姐姐学新技能
+
+# ━━━ 图像生成锚点（英文，直接拼 prompt）━━━
+prompt_anchor: |
+  a small white anthropomorphic bunny girl, around 3-4 years old,
+  well-proportioned petite build, long upright bunny ears, small fluffy tail,
+  bright warm amber eyes, cheerful expression,
+  wearing a pink dress, pink sneakers, and a pink heart-shaped hair clip on her ear,
+  Disney Zootopia 3D animation style

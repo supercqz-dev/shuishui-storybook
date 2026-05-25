@@ -1,0 +1,57 @@
+id: mama
+name_cn: 妈妈
+name_en: Mama
+role: 水水的妈妈
+relation: 最爱水水的妈妈，也是水水最爱的妈妈
+
+# ━━━ 基础信息 ━━━
+human_age: 34
+profession: 人力资源经理
+origin: 北方人
+zodiac_cn: 羊
+zodiac_west: 摩羯座
+
+# ━━━ 拟人动物设定 ━━━
+animal: 灰色兔子
+species_en: grey rabbit
+build_cn: 微微胖
+height_human_equivalent: 158cm
+
+# ━━━ 视觉外观锁 ━━━
+visual:
+  fur: 柔和的灰色（Zootopia Judy 同色系但偏暖）
+  ears: 长长的兔耳朵，竖直，比水水的更成熟一点
+  tail: 短小毛茸茸的兔尾巴
+  eyes: 温柔但有原则，深棕色
+  outfit:
+    dress: 米色碎花裙子
+    shoes: 米色小羊皮皮鞋
+    accessory: 梵克雅宝 (Van Cleef & Arpels) 金色项链（四叶草款式那种精致感）
+  always_wears: [米色碎花裙+米色小羊皮鞋+金色VCA项链]
+  style_keyword: 温柔得体、有品但不张扬
+
+# ━━━ 性格 ━━━
+personality:
+  core: 温柔但有原则，对水水有耐心但不溺爱
+  traits:
+    - 对水水超有耐心
+    - 不惯着——原则问题不管怎么闹都不行
+    - 共情但不动摇
+  catchphrase: |
+    "哭没有用，哭不解决问题，我们来想个办法。"
+  role_in_family: 边界设定者 + 情绪稳定的港湾
+
+# ━━━ 故事素材 ━━━
+story_seeds:
+  - 水水想要某样东西妈妈不同意时怎么沟通
+  - 妈妈用 "想个办法" 引导水水自己解决问题
+  - 水水闹情绪 → 妈妈共情但坚持原则
+
+# ━━━ 图像生成锚点 ━━━
+prompt_anchor: |
+  a slightly plump adult anthropomorphic grey rabbit woman, around 34 years old, 158cm-tall,
+  soft warm grey fur, long upright rabbit ears, small fluffy tail,
+  gentle deep brown eyes, warm composed expression,
+  wearing a beige floral-print dress, beige soft leather flat shoes,
+  a delicate gold Van Cleef-style four-leaf-clover necklace,
+  Disney Zootopia 3D animation style, gentle and dignified

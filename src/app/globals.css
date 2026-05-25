@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FFF8F0;
+  --ink: #2A2A2A;
+  --accent: #FFB7CE;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: ui-rounded, "Hiragino Sans", "PingFang SC", system-ui, sans-serif;
+}
+
+button {
+  -webkit-appearance: none;
+}

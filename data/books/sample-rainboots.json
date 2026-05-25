@@ -1,0 +1,133 @@
+{
+  "id": "sample-rainboots",
+  "title": "水水的小雨鞋",
+  "subtitle": "一个关于尝试和勇敢的小故事",
+  "theme": "学会自己穿不喜欢的雨鞋",
+  "moral": "不喜欢的事情，试一试可能会有惊喜",
+  "age_target": "3-4 岁",
+  "status": "draft",
+  "created_at": "2026-05-25T20:00:00Z",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "今天早上，外面下起了哗啦啦的大雨。窗户上滴答滴答，全世界都湿漉漉的。",
+      "shot": "wide",
+      "emotion": "宁静",
+      "characters_in_scene": [],
+      "scene_state": {
+        "location": "家里客厅，能看见窗外",
+        "weather": "下雨",
+        "time_of_day": "早晨",
+        "props": ["窗户", "雨滴"]
+      },
+      "composition_hint": "全景建立环境，雨水从窗外落下，柔和清晨光"
+    },
+    {
+      "page": 2,
+      "narration": "水水起床啦！妈妈在门口拿着一双粉色的小雨鞋，准备让水水穿上去幼儿园。",
+      "dialogue": [
+        { "speaker": "妈妈", "text": "宝贝，今天下雨，要穿小雨鞋哦。" }
+      ],
+      "shot": "medium",
+      "emotion": "期待",
+      "characters_in_scene": ["mama", "shuishui"],
+      "scene_state": {
+        "location": "家门口",
+        "weather": "下雨",
+        "props": ["粉色雨鞋", "门口地垫"]
+      },
+      "composition_hint": "妈妈蹲着递鞋子，水水站着看雨鞋"
+    },
+    {
+      "page": 3,
+      "narration": "水水看着雨鞋，皱起了小眉头。她不想穿。雨鞋硬硬的，跑起来咚咚咚，没有运动鞋舒服。",
+      "dialogue": [
+        { "speaker": "水水", "text": "我不要穿雨鞋，我要穿粉色运动鞋！" }
+      ],
+      "shot": "close-up",
+      "emotion": "抗拒",
+      "characters_in_scene": ["shuishui"],
+      "scene_state": {
+        "location": "家门口",
+        "weather": "下雨",
+        "props": ["粉色雨鞋"]
+      },
+      "composition_hint": "水水的脸部特写，撅嘴+皱眉，眼睛看着地上的雨鞋"
+    },
+    {
+      "page": 4,
+      "narration": "水水一着急，眼泪就在眼眶里打转。妈妈温柔地蹲下来，看着水水的眼睛。",
+      "dialogue": [
+        { "speaker": "妈妈", "text": "哭没有用，哭不解决问题，我们来想个办法。" }
+      ],
+      "shot": "medium",
+      "emotion": "温柔",
+      "characters_in_scene": ["mama", "shuishui"],
+      "scene_state": {
+        "location": "家门口",
+        "weather": "下雨",
+        "props": ["粉色雨鞋"]
+      },
+      "composition_hint": "妈妈蹲下与水水齐高，柔和正面光，体现耐心而非压迫"
+    },
+    {
+      "page": 5,
+      "narration": "妈妈说：「今天下雨，外面有好多好多小水坑。运动鞋会湿掉、变冷、不舒服。但是雨鞋呢——」她举起雨鞋，眼睛眨了眨。",
+      "dialogue": [
+        { "speaker": "妈妈", "text": "雨鞋可以踩水坑！踩水坑超级好玩。" }
+      ],
+      "shot": "medium",
+      "emotion": "好奇",
+      "characters_in_scene": ["mama", "shuishui"],
+      "scene_state": {
+        "location": "家门口",
+        "weather": "下雨",
+        "props": ["粉色雨鞋"]
+      },
+      "composition_hint": "妈妈举鞋子做出俏皮表情，水水歪着头听"
+    },
+    {
+      "page": 6,
+      "narration": "水水想了想，慢慢伸出小脚，把雨鞋穿上了。咦——粉色的小雨鞋，跟她的小裙子刚好一个颜色。",
+      "shot": "close-up",
+      "emotion": "好奇转期待",
+      "characters_in_scene": ["shuishui"],
+      "scene_state": {
+        "location": "家门口",
+        "weather": "下雨",
+        "props": ["粉色雨鞋", "粉色裙子"]
+      },
+      "composition_hint": "近景拍水水的小脚踩进雨鞋的瞬间"
+    },
+    {
+      "page": 7,
+      "narration": "水水跟妈妈手牵手出门。看见小区花园里有一个圆圆的水坑——水水鼓起勇气，「啪叽！」一脚踩了进去。水花溅起来，像粉色的小烟花！",
+      "dialogue": [
+        { "speaker": "水水", "text": "哈哈哈！原来踩水坑这么好玩！" }
+      ],
+      "shot": "wide",
+      "emotion": "惊喜大笑",
+      "characters_in_scene": ["mama", "shuishui"],
+      "scene_state": {
+        "location": "小区花园",
+        "weather": "下雨",
+        "props": ["水坑", "水花"]
+      },
+      "composition_hint": "广角，水花飞溅瞬间，水水跳起来开心，妈妈笑着看"
+    },
+    {
+      "page": 8,
+      "narration": "原来不喜欢的事情，试一试，也会变得好好玩呀。水水拉着妈妈的手，「啪叽啪叽」走向幼儿园。今天是踩水坑的一天。",
+      "shot": "wide",
+      "emotion": "幸福收束",
+      "characters_in_scene": ["mama", "shuishui"],
+      "scene_state": {
+        "location": "去幼儿园的路上",
+        "weather": "下雨",
+        "time_of_day": "早晨",
+        "props": ["雨伞", "水坑"]
+      },
+      "composition_hint": "背影远景，妈妈和水水撑伞走，画面温暖收束"
+    }
+  ]
+}
