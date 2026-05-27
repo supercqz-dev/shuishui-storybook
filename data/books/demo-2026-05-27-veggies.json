@@ -1,0 +1,267 @@
+{
+  "id": "demo-2026-05-27-veggies",
+  "title": "水水的三口青菜",
+  "subtitle": "周末晚饭的小小约定",
+  "theme": "均衡饮食，温柔坚持",
+  "moral": "妈妈让水水吃蔬菜不是惩罚，而是帮助身体更有力气；肉和蔬菜一起吃，肚子才会更开心。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周末晚上，家里香喷喷的。桌上有红烧肉，也有绿绿的小青菜。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇！肉肉好香呀！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "餐桌",
+          "儿童餐椅",
+          "红烧肉盘子",
+          "青菜盘子",
+          "小碗",
+          "兔子围兜"
+        ]
+      },
+      "composition_hint": "wide cozy dining room, shuishui standing on tiptoe by the table, eyes shining at the meat, mama rabbit placing vegetables on the table",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "水水夹了一块肉，又想夹第二块。小青菜在碗边静静躺着。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "水水，先吃三口青菜，再吃肉肉。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "可是我只想吃肉肉。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "不情愿",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "小筷子",
+          "小碗",
+          "红烧肉",
+          "青菜",
+          "餐巾"
+        ]
+      },
+      "composition_hint": "medium shot of mama gently holding the vegetable plate, shuishui clutching chopsticks and looking at the meat",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "水水的小嘴巴嘟起来，长耳朵也垂了一点点。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "青菜没有肉肉好吃……我不要。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "委屈",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "小碗",
+          "一小片青菜",
+          "筷子"
+        ]
+      },
+      "composition_hint": "close-up of shuishui's pouty face, floppy white rabbit ears drooping, a tiny green vegetable in her bowl",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "妈妈没有生气，也没有把肉拿走。她蹲下来，看着水水的眼睛。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "哭没有用，哭不解决问题，我们来想个办法。"
+        },
+        {
+          "speaker": "mama",
+          "text": "青菜帮小肚子工作，肉肉帮身体长力气，它们要一起做朋友。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "被安慰",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "餐桌",
+          "小碗",
+          "青菜",
+          "红烧肉",
+          "妈妈的围裙"
+        ]
+      },
+      "composition_hint": "medium shot, mama rabbit kneeling beside shuishui's chair, speaking softly while pointing to vegetables and meat",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "妈妈把青菜剪得小小的，放在一小勺米饭上。水水闻了闻，还是皱了皱鼻子。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "我们先试一小口，真的不喜欢，可以告诉妈妈。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "就一小口哦。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "犹豫",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "儿童剪刀",
+          "小勺子",
+          "米饭",
+          "切碎的青菜",
+          "小水杯"
+        ]
+      },
+      "composition_hint": "medium shot of mama making a tiny spoonful of rice and chopped greens, shuishui leaning forward cautiously",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "水水闭上眼睛，啊呜一口。咦，青菜脆脆的，和米饭在一起也不错。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "好像……没有那么难吃耶！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "小勺子",
+          "小碗",
+          "青菜米饭",
+          "兔子围兜"
+        ]
+      },
+      "composition_hint": "close-up of shuishui chewing with surprised bright eyes, a small spoon near her mouth",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "一口，两口，三口。水水的小碗里，绿绿的青菜少了一片。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "你做到了。现在肉肉也可以来了！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "青菜和肉肉，一起排队进肚子！"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "小碗",
+          "三片青菜叶",
+          "一块红烧肉",
+          "小筷子"
+        ]
+      },
+      "composition_hint": "extreme close-up of shuishui's bowl with three tiny vegetable bites finished and one piece of meat being picked up",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "晚饭后，水水摸摸圆圆的小肚子，跟妈妈一起收拾餐桌。她记住了：肚子喜欢很多种好朋友。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "妈妈，明天青菜还可以小小的。"
+        },
+        {
+          "speaker": "mama",
+          "text": "当然，我们一起想办法。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "晴",
+        "time_of_day": "晚",
+        "props": [
+          "收好的盘子",
+          "小抹布",
+          "餐桌",
+          "温暖吊灯",
+          "空碗"
+        ]
+      },
+      "composition_hint": "wide warm dining room after dinner, shuishui and mama rabbit cleaning the table together, both smiling softly",
+      "image_path": "/generated/demo-2026-05-27-veggies/page-08.png"
+    }
+  ],
+  "created_at": "2026-05-27T07:45:44.032Z",
+  "status": "finished"
+}

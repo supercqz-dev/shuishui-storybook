@@ -40,13 +40,33 @@ export async function POST(req: Request) {
     });
 
     const client = getClient();
-    const result = await client.images.generate({
-      model: IMAGE_MODEL,
-      prompt,
-      size: IMAGE_SIZE,
-      quality: IMAGE_QUALITY,
-      n: 1,
-    } as Parameters<typeof client.images.generate>[0]);
+    console.log(`[generate-image] page=${body.page.page} prompt_len=${prompt.length} chars`);
+    await fs.writeFile('/tmp/last-image-prompt.txt', prompt);
+    console.log(`[generate-image] full prompt dumped to /tmp/last-image-prompt.txt`);
+
+    let result;
+    try {
+      result = await client.images.generate({
+        model: IMAGE_MODEL,
+        prompt,
+        size: IMAGE_SIZE,
+        quality: IMAGE_QUALITY,
+        n: 1,
+      } as Parameters<typeof client.images.generate>[0]);
+    } catch (e) {
+      const err = e as { status?: number; message?: string; error?: unknown };
+      console.error(`[generate-image] gateway rejected. status=${err.status} message=${err.message}`);
+      console.error(`[generate-image] error body:`, JSON.stringify(err.error));
+      return NextResponse.json(
+        {
+          error: err.message || 'image API failed',
+          status: err.status,
+          gateway_error: err.error,
+          prompt_preview: prompt.slice(0, 500),
+        },
+        { status: 502 },
+      );
+    }
 
     const b64 = result.data?.[0]?.b64_json;
     if (!b64) {

@@ -53,14 +53,31 @@ export async function POST(req: Request) {
     }
 
     const prompt = buildCharacterRefPrompt({ character, style });
+    await fs.writeFile(`/tmp/last-charref-prompt-${character.id}.txt`, prompt);
     const client = getClient();
-    const result = await client.images.generate({
-      model: IMAGE_MODEL,
-      prompt,
-      size: '1024x1536',
-      quality: 'high',
-      n: 1,
-    } as Parameters<typeof client.images.generate>[0]);
+    let result;
+    try {
+      result = await client.images.generate({
+        model: IMAGE_MODEL,
+        prompt,
+        size: '1024x1536',
+        quality: 'high',
+        n: 1,
+      } as Parameters<typeof client.images.generate>[0]);
+    } catch (e) {
+      const err = e as { status?: number; message?: string; error?: unknown };
+      console.error(`[generate-character-ref] gateway rejected for ${character.id}. status=${err.status} message=${err.message}`);
+      console.error(`[generate-character-ref] error body:`, JSON.stringify(err.error));
+      return NextResponse.json(
+        {
+          error: err.message || 'image API failed',
+          status: err.status,
+          gateway_error: err.error,
+          prompt_preview: prompt.slice(0, 500),
+        },
+        { status: 502 },
+      );
+    }
 
     const b64 = result.data?.[0]?.b64_json;
     if (!b64) {

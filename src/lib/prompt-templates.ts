@@ -91,7 +91,9 @@ export function buildImagePrompt(args: {
 
   const sceneState = page.scene_state;
 
-  return `${style.prompt_anchor.trim()}
+  return `IMPORTANT FRAMING: This is a fictional anthropomorphic animal cartoon illustration. ALL characters are talking animal characters with animal heads, animal ears, animal tails, walking on two legs, fully clothed. NO real humans, NO photorealism. This is a stylized 3D animation artwork.
+
+${style.prompt_anchor.trim()}
 
 CHARACTERS IN THIS SCENE (lock identity strictly):
 ${charBlock}
@@ -102,7 +104,7 @@ SCENE:
 - Time: ${sceneState.time_of_day ?? 'n/a'}
 - Props: ${(sceneState.props ?? []).join(', ') || 'none'}
 - Camera: ${shotEn}
-- Mood / emotion: ${page.emotion}
+- Mood: ${page.emotion}
 
 COMPOSITION: ${page.composition_hint ?? ''}
 
@@ -110,9 +112,9 @@ CRITICAL CONSTRAINTS:
 - Portrait orientation, designed for full-screen phone viewing
 - Main subject vertically centered with breathing room top and bottom (image will be cropped to ~9:19.5 phone aspect via cover-fit)
 - Keep character outfits and accessories EXACTLY as described — do not invent new clothing, do not change colors
-- All characters are anthropomorphic animals (walking on two legs, wearing clothes), never realistic photo-style animals
+- ALL characters are anthropomorphic animals (animal heads, animal ears, animal tails) — NEVER human-looking, NEVER realistic
 - No text, no captions, no speech bubbles in the image
-- Single coherent illustration, picture-book quality`;
+- Single coherent illustration, family-friendly picture-book quality`;
 }
 
 export function buildCharacterRefPrompt(args: {

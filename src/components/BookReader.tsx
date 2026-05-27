@@ -71,7 +71,7 @@ export default function BookReader({ book }: { book: Book }) {
         <img
           src={page.image_path}
           alt={`第 ${page.page} 页`}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-contain"
         />
       ) : (
         <PlaceholderArt page={page} />
