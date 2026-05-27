@@ -20,3 +20,6 @@ out/
 .pages-stash/
 next-env.d.ts
 *.tsbuildinfo
+
+# Claude Code 工具配置(本地用)
+.claude/
