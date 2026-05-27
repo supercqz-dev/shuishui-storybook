@@ -4,6 +4,11 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import type { Book } from '@/lib/types';
 
+// GH Pages 部署在子路径 /shuishui-storybook/ 下,而 image_path 在 json 里写的是 /generated/...
+// 这里在客户端运行时拼上 basePath。dev 模式 NEXT_PUBLIC_BASE_PATH 为空,不影响。
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const withBase = (p: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
+
 export default function BookReader({ book }: { book: Book }) {
   const [idx, setIdx] = useState(0);
   const [chromeVisible, setChromeVisible] = useState(true);
@@ -69,7 +74,7 @@ export default function BookReader({ book }: { book: Book }) {
       {page.image_path ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={page.image_path}
+          src={withBase(page.image_path)}
           alt={`第 ${page.page} 页`}
           className="absolute inset-0 w-full h-full object-contain"
         />

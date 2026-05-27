@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { listBooks } from '@/lib/books';
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const withBase = (p?: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
+
 export default async function Home() {
   const books = await listBooks();
 
@@ -47,7 +50,7 @@ export default async function Home() {
                   {b.cover_image ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
-                      src={b.cover_image}
+                      src={withBase(b.cover_image) || b.cover_image}
                       alt={b.title}
                       className="w-full h-full object-cover"
                     />

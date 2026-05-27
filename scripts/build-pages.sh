@@ -25,7 +25,9 @@ if [ -d "$API_DIR" ]; then
   echo "[build-pages] stashed $API_DIR"
 fi
 
-GITHUB_PAGES=true npx next build
+# NEXT_PUBLIC_BASE_PATH 在客户端组件用来拼图片绝对路径(如 /generated/...)
+# 必须跟 next.config.mjs 里的 basePath 一致,否则部署到 GH Pages 子路径后图片 404
+GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH="/shuishui-storybook" npx next build
 
 # Add a .nojekyll so GH Pages doesn't choke on _next/ paths
 touch out/.nojekyll
