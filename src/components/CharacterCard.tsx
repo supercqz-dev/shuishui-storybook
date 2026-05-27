@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function CharacterCard({
   id,
@@ -10,6 +10,7 @@ export default function CharacterCard({
   role,
   animal,
   hasRef,
+  refMtime,
   isProtagonist,
 }: {
   id: string;
@@ -17,15 +18,24 @@ export default function CharacterCard({
   role: string;
   animal: string;
   hasRef: boolean;
+  refMtime?: number;
   isProtagonist: boolean;
 }) {
   const router = useRouter();
   const [busy, setBusy] = useState<'delete' | 'regen' | null>(null);
-  const [refKey, setRefKey] = useState(0); // bust img cache after regen
+  const [refKey, setRefKey] = useState(0);
+  const [elapsed, setElapsed] = useState(0);
+
+  useEffect(() => {
+    if (busy !== 'regen') return;
+    setElapsed(0);
+    const t = window.setInterval(() => setElapsed((e) => e + 1), 1000);
+    return () => window.clearInterval(t);
+  }, [busy]);
 
   async function handleDelete() {
     if (isProtagonist) return;
-    if (!confirm(`确认删除角色 "${name_cn}"？这会删 yaml + 定妆图,不可撤销。`)) return;
+    if (!confirm(`确认删除角色"${name_cn}"?这会删 yaml + 定妆图。`)) return;
     setBusy('delete');
     try {
       const res = await fetch(`/api/character/${id}/`, { method: 'DELETE' });
@@ -40,7 +50,7 @@ export default function CharacterCard({
 
   async function handleRegen() {
     if (busy) return;
-    if (hasRef && !confirm(`重新生成定妆图会覆盖当前 canonical "${name_cn}.png"。建议先去 iterations 备份。继续吗？`)) return;
+    if (hasRef && !confirm(`重新生成定妆图会覆盖当前 ${name_cn}.png。建议先去 iterations 备份。继续?`)) return;
     setBusy('regen');
     try {
       const res = await fetch('/api/generate-character-ref/', {
@@ -51,6 +61,7 @@ export default function CharacterCard({
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
       setRefKey((k) => k + 1);
+      router.refresh();
     } catch (err) {
       alert(`重生失败: ${err instanceof Error ? err.message : String(err)}`);
     } finally {
@@ -58,9 +69,11 @@ export default function CharacterCard({
     }
   }
 
+  const updatedAgo = refMtime ? formatAgo(refMtime) : null;
+
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-      <div className="aspect-[3/4] bg-gray-100 relative">
+    <div className="bg-tool-card rounded-xl border border-tool-border shadow-card overflow-hidden">
+      <div className="aspect-[3/4] bg-tool-bg relative overflow-hidden">
         {hasRef ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -70,38 +83,47 @@ export default function CharacterCard({
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-5xl">
-            {animal.includes('兔') ? '🐰' : animal.includes('狐') ? '🦊' : animal.includes('羊') ? '🐑' : '🎭'}
+            {iconFor(animal)}
           </div>
         )}
         {busy === 'regen' && (
-          <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-sm">
-            🎨 生成中…（约 3 分钟）
+          <div className="absolute inset-0 bg-tool-ink/70 flex flex-col items-center justify-center gap-2 backdrop-blur-sm">
+            <Spinner size={20} />
+            <div className="text-white text-xs">绘制中…</div>
+            <div className="text-white/70 text-[10px] tabular-nums">
+              {elapsed}s / ~180s
+            </div>
           </div>
         )}
+        {isProtagonist && (
+          <span className="absolute top-2 left-2 text-[10px] font-semibold text-tool-accent bg-tool-card px-2 py-0.5 rounded-full shadow-card">
+            主角
+          </span>
+        )}
       </div>
-      <div className="p-4">
-        <div className="flex items-baseline gap-2">
-          <h3 className="font-semibold text-lg">{name_cn}</h3>
-          {isProtagonist && (
-            <span className="text-[10px] text-shuishui-pink bg-shuishui-pink-soft px-1.5 py-0.5 rounded-full">
-              主角
-            </span>
-          )}
+      <div className="p-3.5">
+        <div className="flex items-baseline justify-between">
+          <h3 className="font-semibold text-base">{name_cn}</h3>
+          <span className="text-[10px] text-tool-ink-soft font-mono">{id}</span>
         </div>
-        <p className="text-xs text-gray-500 mt-1 truncate">{role}</p>
-        <p className="text-xs text-gray-400 mt-0.5 truncate">{animal}</p>
-        <div className="flex gap-2 mt-3 text-sm">
+        <p className="text-xs text-tool-ink-soft mt-0.5 truncate">{role || animal || '—'}</p>
+        {updatedAgo && (
+          <p className="text-[10px] text-tool-ink-soft/70 mt-0.5">
+            定妆 {updatedAgo}
+          </p>
+        )}
+        <div className="flex gap-1.5 mt-3 text-xs">
           <Link
             href={`/characters/${id}`}
-            className="flex-1 text-center bg-shuishui-pink-soft text-shuishui-pink px-3 py-2 rounded-lg font-medium hover:bg-shuishui-pink hover:text-white transition"
+            className="flex-1 text-center bg-tool-bg text-tool-ink px-2 py-1.5 rounded-md font-medium hover:bg-tool-border/50 border border-tool-border transition"
           >
             编辑
           </Link>
           <button
             onClick={handleRegen}
             disabled={busy !== null}
-            className="px-3 py-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 transition disabled:opacity-50"
             title="重新生成定妆图"
+            className="px-2.5 py-1.5 rounded-md bg-tool-bg text-tool-ink hover:bg-tool-purple/10 hover:text-tool-purple border border-tool-border transition disabled:opacity-50"
           >
             🎨
           </button>
@@ -109,13 +131,43 @@ export default function CharacterCard({
             <button
               onClick={handleDelete}
               disabled={busy !== null}
-              className="px-3 py-2 rounded-lg bg-gray-100 text-gray-500 hover:bg-red-50 hover:text-red-600 transition disabled:opacity-50"
+              className="px-2.5 py-1.5 rounded-md bg-tool-bg text-tool-ink-soft hover:bg-tool-red/10 hover:text-tool-red border border-tool-border transition disabled:opacity-50"
             >
-              {busy === 'delete' ? '…' : '删除'}
+              {busy === 'delete' ? '…' : '删'}
             </button>
           )}
         </div>
       </div>
     </div>
+  );
+}
+
+function iconFor(animal: string): string {
+  if (animal.includes('兔')) return '🐰';
+  if (animal.includes('狐')) return '🦊';
+  if (animal.includes('羊')) return '🐑';
+  if (animal.includes('猫')) return '🐱';
+  if (animal.includes('狗')) return '🐶';
+  if (animal.includes('熊')) return '🐻';
+  return '🎭';
+}
+
+function formatAgo(mtimeMs: number): string {
+  const diff = Date.now() - mtimeMs;
+  const min = Math.floor(diff / 60000);
+  if (min < 1) return '刚刚';
+  if (min < 60) return `${min} 分钟前`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24) return `${hr} 小时前`;
+  const day = Math.floor(hr / 24);
+  return `${day} 天前`;
+}
+
+function Spinner({ size = 14 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" className="animate-spin text-white">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeOpacity="0.2" />
+      <path d="M22 12a10 10 0 0 1-10 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
   );
 }

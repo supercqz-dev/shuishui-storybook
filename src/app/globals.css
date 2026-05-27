@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 字体加载:Quicksand(英文圆体), Noto Sans SC(中文圆体), Inter(工具端) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
+  /* 儿童端默认 */
   --bg: #FFF8F0;
-  --ink: #2A2A2A;
-  --accent: #FFB7CE;
+  --ink: #5C4434;
+  --accent: #FFA8C2;
 }
 
 html, body {
@@ -17,9 +21,22 @@ html, body {
 }
 
 body {
-  font-family: ui-rounded, "Hiragino Sans", "PingFang SC", system-ui, sans-serif;
+  font-family: 'Quicksand', 'Comfortaa', ui-rounded, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans', system-ui, sans-serif;
+  font-feature-settings: 'tnum' on;
+}
+
+/* 工具端 body class:创作器/角色管理用低饱和工具风 */
+.tool-app {
+  --bg: #FAFAFA;
+  --ink: #374151;
+  --accent: #EC4899;
+  font-family: 'Inter', 'PingFang SC', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 button {
   -webkit-appearance: none;
 }
+
+/* 隐藏 scrollbar 但保持滚动 */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

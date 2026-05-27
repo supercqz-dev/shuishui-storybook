@@ -4,42 +4,56 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import type { Book } from '@/lib/types';
 
-// GH Pages 部署在子路径 /shuishui-storybook/ 下,而 image_path 在 json 里写的是 /generated/...
-// 这里在客户端运行时拼上 basePath。dev 模式 NEXT_PUBLIC_BASE_PATH 为空,不影响。
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const withBase = (p: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
 
 export default function BookReader({ book }: { book: Book }) {
+  const total = book.pages.length;
+  // idx 范围:0..total-1 是正常页;total 是"读完啦"结束页
   const [idx, setIdx] = useState(0);
   const [chromeVisible, setChromeVisible] = useState(true);
-  const total = book.pages.length;
-  const page = book.pages[idx];
+  const [showHint, setShowHint] = useState(true);
   const touchStart = useRef<number | null>(null);
   const chromeTimer = useRef<number | null>(null);
+  const hintTimer = useRef<number | null>(null);
 
-  const next = () => setIdx((i) => Math.min(i + 1, total - 1));
+  const isEndPage = idx === total;
+  const page = isEndPage ? null : book.pages[idx];
+
+  const next = () => setIdx((i) => Math.min(i + 1, total));
   const prev = () => setIdx((i) => Math.max(i - 1, 0));
 
   const showChrome = () => {
     setChromeVisible(true);
     if (chromeTimer.current) window.clearTimeout(chromeTimer.current);
-    chromeTimer.current = window.setTimeout(() => setChromeVisible(false), 2500);
+    chromeTimer.current = window.setTimeout(() => setChromeVisible(false), 3500);
   };
 
+  // 翻页时刷新 chrome 显示;翻一次后隐藏首次提示
   useEffect(() => {
     showChrome();
+    if (idx > 0 && showHint) {
+      setShowHint(false);
+      if (hintTimer.current) window.clearTimeout(hintTimer.current);
+    }
     return () => {
       if (chromeTimer.current) window.clearTimeout(chromeTimer.current);
     };
   }, [idx]);
 
+  // 首次提示 5 秒后自动淡出
+  useEffect(() => {
+    hintTimer.current = window.setTimeout(() => setShowHint(false), 5000);
+    return () => {
+      if (hintTimer.current) window.clearTimeout(hintTimer.current);
+    };
+  }, []);
+
+  // 键盘左右翻页
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowRight') next();
-      if (e.key === 'ArrowLeft') prev();
-      if (e.key === 'Escape') {
-        // user can press Esc to go back; default <Link> handles router
-      }
+      if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -64,6 +78,40 @@ export default function BookReader({ book }: { book: Book }) {
     else showChrome();
   };
 
+  // ━━━ 结束页 ━━━
+  if (isEndPage) {
+    return (
+      <div className="fixed inset-0 bg-gradient-to-br from-shuishui-pink-soft via-cream-50 to-shuishui-yellow flex flex-col items-center justify-center px-6 select-none">
+        <div className="text-8xl mb-6 animate-gentle-bounce">✨</div>
+        <h1 className="text-4xl sm:text-5xl font-bold text-shuishui-brown text-center">
+          读完啦!
+        </h1>
+        <p className="text-lg text-shuishui-brown-soft mt-3 text-center">
+          《{book.title}》
+        </p>
+        <p className="text-sm text-shuishui-brown-soft/80 mt-1 text-center max-w-xs">
+          {book.moral}
+        </p>
+        <div className="flex flex-col sm:flex-row gap-3 mt-10 w-full max-w-xs">
+          <button
+            onClick={() => setIdx(0)}
+            className="flex-1 bg-white text-shuishui-brown font-semibold py-3.5 rounded-full shadow-soft hover:shadow-soft-lg active:scale-95 transition"
+          >
+            🔁 再读一遍
+          </button>
+          <Link
+            href="/"
+            className="flex-1 bg-shuishui-pink-deep text-white font-semibold py-3.5 rounded-full shadow-soft hover:shadow-soft-lg active:scale-95 transition text-center"
+          >
+            📚 回书架
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  if (!page) return null;
+
   return (
     <div
       className="fixed inset-0 bg-black select-none touch-none overflow-hidden"
@@ -82,20 +130,21 @@ export default function BookReader({ book }: { book: Book }) {
         <PlaceholderArt page={page} />
       )}
 
+      {/* 旁白 + 对话区 */}
       <div
-        className={`absolute inset-x-0 bottom-0 px-6 pb-10 pt-20 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white transition-opacity duration-500 ${
+        className={`absolute inset-x-0 bottom-0 px-6 pb-10 pt-20 bg-gradient-to-t from-black/85 via-black/40 to-transparent text-white transition-opacity duration-500 ${
           chromeVisible ? 'opacity-100' : 'opacity-0'
         } pointer-events-none`}
       >
-        <p className="text-lg leading-relaxed font-medium drop-shadow-md">
+        <p className="text-lg sm:text-xl leading-relaxed font-medium drop-shadow-md">
           {page.narration}
         </p>
         {page.dialogue && page.dialogue.length > 0 && (
-          <div className="mt-3 space-y-1">
+          <div className="mt-3 space-y-1.5">
             {page.dialogue.map((d, i) => (
-              <p key={i} className="text-base">
-                <span className="font-semibold text-shuishui-pink-soft mr-1.5">
-                  {d.speaker}：
+              <p key={i} className="text-base sm:text-lg">
+                <span className="font-bold text-shuishui-pink-soft mr-1.5">
+                  {d.speaker}:
                 </span>
                 「{d.text}」
               </p>
@@ -104,15 +153,16 @@ export default function BookReader({ book }: { book: Book }) {
         )}
       </div>
 
+      {/* 顶部 chrome:回书架 + 进度 + 页码 */}
       <div
-        className={`absolute top-0 inset-x-0 px-4 pt-3 pb-6 bg-gradient-to-b from-black/60 to-transparent flex items-center justify-between text-white transition-opacity duration-500 ${
+        className={`absolute top-0 inset-x-0 px-3 pt-3 pb-6 bg-gradient-to-b from-black/60 to-transparent flex items-center justify-between text-white transition-opacity duration-500 ${
           chromeVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
         <Link
           href="/"
           onClick={(e) => e.stopPropagation()}
-          className={`text-sm bg-black/30 backdrop-blur px-3 py-1.5 rounded-full ${
+          className={`flex items-center gap-1 text-sm font-medium bg-black/40 backdrop-blur px-4 py-2.5 rounded-full ${
             chromeVisible ? 'pointer-events-auto' : 'pointer-events-none'
           }`}
         >
@@ -122,9 +172,9 @@ export default function BookReader({ book }: { book: Book }) {
           {book.pages.map((_, i) => (
             <span
               key={i}
-              className={`block h-1 rounded-full transition-all ${
+              className={`block h-1.5 rounded-full transition-all ${
                 i === idx
-                  ? 'w-6 bg-white'
+                  ? 'w-7 bg-white'
                   : i < idx
                   ? 'w-2 bg-white/70'
                   : 'w-2 bg-white/30'
@@ -136,6 +186,15 @@ export default function BookReader({ book }: { book: Book }) {
           {idx + 1}/{total}
         </span>
       </div>
+
+      {/* 首次进入提示 */}
+      {showHint && idx === 0 && (
+        <div className="absolute inset-0 pointer-events-none flex items-end justify-center pb-32 sm:pb-40">
+          <div className="bg-black/60 backdrop-blur text-white text-sm px-5 py-2.5 rounded-full animate-soft-pulse">
+            👆 轻轻滑屏(或按 →)开始阅读
+          </div>
+        </div>
+      )}
     </div>
   );
 }

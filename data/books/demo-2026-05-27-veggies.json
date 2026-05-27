@@ -263,5 +263,6 @@
     }
   ],
   "created_at": "2026-05-27T07:45:44.032Z",
-  "status": "finished"
+  "status": "finished",
+  "cover_image": "/generated/demo-2026-05-27-veggies/cover.png"
 }
