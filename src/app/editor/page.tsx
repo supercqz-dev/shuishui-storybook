@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import type { Book, Page } from '@/lib/types';
 
 type Character = { id: string; name_cn: string; has_ref: boolean };
@@ -14,10 +15,21 @@ type StoryDraft = {
   pages: Page[];
 };
 
-type Phase = 'form' | 'generating-story' | 'review';
+type Phase = 'form' | 'generating-story' | 'loading-book' | 'review';
 
-export default function Editor() {
-  const [phase, setPhase] = useState<Phase>('form');
+export default function EditorWrapper() {
+  return (
+    <Suspense fallback={<div className="p-10 text-center text-gray-400">加载中…</div>}>
+      <Editor />
+    </Suspense>
+  );
+}
+
+function Editor() {
+  const searchParams = useSearchParams();
+  const editingBookId = searchParams.get('book_id');
+
+  const [phase, setPhase] = useState<Phase>(editingBookId ? 'loading-book' : 'form');
 
   const [trigger, setTrigger] = useState('');
   const [educationGoal, setEducationGoal] = useState('');
@@ -26,10 +38,11 @@ export default function Editor() {
   const [error, setError] = useState<string | null>(null);
 
   const [story, setStory] = useState<StoryDraft | null>(null);
-  const [bookId, setBookId] = useState<string>('');
+  const [bookId, setBookId] = useState<string>(editingBookId || '');
   const [imagePaths, setImagePaths] = useState<Record<number, string>>({});
   const [renderingPage, setRenderingPage] = useState<number | null>(null);
   const [publishing, setPublishing] = useState(false);
+  const [isEditing, setIsEditing] = useState(!!editingBookId);
 
   useEffect(() => {
     fetch('/api/characters/')
@@ -37,6 +50,38 @@ export default function Editor() {
       .then((d) => setChars(d.characters || []))
       .catch(() => {});
   }, []);
+
+  // 加载已有 book 进 review 阶段
+  useEffect(() => {
+    if (!editingBookId) return;
+    fetch(`/api/books/${editingBookId}/`)
+      .then(async (r) => {
+        const d = await r.json();
+        if (!r.ok) throw new Error(d.error || `HTTP ${r.status}`);
+        const book = d.book as Book;
+        setStory({
+          title: book.title,
+          subtitle: book.subtitle || '',
+          theme: book.theme,
+          moral: book.moral,
+          pages: book.pages,
+        });
+        // 把已有 image_path 填到 imagePaths(带 cache-bust 防浏览器缓存)
+        const existing: Record<number, string> = {};
+        for (const p of book.pages) {
+          if (p.image_path) {
+            existing[p.page] = `${p.image_path}?t=${Date.now()}`;
+          }
+        }
+        setImagePaths(existing);
+        setPhase('review');
+      })
+      .catch((e) => {
+        setError(`加载 book 失败: ${e instanceof Error ? e.message : String(e)}`);
+        setPhase('form');
+        setIsEditing(false);
+      });
+  }, [editingBookId]);
 
   function toggleChar(id: string) {
     if (id === 'shuishui') return;
@@ -66,6 +111,7 @@ export default function Editor() {
       if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
       setStory(data.story as StoryDraft);
       setBookId(makeBookId(data.story.title));
+      setIsEditing(false);
       setPhase('review');
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -140,6 +186,14 @@ export default function Editor() {
       setError(e instanceof Error ? e.message : String(e));
       setPublishing(false);
     }
+  }
+
+  if (phase === 'loading-book') {
+    return (
+      <main className="min-h-screen flex items-center justify-center">
+        <div className="text-gray-400">📚 加载绘本中…</div>
+      </main>
+    );
   }
 
   if (phase === 'form' || phase === 'generating-story') {
@@ -225,14 +279,25 @@ export default function Editor() {
 
   return (
     <main className="min-h-screen px-6 py-8 max-w-3xl mx-auto pb-32">
-      <button
-        onClick={() => {
-          if (confirm('返回会丢掉这个故事，确定吗？')) setPhase('form');
-        }}
-        className="text-gray-500 text-sm"
-      >
-        ← 重新写
-      </button>
+      <div className="flex items-center justify-between">
+        <button
+          onClick={() => {
+            if (isEditing) {
+              window.location.href = '/';
+            } else if (confirm('返回会丢掉这个故事，确定吗？')) {
+              setPhase('form');
+            }
+          }}
+          className="text-gray-500 text-sm"
+        >
+          ← {isEditing ? '返回书架' : '重新写'}
+        </button>
+        {isEditing && (
+          <span className="text-xs text-shuishui-pink bg-shuishui-pink-soft px-2 py-1 rounded-full">
+            正在编辑《{story.title}》
+          </span>
+        )}
+      </div>
 
       <div className="mt-4">
         <input
