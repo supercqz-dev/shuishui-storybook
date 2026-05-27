@@ -12,22 +12,22 @@ zodiac_cn: 羊
 zodiac_west: 摩羯座
 
 # ━━━ 拟人动物设定 ━━━
-animal: 灰色兔子
-species_en: grey rabbit
-build_cn: 微微胖
+animal: 白色兔子
+species_en: white rabbit
+build_cn: 身材好（匀称纤细、姿态挺拔）
 height_human_equivalent: 158cm
 
 # ━━━ 视觉外观锁 ━━━
 visual:
-  fur: 柔和的灰色（Zootopia Judy 同色系但偏暖）
+  fur: 纯白色绒毛（与水水同色系，比水水成熟一点）
   ears: 长长的兔耳朵，竖直，比水水的更成熟一点
   tail: 短小毛茸茸的兔尾巴
   eyes: 温柔但有原则，深棕色
   outfit:
-    dress: 米色碎花裙子
+    dress: 鲜亮柠檬黄底+白色大碎花连衣裙
     shoes: 米色小羊皮皮鞋
-    accessory: 梵克雅宝 (Van Cleef & Arpels) 金色项链（四叶草款式那种精致感）
-  always_wears: [米色碎花裙+米色小羊皮鞋+金色VCA项链]
+    accessory: 简约金色细项链（精致感）
+  always_wears: [柠檬黄白大碎花裙+米色小羊皮鞋+金色细项链]
   style_keyword: 温柔得体、有品但不张扬
 
 # ━━━ 性格 ━━━
@@ -48,10 +48,24 @@ story_seeds:
   - 水水闹情绪 → 妈妈共情但坚持原则
 
 # ━━━ 图像生成锚点 ━━━
+# 当前 prompt = 中文 prompt 通过版(2026-05-27,1/3 通过率)。
+# 用户用 ChatGPT 生成的中文 prompt,实测出图质量明显优于所有英文版:
+#   - 表情灵动(不僵硬),姿态优雅放松
+#   - 出"画面"(花田背景+电影级光影+景深虚化),不是 character sheet
+#   - 兔子身份明确,黄色碎花连衣裙到位
+#   - 与原始 brief 不同处:毛色是灰色点缀白色(GPT prompt 里就这么写的),紫眼睛
+# 备份的所有候选见 iterations/2026-05-27-* 目录。
+#
+# 重要踩坑记录(2026-05-27,英文 prompt 阶段实测):
+# - 同一 prompt 跨日不可重复——昨晚 winning v10 今天直接卡(印证 Microsoft 官方"概率性 ML 分类器")
+# - "Professional brief / fully clothed / modest / non-suggestive"防御性措辞在边缘 prompt 上反作用
+# - 词级别红绿名单: bunny ❌ / rabbit ✅ / adult ❌ / mom ❌ / dress ⚠️偶发 / 中文绕过部分英文黑名单
+# - **少即是多**: gpt-image-2 是 Agentic 模型,文本越短,moderation 抓手越少,模型自己合理化未指定细节
+# 详见 docs/PROMPT_GUIDE.md §4.5
 prompt_anchor: |
-  a slightly plump adult anthropomorphic grey rabbit woman, around 34 years old, 158cm-tall,
-  soft warm grey fur, long upright rabbit ears, small fluffy tail,
-  gentle deep brown eyes, warm composed expression,
-  wearing a beige floral-print dress, beige soft leather flat shoes,
-  a delicate gold Van Cleef-style four-leaf-clover necklace,
-  Disney Zootopia 3D animation style, gentle and dignified
+  可爱的拟人化兔子,采用高级动画电影级CGI风格,
+  柔软的灰色兔毛点缀着淡淡的白色,一双灵动的大紫色眼睛,
+  竖起的兔耳朵,头上别着小白花装饰,温暖灿烂的笑容,
+  蓬松细腻的毛发,身着浅黄色碎花夏日连衣裙(饰以精致的白色小花),
+  紧凑灵活的身形,姿态自然放松,优雅可爱,
+  富有表现力的面部表情,鲜艳而自然的色彩

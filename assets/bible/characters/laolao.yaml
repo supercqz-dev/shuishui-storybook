@@ -18,10 +18,11 @@ height_human_equivalent: 156cm
 
 # ━━━ 视觉外观锁 ━━━
 visual:
-  wool: 奶白色卷毛（不要太蓬松，是利落整洁版的卷毛）
+  wool: 纯白色卷毛（明显比奶白更白，不要太蓬松，是利落整洁版的卷毛）
   head: 头顶卷毛打理整齐，体现"爱时髦"——不是邋遢老奶奶
   ears: 绵羊耳朵，软软地垂在两侧
   eyes: 笑起来眯眯眼，慈祥但有精气神
+  no_glasses: true  # 明确不戴眼镜
   outfit:
     top: 白色亚麻衬衫
     pants: 浅棕色棉麻宽松裤
@@ -51,8 +52,9 @@ story_seeds:
 # ━━━ 图像生成锚点 ━━━
 prompt_anchor: |
   a slightly plump elderly anthropomorphic sheep woman, around 57 years old, 156cm-tall,
-  neat creamy-white curly wool styled tidily (not messy or fluffy),
+  neat PURE WHITE curly wool styled tidily (snow white, not creamy, not yellowish; not messy or fluffy),
   soft floppy sheep ears on the sides, kind eyes that crinkle when smiling,
   energetic vibe despite being elderly,
+  NO eyeglasses (do not draw any glasses on her face),
   wearing a white linen shirt, light brown loose linen-cotton trousers, warm grey mule shoes,
-  Disney Zootopia 3D animation style, fashionable elderly auntie aesthetic
+  modern 3D animated feature film style, fashionable elderly auntie aesthetic

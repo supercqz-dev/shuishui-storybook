@@ -30,7 +30,8 @@ visual:
     pants: 三宅一生风格深蓝色裤子
     shoes: 深灰色翻毛皮运动鞋
     accessory: 银珠子手链（左手腕）
-  always_wears: [白T+绿外套+深蓝裤+深灰翻毛皮鞋+银手链]
+    eyewear: 细边玳瑁色眼镜
+  always_wears: [白T+绿外套+深蓝裤+深灰翻毛皮鞋+银手链+细边玳瑁眼镜]
   style_keyword: 设计师感、利落、有质感
 
 # ━━━ 性格 ━━━
@@ -50,10 +51,11 @@ story_seeds:
 
 # ━━━ 图像生成锚点 ━━━
 prompt_anchor: |
-  a slim adult anthropomorphic red fox man, around 40 years old, 168cm-tall slender build,
-  warm reddish-orange fur with cream underside, pointed triangular ears with dark tips,
-  bushy fox tail with white tip, warm green eyes, friendly expression,
-  wearing a white T-shirt under an Issey Miyake style pleated green jacket,
-  Issey Miyake dark navy pleated trousers, dark grey suede sneakers,
-  a silver beaded bracelet on his left wrist,
-  Disney Zootopia 3D animation style, designer aesthetic
+  a friendly cartoon dad fox character for a children's picture book,
+  red fox mascot, warm reddish-orange fur with cream underside,
+  pointed triangular ears with dark tips, bushy fox tail with white tip,
+  warm green eyes, friendly cheerful expression,
+  wearing thin brown acetate eyeglasses (slim rectangular frames in glossy brown),
+  a white T-shirt under a pleated dark green jacket, dark navy pleated trousers,
+  dark grey suede sneakers, a small silver beaded bracelet on his wrist,
+  modern 3D animated cartoon style, cute and wholesome storybook character

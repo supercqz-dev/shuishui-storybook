@@ -1,0 +1,14 @@
+=== mama step-up 2026-05-27T05:26:52.208Z ===
+SUCCESS variant=su-baseline attempt=1 at 2026-05-27T05:26:52.209Z → /tmp/mama-attempts/stepup-imgs/su-baseline.png
+SUCCESS variant=su-rabbit attempt=1 at 2026-05-27T05:29:40.666Z → /tmp/mama-attempts/stepup-imgs/su-rabbit.png
+[2026-05-27T05:32:37.872Z] variant=su-rabbit-dress attempt=1 FAIL code=moderation_blocked
+[2026-05-27T05:35:26.465Z] variant=su-rabbit-dress attempt=2 FAIL code=moderation_blocked
+SUCCESS variant=su-rabbit-dress attempt=3 at 2026-05-27T05:38:09.558Z → /tmp/mama-attempts/stepup-imgs/su-rabbit-dress.png
+SUCCESS variant=su-rabbit-bigflowers attempt=1 at 2026-05-27T05:41:05.270Z → /tmp/mama-attempts/stepup-imgs/su-rabbit-bigflowers.png
+[2026-05-27T05:43:47.497Z] variant=su-rabbit-adult attempt=1 FAIL code=moderation_blocked
+[2026-05-27T05:46:43.562Z] variant=su-rabbit-adult attempt=2 FAIL code=moderation_blocked
+[2026-05-27T05:49:49.893Z] variant=su-rabbit-adult attempt=3 FAIL code=moderation_blocked
+SUCCESS variant=su-rabbit-white attempt=1 at 2026-05-27T05:52:42.763Z → /tmp/mama-attempts/stepup-imgs/su-rabbit-white.png
+[2026-05-27T05:55:36.345Z] variant=su-rabbit-dress-bigflowers attempt=1 FAIL code=moderation_blocked
+[2026-05-27T05:58:28.265Z] variant=su-rabbit-dress-bigflowers attempt=2 FAIL code=moderation_blocked
+SUCCESS variant=su-rabbit-dress-bigflowers attempt=3 at 2026-05-27T06:01:28.962Z → /tmp/mama-attempts/stepup-imgs/su-rabbit-dress-bigflowers.png

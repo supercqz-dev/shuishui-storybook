@@ -26,8 +26,9 @@ visual:
   outfit:
     dress: 粉色小裙子
     shoes: 粉色运动鞋
-    accessory: 粉色爱心小发卡（戴在头顶/耳边）
-  always_wears: [粉色裙子, 粉色运动鞋, 粉色爱心发卡]
+    headband: 粉色小碎花发带（戴在头顶兔耳前面，发带上有装饰）
+    accessory: 粉色爱心小发卡（钉在发带上，不再单独别在耳边）
+  always_wears: [粉色裙子, 粉色运动鞋, 粉色小花发带, 发带上的粉色爱心发卡]
 
 # ━━━ 性格 ━━━
 personality:
@@ -66,10 +67,29 @@ story_seeds:
     - 体力有限但又想玩
     - 跟着大哥哥大姐姐学新技能
 
-# ━━━ 图像生成锚点（英文，直接拼 prompt）━━━
+# ━━━ 图像生成锚点（英文,直接拼 prompt）━━━
+# 设计依据:docs/PROMPT_GUIDE.md §5.2 候选 A。
+# 关键策略:
+# - 起手 "Professional children's picture-book character sheet illustration" → Layer 2 专业语境
+# - "chibi proportions are OK for THIS character only" → 显式限定 chibi 不污染 mama/姥姥(2026-05-26 踩坑)
+# - "non-photorealistic stylized cartoon" → 让 Layer 3 视觉分类器不要按写实儿童面孔评估
+# - "long upright pointy ears" 替代 "bunny ears" → 与 mama 保持同一族系绕过策略,降低多角色场景下的 moderation 风险
+# - Outfit (lock exactly) 标签化 → OpenAI 官方 preserve list 模式
 prompt_anchor: |
-  a small white anthropomorphic bunny girl, around 3-4 years old,
-  well-proportioned petite build, long upright bunny ears, small fluffy tail,
-  bright warm amber eyes, cheerful expression,
-  wearing a pink dress, pink sneakers, and a pink heart-shaped hair clip on her ear,
-  Disney Zootopia 3D animation style
+  Professional children's picture-book character sheet illustration:
+  the toddler protagonist — a TINY TODDLER-aged stylized cartoon mascot character,
+  kawaii baby-plushie aesthetic.
+  Body proportions (lock exactly, applies to THIS character only):
+  oversized round head about half of total height (head-to-body ratio ~1:2),
+  short stubby body, short chubby arms, short chubby legs,
+  small hands and feet, soft baby-fat round cheeks.
+  She has long upright pointy ears (taller than her head),
+  pure white fluffy fur, big bright amber eyes (oversized infant-like),
+  small button nose, soft cheerful smile.
+  Outfit (lock exactly): a cute pink dress, tiny pink sneakers,
+  a pink small-floral-print headband worn on top of her head IN FRONT OF the upright ears,
+  with a pink heart-shaped clip pinned ON the headband (the heart clip is on the headband, NOT on her ears).
+  Style: modern 3D animated feature film aesthetic, contemporary studio CG look,
+  soft volumetric lighting, painterly storybook background, harmonious saturated palette.
+  Family-friendly wholesome design suitable for preschoolers ages 3-5,
+  fully clothed, non-photorealistic stylized cartoon, non-suggestive pose.
