@@ -41,17 +41,17 @@ export default function LibraryBookCard({
 
   return (
     <div className="group relative">
-      {/* 封面图(变大、圆角减半 = rounded-xl) */}
+      {/* 封面图(变大、圆角减半 = rounded-xl)。aspect-[2/3] 匹配图片原比例 1024x1536,object-contain 保整图不裁切 */}
       <Link
         href={`/books/${book.id}`}
-        className="block aspect-[3/4] rounded-xl overflow-hidden relative bg-cream-100 shadow-soft hover:shadow-soft-lg hover:-translate-y-1 active:scale-[0.98] transition-all duration-300"
+        className="block aspect-[2/3] rounded-xl overflow-hidden relative bg-cream-100 shadow-soft hover:shadow-soft-lg hover:-translate-y-1 active:scale-[0.98] transition-all duration-300"
       >
         {cover ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={withBase(cover)}
             alt={book.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-7xl">
