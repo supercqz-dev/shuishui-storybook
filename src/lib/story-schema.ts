@@ -50,6 +50,7 @@ export const STORY_JSON_SCHEMA = {
             characters_in_scene: {
               type: 'array',
               items: { type: 'string' },
+              maxItems: 2,
             },
             scene_state: {
               type: 'object',

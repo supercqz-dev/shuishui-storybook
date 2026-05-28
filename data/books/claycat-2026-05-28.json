@@ -1,0 +1,368 @@
+{
+  "id": "claycat-2026-05-28",
+  "title": "水水的小橘猫陶泥",
+  "subtitle": "夏日亲子活动日",
+  "theme": "亲子合作、动手创造、欣赏不同",
+  "moral": "和喜欢的人一起做一件事，会变得更勇敢、更开心；每个人都不一样，也都很可爱。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "夏日的幼儿园热热闹闹，活动室里摆满了彩色陶泥。爸爸下班赶来了，水水抱着最喜欢的小橘猫玩具，眼睛亮亮的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，你来啦！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "彩色陶泥盒",
+          "小桌子",
+          "小橘猫玩具",
+          "活动海报"
+        ]
+      },
+      "composition_hint": "shuishui holding an orange cat toy, papa walking into a bright kindergarten activity room, colorful clay boxes on tables",
+      "image_path": "/generated/claycat-2026-05-28/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "桌上有红色、黄色、蓝色、绿色，还有水水最喜欢的橘色。水水和爸爸一起选了橘色陶泥。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "我们捏一只跟玩具一样的小橘猫，好不好？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好！要圆圆胖胖的！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘色陶泥",
+          "彩色陶泥盒",
+          "小橘猫玩具",
+          "围裙"
+        ]
+      },
+      "composition_hint": "shuishui reaching for orange clay on a table, papa standing nearby with colorful clay boxes",
+      "image_path": "/generated/claycat-2026-05-28/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "水水把小橘猫玩具放在桌上，认真看呀看。它圆圆的身体，脖子上还有一个小圆牌。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它这里有小牌牌，不能忘记哦。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "小橘猫玩具",
+          "橘色陶泥",
+          "小圆牌"
+        ]
+      },
+      "composition_hint": "close view of shuishui watching an orange cat toy on the table, papa nearby watching the toy",
+      "image_path": "/generated/claycat-2026-05-28/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "爸爸搓呀搓，搓出一个圆圆的身子。水水搓呀搓，搓出一个圆圆的脑袋。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "水水的圆脑袋，搓得真稳。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘色陶泥",
+          "陶泥垫板",
+          "小橘猫玩具"
+        ]
+      },
+      "composition_hint": "shuishui rolling a small orange clay ball, papa holding a larger orange clay ball at the table",
+      "image_path": "/generated/claycat-2026-05-28/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "水水捏了一对尖尖的小猫耳朵，轻轻按在脑袋上。爸爸又拿来一小块白色陶泥，贴成软软的小肚子。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小耳朵，站好啦！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "得意",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘色陶泥",
+          "白色陶泥",
+          "陶泥小耳朵",
+          "陶泥小肚子"
+        ]
+      },
+      "composition_hint": "shuishui placing orange clay ears on a cat head, papa holding a small white clay piece on the table",
+      "image_path": "/generated/claycat-2026-05-28/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "他们接上小手小脚，又给小橘猫贴上蓝蓝的眼睛。小橘猫好像在笑眯眯地看着水水。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "再加一点点，就更像啦。"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘色陶泥小猫",
+          "蓝色陶泥眼睛",
+          "小手小脚",
+          "陶泥工具"
+        ]
+      },
+      "composition_hint": "extreme close view of blue clay eyes being added to an orange clay cat, shuishui and papa paws visible",
+      "image_path": "/generated/claycat-2026-05-28/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "最后，水水捏了一个小吊牌，贴在小橘猫脖子上。哇，真的和玩具好像好像！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它也有小牌牌啦！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "骄傲",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "完成的橘猫陶泥",
+          "小橘猫玩具",
+          "陶泥小吊牌"
+        ]
+      },
+      "composition_hint": "shuishui holding a finished orange clay cat beside the orange cat toy, papa smiling nearby",
+      "image_path": "/generated/claycat-2026-05-28/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "水水捧着小橘猫，先去给王老师看。王老师是熊猫，戴着圆圆眼镜，笑得很温柔。",
+      "dialogue": [
+        {
+          "speaker": "wang_teacher",
+          "text": "哇，圆圆胖胖的小橘猫，捏得真好！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "是我和爸爸一起做的。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "有点害羞",
+      "characters_in_scene": [
+        "shuishui",
+        "wang_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘猫陶泥",
+          "展示桌",
+          "圆眼镜"
+        ]
+      },
+      "composition_hint": "shuishui holding an orange clay cat for a panda wearing round glasses in a cheerful classroom corner",
+      "image_path": "/generated/claycat-2026-05-28/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "水水又走到张老师面前。张老师是长颈鹿，脖子高高的，围巾长长的。",
+      "dialogue": [
+        {
+          "speaker": "zhang_teacher",
+          "text": "我看见蓝色小眼睛啦，真精神！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "zhang_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园走廊",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘猫陶泥",
+          "长围巾",
+          "作品小架子"
+        ]
+      },
+      "composition_hint": "shuishui showing an orange clay cat to a giraffe with a long scarf in a bright hallway",
+      "image_path": "/generated/claycat-2026-05-28/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "最后，水水把小橘猫拿给刘老师看。刘老师是小浣熊，尾巴一圈一圈的。",
+      "dialogue": [
+        {
+          "speaker": "liu_teacher",
+          "text": "这个小吊牌太可爱了，是你想出来的吗？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嗯！因为我的玩具也有。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "自信",
+      "characters_in_scene": [
+        "shuishui",
+        "liu_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室门口",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘猫陶泥",
+          "小吊牌",
+          "作品贴纸"
+        ]
+      },
+      "composition_hint": "shuishui proudly presenting an orange clay cat to a raccoon near the classroom doorway",
+      "image_path": "/generated/claycat-2026-05-28/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "活动结束了，桌上的陶泥盒一个个盖好。水水把小橘猫举起来，像举着一朵小太阳。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "今天我们合作得很棒。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "明天我还想捏一个小碗！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动室",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘猫陶泥",
+          "收好的陶泥盒",
+          "小书包"
+        ]
+      },
+      "composition_hint": "shuishui holding up an orange clay cat, papa standing beside a table with closed clay boxes",
+      "image_path": "/generated/claycat-2026-05-28/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "晚风轻轻吹，爸爸牵着水水的手回家。水水另一只手举着小橘猫，心里甜甜的：原来我也会做出很棒的作品。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小橘猫，我们回家咯！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "幸福",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园门口",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "橘猫陶泥",
+          "小书包",
+          "路灯"
+        ]
+      },
+      "composition_hint": "shuishui holding an orange clay cat and walking beside papa outside the kindergarten gate at sunset",
+      "image_path": "/generated/claycat-2026-05-28/page-12.png"
+    }
+  ],
+  "created_at": "2026-05-28T18:24:14.406Z",
+  "status": "finished"
+}

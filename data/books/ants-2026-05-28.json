@@ -1,0 +1,310 @@
+{
+  "id": "ants-2026-05-28",
+  "title": "水水看蚂蚁",
+  "subtitle": "长椅旁边的小小队伍",
+  "theme": "认识蚂蚁，学会观察",
+  "moral": "小小的生命也有大本领；保持好奇，轻轻观察，不打扰。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "公园里，太阳暖暖的。水水和爸爸玩了一会儿滑梯，笑声像小铃铛一样响。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "再滑一次！咻——"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园游乐场",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "滑梯",
+          "长椅",
+          "小背包"
+        ]
+      },
+      "composition_hint": "shuishui and papa playing by a colorful slide in a sunny park playground",
+      "image_path": "/generated/ants-2026-05-28/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "玩着玩着，水水的小脚慢了下来。爸爸带水水坐到长椅上，喝一口水，歇一歇。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "小兔腿也要充充电。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嗯，充一点点电。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "有点累",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "长椅",
+          "水壶",
+          "小背包"
+        ]
+      },
+      "composition_hint": "shuishui and papa sitting on a wooden bench with a water bottle beside them",
+      "image_path": "/generated/ants-2026-05-28/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "水水低头一看，长椅旁有一条黑黑的小线在动。原来是一群小蚂蚁，排着队走呀走。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，地上在走小点点！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "长椅",
+          "蚂蚁队伍",
+          "小石子"
+        ]
+      },
+      "composition_hint": "shuishui watching a line of ants beside a wooden bench, papa standing nearby",
+      "image_path": "/generated/ants-2026-05-28/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "有一只蚂蚁搬着面包渣，面包渣比它的身体还大。它一步一步，走得稳稳的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，它好有力气！"
+        },
+        {
+          "speaker": "papa",
+          "text": "蚂蚁小小的，力气可大啦。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "蚂蚁",
+          "面包渣",
+          "落叶"
+        ]
+      },
+      "composition_hint": "shuishui reaching toward the ground while watching ants carry a bread crumb, papa standing nearby",
+      "image_path": "/generated/ants-2026-05-28/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "爸爸说，蚂蚁能搬动比自己重好几倍的东西。水水听得眼睛圆圆的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "像我搬大枕头吗？"
+        },
+        {
+          "speaker": "papa",
+          "text": "对，比大枕头还厉害一点点。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "佩服",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "蚂蚁",
+          "面包渣",
+          "草叶"
+        ]
+      },
+      "composition_hint": "close view of shuishui amazed by ants carrying a bread crumb, papa visible beside the bench",
+      "image_path": "/generated/ants-2026-05-28/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "又有几只蚂蚁扛着小树叶。前面的找路，后面的搬运，还有的在旁边守着队伍。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "它们会分工合作，大家一起完成任务。"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "蚂蚁队伍",
+          "小树叶",
+          "草根"
+        ]
+      },
+      "composition_hint": "extreme close view of ants carrying a small leaf with shuishui and papa softly blurred in the background",
+      "image_path": "/generated/ants-2026-05-28/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "水水把声音放得轻轻的，手也收回来。小蚂蚁忙自己的事，水水安静地看。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我不吵它们。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "小心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "长椅",
+          "蚂蚁队伍",
+          "小草"
+        ]
+      },
+      "composition_hint": "shuishui sitting calmly near a wooden bench watching ants, papa sitting beside shuishui",
+      "image_path": "/generated/ants-2026-05-28/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "太阳照在草地上，亮亮的，热热的。小蚂蚁还是走呀走，搬呀搬，一点也不偷懒。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "蚂蚁很勤劳，太阳晒也认真忙。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园草地边",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "长椅",
+          "草地",
+          "蚂蚁队伍",
+          "阳光"
+        ]
+      },
+      "composition_hint": "shuishui and papa watching ants beside a sunny grass patch and a wooden bench",
+      "image_path": "/generated/ants-2026-05-28/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "水水看着小蚂蚁，心里也热乎乎的。小小的蚂蚁，有大大的本领。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我以后也要勤劳，像小蚂蚁一样！"
+        },
+        {
+          "speaker": "papa",
+          "text": "好呀，从收好水壶开始。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园长椅旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "水壶",
+          "小背包",
+          "蚂蚁队伍"
+        ]
+      },
+      "composition_hint": "shuishui smiling while holding a water bottle, papa smiling beside the wooden bench",
+      "image_path": "/generated/ants-2026-05-28/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "水水休息够了，把水壶放进小背包。她和爸爸轻轻绕过蚂蚁队伍，又去玩啦。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小蚂蚁，再见！我会轻轻走。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园游乐场小路",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小背包",
+          "水壶",
+          "滑梯",
+          "蚂蚁队伍"
+        ]
+      },
+      "composition_hint": "shuishui and papa walking along a park path away from the ant line toward the colorful slide",
+      "image_path": "/generated/ants-2026-05-28/page-10.png"
+    }
+  ],
+  "created_at": "2026-05-28T17:22:53.772Z",
+  "status": "finished"
+}
