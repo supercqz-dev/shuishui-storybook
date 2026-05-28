@@ -218,7 +218,7 @@ function Editor() {
           </Link>
           <h1 className="text-3xl font-bold text-tool-ink mt-3">新建绘本</h1>
           <p className="text-sm text-tool-ink-soft mt-1">
-            填生活素材 + 教育目标,LLM 写 8 页 storyboard,你审核 → 逐页生图 → 出版
+            填生活素材 + 教育目标,LLM 写 8-15 页 storyboard(按故事自动定长),你审核 → 逐页生图 → 出版
           </p>
 
           <div className="mt-8 space-y-6">

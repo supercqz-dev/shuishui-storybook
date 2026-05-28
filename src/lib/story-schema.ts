@@ -13,7 +13,7 @@ export const STORY_JSON_SCHEMA = {
       pages: {
         type: 'array',
         minItems: 8,
-        maxItems: 8,
+        maxItems: 15,
         items: {
           type: 'object',
           additionalProperties: false,
@@ -28,7 +28,7 @@ export const STORY_JSON_SCHEMA = {
             'composition_hint',
           ],
           properties: {
-            page: { type: 'integer', minimum: 1, maximum: 8 },
+            page: { type: 'integer', minimum: 1, maximum: 15 },
             narration: { type: 'string' },
             dialogue: {
               type: 'array',

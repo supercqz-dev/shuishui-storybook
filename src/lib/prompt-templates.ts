@@ -32,7 +32,7 @@ ${req.world.setting}
 ${charDescriptions}
 
 # 你必须输出的结构
-8 页绘本，每页：
+绘本长度 8-15 页（由你根据故事素材自行决定，详见下方"长度判断"），每页：
 - narration：1-2 句旁白文字（简单中文，3-4 岁能懂）
 - dialogue：0-2 句角色对话（speaker 用角色 id，例如 "shuishui"、"mama"）
 - shot：镜头景别（wide / medium / close-up / extreme-close-up）
@@ -41,15 +41,20 @@ ${charDescriptions}
 - scene_state：location（地点中文）、weather（天气）、time_of_day（早/中/晚）、props（道具数组）
 - composition_hint：英文一句构图提示（给图像模型用，例如 "shuishui crouching by the front door, looking up at the rain"）
 
-# 8 页节奏（绘本三幕结构）
-- 页 1：背景建立 + 触发事件（wide shot 建场）
-- 页 2-3：水水的反应、矛盾出现
-- 页 4-5：转折——尝试 / 失败 / 帮助
-- 页 6-7：成功 / 学到什么（情绪高点用 close-up）
-- 页 8：温暖结尾（暗示成长）
+# 长度判断（8-15 页动态）
+看故事素材的事件密度自己定 N：
+- 单一冲突 / 一个小决定 → 8 页
+- 多个并列活动 / 多场景串联 → 10-13 页
+- 长跨度多幕（如一整天/旅程） → 13-15 页
+不要为了凑页数注水，也不要为了短而砍掉关键情节。
+
+# 节奏（绘本三幕结构,等比例缩放到 N 页）
+- 开头约 1/4 的页数：背景建立 + 触发事件（首页用 wide shot 建场）
+- 中间约 1/2 的页数：反应、矛盾、尝试、转折（每个关键活动 / 决定都给独立的一页）
+- 结尾约 1/4 的页数：成功 / 学到什么 + 温暖收束（情绪高点用 close-up，末页暗示成长）
 
 # 镜头节奏要求
-8 页里 shot 不能超过 3 页相同。情绪高点用 close-up；建立环境用 wide。
+shot 多样化:同一种 shot 不能连续 3 页,也不能超过总页数的 40%。情绪高点用 close-up；建立环境/全景用 wide。
 
 # 写作风格
 - 语言节奏短，朗朗上口
@@ -63,7 +68,7 @@ export function buildStoryUserPrompt(req: StoryRequest): string {
 
 教育目标：${req.education_goal}
 
-请生成 8 页绘本。`;
+请按上面"长度判断"决定页数(8-15 页),然后生成绘本。`;
 }
 
 // ━━━ Image prompt compilation ━━━
