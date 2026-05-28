@@ -49,12 +49,12 @@ story_seeds:
   - 姥姥带水水在小区遇到各种邻居（社牛 demo）
   - 姥姥的东北话词汇（口语化故事素材）
 
-# ━━━ 图像生成锚点 ━━━
+# ━━━ 图像生成锚点(2026-05-28 切换为中文 prompt)━━━
 prompt_anchor: |
-  a slightly plump elderly anthropomorphic sheep woman, around 57 years old, 156cm-tall,
-  neat PURE WHITE curly wool styled tidily (snow white, not creamy, not yellowish; not messy or fluffy),
-  soft floppy sheep ears on the sides, kind eyes that crinkle when smiling,
-  energetic vibe despite being elderly,
-  NO eyeglasses (do not draw any glasses on her face),
-  wearing a white linen shirt, light brown loose linen-cotton trousers, warm grey mule shoes,
-  modern 3D animated feature film style, fashionable elderly auntie aesthetic
+  可爱的拟人化绵羊姥姥,57岁,采用高级动画电影级CGI风格,
+  微胖慈祥的小老太体型,头顶卷毛打理整齐(纯白色卷毛,雪白不偏黄,不松散凌乱),
+  柔软的绵羊耳朵软软地垂在脸两侧,笑起来眯眯眼,慈祥但精气神十足,
+  不戴任何眼镜(脸上没有眼镜),
+  身着白色亚麻衬衫+浅棕色棉麻宽松裤+暖灰色穆勒鞋,
+  时髦但不刻意的老太太气质,姿态自然放松慈祥,
+  全身角色设计,电影级柔和的光照,鲜艳而自然的色彩,富有表现力的面部表情,优雅可爱.

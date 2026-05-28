@@ -67,29 +67,16 @@ story_seeds:
     - 体力有限但又想玩
     - 跟着大哥哥大姐姐学新技能
 
-# ━━━ 图像生成锚点（英文,直接拼 prompt）━━━
-# 设计依据:docs/PROMPT_GUIDE.md §5.2 候选 A。
-# 关键策略:
-# - 起手 "Professional children's picture-book character sheet illustration" → Layer 2 专业语境
-# - "chibi proportions are OK for THIS character only" → 显式限定 chibi 不污染 mama/姥姥(2026-05-26 踩坑)
-# - "non-photorealistic stylized cartoon" → 让 Layer 3 视觉分类器不要按写实儿童面孔评估
-# - "long upright pointy ears" 替代 "bunny ears" → 与 mama 保持同一族系绕过策略,降低多角色场景下的 moderation 风险
-# - Outfit (lock exactly) 标签化 → OpenAI 官方 preserve list 模式
+# ━━━ 图像生成锚点(2026-05-28 切换为中文 prompt)━━━
+# 中文 prompt 实测出图比英文版更自然(表情灵动、姿态优雅、出"画面"而非 character sheet)。
+# 现 4 个角色统一中文路线。旧英文版 prompt 在 git 历史。
 prompt_anchor: |
-  Professional children's picture-book character sheet illustration:
-  the toddler protagonist — a TINY TODDLER-aged stylized cartoon mascot character,
-  kawaii baby-plushie aesthetic.
-  Body proportions (lock exactly, applies to THIS character only):
-  oversized round head about half of total height (head-to-body ratio ~1:2),
-  short stubby body, short chubby arms, short chubby legs,
-  small hands and feet, soft baby-fat round cheeks.
-  She has long upright pointy ears (taller than her head),
-  pure white fluffy fur, big bright amber eyes (oversized infant-like),
-  small button nose, soft cheerful smile.
-  Outfit (lock exactly): a cute pink dress, tiny pink sneakers,
-  a pink small-floral-print headband worn on top of her head IN FRONT OF the upright ears,
-  with a pink heart-shaped clip pinned ON the headband (the heart clip is on the headband, NOT on her ears).
-  Style: modern 3D animated feature film aesthetic, contemporary studio CG look,
-  soft volumetric lighting, painterly storybook background, harmonious saturated palette.
-  Family-friendly wholesome design suitable for preschoolers ages 3-5,
-  fully clothed, non-photorealistic stylized cartoon, non-suggestive pose.
+  可爱的拟人化白色小兔子,3.5岁幼儿宝宝,采用高级动画电影级CGI风格,
+  大头小身的幼态比例(头占身高约一半,头身比 1:2),
+  纯白色蓬松柔软的绒毛,长长的兔耳朵竖立向上(比头还高),
+  圆圆肉肉的婴儿脸庞和软软的婴儿肥脸颊,大大明亮的琥珀色眼睛(像婴儿一样略大),
+  粉色的小鼻子,甜美温暖的微笑,
+  身着粉色小裙子,粉色小运动鞋,
+  头顶戴着粉色碎花发带(发带前侧别着一颗粉色爱心发卡,发卡在发带上不在耳朵上),
+  活泼好奇的性格,姿态自然放松,
+  全身角色设计,电影级柔和的光照,鲜艳而自然的色彩,富有表现力的面部表情,优雅可爱.

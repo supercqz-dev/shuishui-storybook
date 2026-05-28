@@ -49,13 +49,13 @@ story_seeds:
   - 爸爸用设计师思维解决水水的小问题
   - 爸爸陪水水学新技能
 
-# ━━━ 图像生成锚点 ━━━
+# ━━━ 图像生成锚点(2026-05-28 切换为中文 prompt)━━━
 prompt_anchor: |
-  a friendly cartoon dad fox character for a children's picture book,
-  red fox mascot, warm reddish-orange fur with cream underside,
-  pointed triangular ears with dark tips, bushy fox tail with white tip,
-  warm green eyes, friendly cheerful expression,
-  wearing thin brown acetate eyeglasses (slim rectangular frames in glossy brown),
-  a white T-shirt under a pleated dark green jacket, dark navy pleated trousers,
-  dark grey suede sneakers, a small silver beaded bracelet on his wrist,
-  modern 3D animated cartoon style, cute and wholesome storybook character
+  可爱的拟人化红狐狸爸爸,40岁,采用高级动画电影级CGI风格,
+  瘦高匀称挺拔的身材,温暖的红橙色毛发(腹部和脸下侧奶白色),
+  三角形竖耳尖端深色,蓬松的大狐狸尾巴尖端白色,
+  温暖的绿色眼睛,戴着细边棕色玳瑁色眼镜(细金属/醋酸纤维框),
+  友好开朗的笑容,
+  身着白色T恤+深绿色褶皱设计师外套+深蓝色褶皱长裤+深灰色翻毛皮运动鞋,
+  左手腕戴着银珠子手链,设计师感利落质感的气质,姿态自然放松挺拔,
+  全身角色设计,电影级柔和的光照,鲜艳而自然的色彩,富有表现力的面部表情,优雅可爱.
