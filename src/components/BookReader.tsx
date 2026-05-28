@@ -114,14 +114,16 @@ export default function BookReader({ book }: { book: Book }) {
 
   return (
     <div
-      className="fixed inset-0 bg-black select-none touch-none overflow-hidden"
+      className="fixed inset-0 bg-black select-none overflow-hidden"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
       onClick={onTap}
+      style={{ touchAction: 'pan-y' }}
     >
       {page.image_path ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
+          key={`page-${idx}`}
           src={withBase(page.image_path)}
           alt={`第 ${page.page} 页`}
           className="absolute inset-0 w-full h-full object-contain"
@@ -187,11 +189,32 @@ export default function BookReader({ book }: { book: Book }) {
         </span>
       </div>
 
+      {/* 翻页按钮:左右两侧大按钮(显式触发 prev/next,绕开点击区域猜测) */}
+      <button
+        onClick={(e) => { e.stopPropagation(); prev(); }}
+        disabled={idx === 0}
+        aria-label="上一页"
+        className={`fixed left-2 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/15 backdrop-blur flex items-center justify-center text-white text-2xl transition active:scale-90 ${
+          chromeVisible && idx > 0 ? 'opacity-70 hover:opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+      >
+        ‹
+      </button>
+      <button
+        onClick={(e) => { e.stopPropagation(); next(); }}
+        aria-label="下一页"
+        className={`fixed right-2 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/15 backdrop-blur flex items-center justify-center text-white text-2xl transition active:scale-90 ${
+          chromeVisible ? 'opacity-70 hover:opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+      >
+        ›
+      </button>
+
       {/* 首次进入提示 */}
       {showHint && idx === 0 && (
         <div className="absolute inset-0 pointer-events-none flex items-end justify-center pb-32 sm:pb-40">
           <div className="bg-black/60 backdrop-blur text-white text-sm px-5 py-2.5 rounded-full animate-soft-pulse">
-            👆 轻轻滑屏(或按 →)开始阅读
+            👆 轻轻滑屏 / 点右侧 / 按 →
           </div>
         </div>
       )}
