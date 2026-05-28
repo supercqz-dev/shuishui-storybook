@@ -41,9 +41,10 @@ export default function LibraryBookCard({
 
   return (
     <div className="group relative">
+      {/* 封面图(变大、圆角减半 = rounded-xl) */}
       <Link
         href={`/books/${book.id}`}
-        className="block aspect-[3/4] rounded-3xl overflow-hidden relative bg-cream-100 shadow-soft hover:shadow-soft-lg hover:-translate-y-1 active:scale-[0.98] transition-all duration-300"
+        className="block aspect-[3/4] rounded-xl overflow-hidden relative bg-cream-100 shadow-soft hover:shadow-soft-lg hover:-translate-y-1 active:scale-[0.98] transition-all duration-300"
       >
         {cover ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -57,22 +58,21 @@ export default function LibraryBookCard({
             🐰
           </div>
         )}
-        {/* 标题渐变蒙版 */}
-        <div className="absolute inset-0 flex flex-col justify-end pointer-events-none">
-          <div className="bg-gradient-to-t from-shuishui-brown/85 via-shuishui-brown/30 to-transparent pt-12 pb-4 px-4">
-            <h3 className="text-white font-bold text-base sm:text-lg leading-tight drop-shadow">
-              {book.title}
-            </h3>
-            {book.subtitle && (
-              <p className="text-white/85 text-xs mt-1 line-clamp-2 drop-shadow">
-                {book.subtitle}
-              </p>
-            )}
-          </div>
-        </div>
       </Link>
 
-      {/* 管理模式按钮:覆盖在卡片上 */}
+      {/* 标题在下方(图外) */}
+      <div className="mt-3 px-1">
+        <h3 className="font-bold text-base sm:text-lg leading-tight text-shuishui-brown line-clamp-2">
+          {book.title}
+        </h3>
+        {book.subtitle && (
+          <p className="text-xs sm:text-sm text-shuishui-brown-soft mt-0.5 line-clamp-1">
+            {book.subtitle}
+          </p>
+        )}
+      </div>
+
+      {/* 管理模式按钮 */}
       {manageMode && (
         <div className="absolute top-2 right-2 flex gap-1.5 z-10">
           <Link

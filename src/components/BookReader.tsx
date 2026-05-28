@@ -5,43 +5,30 @@ import Link from 'next/link';
 import type { Book } from '@/lib/types';
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
-const withBase = (p: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
+const withBase = (p?: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
 
 export default function BookReader({ book }: { book: Book }) {
-  const total = book.pages.length;
-  // idx 范围:0..total-1 是正常页;total 是"读完啦"结束页
+  // 翻页结构:
+  //   idx = 0          → 封面 (cover.png 或第一页 fallback)
+  //   idx = 1..N       → 内容页(book.pages[idx-1])
+  //   idx = N+1        → "读完啦" 结束页
+  const contentTotal = book.pages.length;
+  const lastContentIdx = contentTotal; // idx of last content page
+  const endIdx = contentTotal + 1;
+
   const [idx, setIdx] = useState(0);
-  const [chromeVisible, setChromeVisible] = useState(true);
   const [showHint, setShowHint] = useState(true);
   const touchStart = useRef<number | null>(null);
-  const chromeTimer = useRef<number | null>(null);
   const hintTimer = useRef<number | null>(null);
 
-  const isEndPage = idx === total;
-  const page = isEndPage ? null : book.pages[idx];
+  const isCover = idx === 0;
+  const isEnd = idx === endIdx;
+  const contentPage = !isCover && !isEnd ? book.pages[idx - 1] : null;
 
-  const next = () => setIdx((i) => Math.min(i + 1, total));
+  const next = () => setIdx((i) => Math.min(i + 1, endIdx));
   const prev = () => setIdx((i) => Math.max(i - 1, 0));
 
-  const showChrome = () => {
-    setChromeVisible(true);
-    if (chromeTimer.current) window.clearTimeout(chromeTimer.current);
-    chromeTimer.current = window.setTimeout(() => setChromeVisible(false), 3500);
-  };
-
-  // 翻页时刷新 chrome 显示;翻一次后隐藏首次提示
-  useEffect(() => {
-    showChrome();
-    if (idx > 0 && showHint) {
-      setShowHint(false);
-      if (hintTimer.current) window.clearTimeout(hintTimer.current);
-    }
-    return () => {
-      if (chromeTimer.current) window.clearTimeout(chromeTimer.current);
-    };
-  }, [idx]);
-
-  // 首次提示 5 秒后自动淡出
+  // 首次提示自动隐
   useEffect(() => {
     hintTimer.current = window.setTimeout(() => setShowHint(false), 5000);
     return () => {
@@ -49,7 +36,12 @@ export default function BookReader({ book }: { book: Book }) {
     };
   }, []);
 
-  // 键盘左右翻页
+  // 翻一页就把 hint 关掉
+  useEffect(() => {
+    if (idx > 0 && showHint) setShowHint(false);
+  }, [idx, showHint]);
+
+  // 键盘
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
@@ -57,8 +49,9 @@ export default function BookReader({ book }: { book: Book }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [total]);
+  }, []);
 
+  // 触摸滑动
   const onTouchStart = (e: React.TouchEvent) => {
     touchStart.current = e.touches[0].clientX;
   };
@@ -70,19 +63,19 @@ export default function BookReader({ book }: { book: Book }) {
     touchStart.current = null;
   };
 
+  // 桌面点击热区:左 30% / 右 30% / 中间不响应
   const onTap = (e: React.MouseEvent) => {
     const w = window.innerWidth;
     const x = e.clientX;
     if (x < w * 0.3) prev();
     else if (x > w * 0.7) next();
-    else showChrome();
   };
 
   // ━━━ 结束页 ━━━
-  if (isEndPage) {
+  if (isEnd) {
     return (
       <div className="fixed inset-0 bg-gradient-to-br from-shuishui-pink-soft via-cream-50 to-shuishui-yellow flex flex-col items-center justify-center px-6 select-none">
-        <div className="text-8xl mb-6 animate-gentle-bounce">✨</div>
+        <div className="text-7xl mb-6 animate-gentle-bounce">✨</div>
         <h1 className="text-4xl sm:text-5xl font-bold text-shuishui-brown text-center">
           读完啦!
         </h1>
@@ -110,111 +103,112 @@ export default function BookReader({ book }: { book: Book }) {
     );
   }
 
-  if (!page) return null;
+  // 选要展示的图:封面页用 cover_image,内容页用 page.image_path
+  const imgSrc = isCover
+    ? book.cover_image ?? book.pages[0]?.image_path ?? ''
+    : contentPage?.image_path ?? '';
 
   return (
     <div
-      className="fixed inset-0 bg-black select-none overflow-hidden"
+      className="fixed inset-0 bg-cream-50 select-none overflow-hidden flex flex-col"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
       onClick={onTap}
       style={{ touchAction: 'pan-y' }}
     >
-      {page.image_path ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          key={`page-${idx}`}
-          src={withBase(page.image_path)}
-          alt={`第 ${page.page} 页`}
-          className="absolute inset-0 w-full h-full object-contain"
-        />
-      ) : (
-        <PlaceholderArt page={page} />
-      )}
-
-      {/* 旁白 + 对话区 */}
-      <div
-        className={`absolute inset-x-0 bottom-0 px-6 pb-10 pt-20 bg-gradient-to-t from-black/85 via-black/40 to-transparent text-white transition-opacity duration-500 ${
-          chromeVisible ? 'opacity-100' : 'opacity-0'
-        } pointer-events-none`}
-      >
-        <p className="text-lg sm:text-xl leading-relaxed font-medium drop-shadow-md">
-          {page.narration}
-        </p>
-        {page.dialogue && page.dialogue.length > 0 && (
-          <div className="mt-3 space-y-1.5">
-            {page.dialogue.map((d, i) => (
-              <p key={i} className="text-base sm:text-lg">
-                <span className="font-bold text-shuishui-pink-soft mr-1.5">
-                  {d.speaker}:
-                </span>
-                「{d.text}」
-              </p>
-            ))}
-          </div>
+      {/* ━━━ 上半:图片(干净不被压)━━━ */}
+      <div className="flex-1 min-h-0 relative bg-cream-100">
+        {imgSrc ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            key={`page-${idx}`}
+            src={withBase(imgSrc)}
+            alt={isCover ? `封面:${book.title}` : `第 ${contentPage?.page} 页`}
+            className="w-full h-full object-contain"
+          />
+        ) : (
+          <PlaceholderArt page={contentPage} title={book.title} />
         )}
-      </div>
 
-      {/* 顶部 chrome:回书架 + 进度 + 页码 */}
-      <div
-        className={`absolute top-0 inset-x-0 px-3 pt-3 pb-6 bg-gradient-to-b from-black/60 to-transparent flex items-center justify-between text-white transition-opacity duration-500 ${
-          chromeVisible ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
+        {/* 左上角返回按钮:黑色半透明 20% + 白箭头 */}
         <Link
           href="/"
           onClick={(e) => e.stopPropagation()}
-          className={`flex items-center gap-1 text-sm font-medium bg-black/40 backdrop-blur px-4 py-2.5 rounded-full ${
-            chromeVisible ? 'pointer-events-auto' : 'pointer-events-none'
-          }`}
+          aria-label="返回书架"
+          className="absolute top-3 left-3 w-10 h-10 rounded-full bg-black/20 backdrop-blur flex items-center justify-center text-white text-xl hover:bg-black/40 transition active:scale-90"
         >
-          ← 书架
+          ‹
         </Link>
-        <div className="flex gap-1.5">
-          {book.pages.map((_, i) => (
-            <span
-              key={i}
-              className={`block h-1.5 rounded-full transition-all ${
-                i === idx
-                  ? 'w-7 bg-white'
-                  : i < idx
-                  ? 'w-2 bg-white/70'
-                  : 'w-2 bg-white/30'
-              }`}
-            />
-          ))}
-        </div>
-        <span className="text-xs tabular-nums opacity-70 w-10 text-right">
-          {idx + 1}/{total}
-        </span>
       </div>
 
-      {/* 翻页按钮:左右两侧大按钮(显式触发 prev/next,绕开点击区域猜测) */}
-      <button
-        onClick={(e) => { e.stopPropagation(); prev(); }}
-        disabled={idx === 0}
-        aria-label="上一页"
-        className={`fixed left-2 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/15 backdrop-blur flex items-center justify-center text-white text-2xl transition active:scale-90 ${
-          chromeVisible && idx > 0 ? 'opacity-70 hover:opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
-      >
-        ‹
-      </button>
-      <button
-        onClick={(e) => { e.stopPropagation(); next(); }}
-        aria-label="下一页"
-        className={`fixed right-2 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/15 backdrop-blur flex items-center justify-center text-white text-2xl transition active:scale-90 ${
-          chromeVisible ? 'opacity-70 hover:opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
-      >
-        ›
-      </button>
+      {/* ━━━ 下半:翻页指示器 + 旁白对话(独立区,不压图)━━━ */}
+      <div className="flex-shrink-0 bg-cream-50 px-5 sm:px-8 pt-4 pb-6 sm:pb-8">
+        {/* 进度条 + 页码 */}
+        <div className="flex items-center justify-center gap-1.5 mb-3">
+          {/* 封面 dot */}
+          <span
+            className={`block h-1.5 rounded-full transition-all ${
+              isCover ? 'w-6 bg-shuishui-pink-deep' : 'w-1.5 bg-shuishui-brown-soft/30'
+            }`}
+          />
+          {book.pages.map((_, i) => {
+            const pageIdx = i + 1;
+            return (
+              <span
+                key={i}
+                className={`block h-1.5 rounded-full transition-all ${
+                  idx === pageIdx
+                    ? 'w-6 bg-shuishui-pink-deep'
+                    : idx > pageIdx
+                    ? 'w-2 bg-shuishui-brown-soft/60'
+                    : 'w-2 bg-shuishui-brown-soft/30'
+                }`}
+              />
+            );
+          })}
+        </div>
 
-      {/* 首次进入提示 */}
-      {showHint && idx === 0 && (
-        <div className="absolute inset-0 pointer-events-none flex items-end justify-center pb-32 sm:pb-40">
-          <div className="bg-black/60 backdrop-blur text-white text-sm px-5 py-2.5 rounded-full animate-soft-pulse">
-            👆 轻轻滑屏 / 点右侧 / 按 →
+        {/* 文字:封面页只显示标题副标题,内容页显示旁白+对话 */}
+        {isCover ? (
+          <div className="text-center">
+            <h1 className="text-2xl sm:text-3xl font-bold text-shuishui-brown leading-tight">
+              {book.title}
+            </h1>
+            {book.subtitle && (
+              <p className="text-sm sm:text-base text-shuishui-brown-soft mt-1">
+                {book.subtitle}
+              </p>
+            )}
+            <p className="text-xs text-shuishui-brown-soft/70 mt-3">
+              👆 滑屏 / 按 → 开始阅读
+            </p>
+          </div>
+        ) : contentPage ? (
+          <div className="max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg leading-relaxed text-shuishui-brown">
+              {contentPage.narration}
+            </p>
+            {contentPage.dialogue && contentPage.dialogue.length > 0 && (
+              <div className="mt-2 space-y-1.5">
+                {contentPage.dialogue.map((d, i) => (
+                  <p key={i} className="text-sm sm:text-base text-shuishui-brown-soft">
+                    <span className="font-bold text-shuishui-pink-deep mr-1.5">
+                      {d.speaker}:
+                    </span>
+                    「{d.text}」
+                  </p>
+                ))}
+              </div>
+            )}
+          </div>
+        ) : null}
+      </div>
+
+      {/* 首次进入提示(只在封面页) */}
+      {showHint && isCover && (
+        <div className="absolute inset-x-0 bottom-32 sm:bottom-40 pointer-events-none flex justify-center">
+          <div className="bg-shuishui-brown/85 text-cream-50 text-xs px-4 py-2 rounded-full animate-soft-pulse">
+            👆 滑屏 / 点右侧 / 按 →
           </div>
         </div>
       )}
@@ -222,35 +216,19 @@ export default function BookReader({ book }: { book: Book }) {
   );
 }
 
-function PlaceholderArt({ page }: { page: Book['pages'][number] }) {
+function PlaceholderArt({
+  page,
+  title,
+}: {
+  page: Book['pages'][number] | null;
+  title: string;
+}) {
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-gradient-to-br from-shuishui-pink-soft via-white to-yellow-50">
-      <div className="text-8xl mb-6">
-        {emojiFor(page.scene_state.location, page.characters_in_scene)}
-      </div>
-      <p className="text-xs text-gray-400 max-w-xs">
-        {page.scene_state.location}
-        {page.scene_state.weather && ` · ${page.scene_state.weather}`}
-      </p>
-      <p className="text-[10px] text-gray-300 mt-3">
-        [图像占位 · gpt-image-2 渲染后替换]
+    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-gradient-to-br from-shuishui-pink-soft via-cream-50 to-shuishui-yellow">
+      <div className="text-7xl mb-4">📖</div>
+      <p className="text-sm text-shuishui-brown-soft">
+        {page?.scene_state.location ?? title}
       </p>
     </div>
   );
-}
-
-function emojiFor(location: string, characters: string[]): string {
-  const main = characters[0] ?? '';
-  const c =
-    main === 'shuishui' ? '🐰' :
-    main === 'mama' ? '🐇' :
-    main === 'papa' ? '🦊' :
-    main === 'laolao' ? '🐑' : '🐰';
-  const loc =
-    /雨|雨水/.test(location) ? '🌧️' :
-    /幼儿园|学校/.test(location) ? '🏫' :
-    /家|门口/.test(location) ? '🏠' :
-    /公园/.test(location) ? '🌳' :
-    /街/.test(location) ? '🛣️' : '✨';
-  return `${c}${loc}`;
 }

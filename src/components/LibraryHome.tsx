@@ -87,7 +87,7 @@ export default function LibraryHome({ books }: { books: Book[] }) {
               )}
             </div>
           ) : (
-            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 px-1 sm:px-2">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-5 sm:gap-7 px-1 sm:px-2 pb-6">
               {books.map((b) => (
                 <li key={b.id}>
                   <LibraryBookCard book={b} manageMode={manageMode} />
