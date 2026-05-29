@@ -7,11 +7,11 @@
 
 ```
 bible/
-├── world.yaml          世界观（拟人动物世界，Zootopia 启发）
-├── style.yaml          画风圣经（Disney 疯狂动物城 3D 风）
+├── world.yaml          世界观（原创拟人动物世界）
+├── style.yaml          画风圣经（原创现代 3D 动画风）
 └── characters/
     ├── shuishui.yaml   水水（主角，白兔子）
-    ├── papa.yaml       爸爸（狐狸）
+    ├── papa.yaml       爸爸（小熊猫 Red Panda；旧红狐版归档在 _archive/papa-fox-2026-05-29/）
     ├── mama.yaml       妈妈（灰兔子）
     └── laolao.yaml     姥姥（绵羊）
 ```

@@ -40,7 +40,7 @@ ${charDescriptions}
 - characters_in_scene：这页出现的角色 id 列表
 - scene_state：location（地点中文）、weather（天气）、time_of_day（早/中/晚）、props（道具数组）
 - composition_hint：英文一句构图提示（给图像模型用）。**严格规则**:
-  1. 只能用角色 id (shuishui/papa/mama/laolao) 或动物物种 (white rabbit/red fox/sheep) 来指代角色,**绝对不要**写 dad/father/mom/mother/papa/mama/parent/family/child/kid/toddler/baby/girl/boy/little girl 等家庭称谓或人类年龄词。
+  1. 只能用上面列出的角色 id 或角色对应的动物物种 (例如 white rabbit / red fox / red panda / sheep) 来指代角色,**绝对不要**写 dad/father/mom/mother/papa/mama/parent/family/child/kid/toddler/baby/girl/boy/little girl 等家庭称谓,也**绝对不要**写任何人类年龄(如 "3 year old"、"41岁"、"aged 5")——年龄是故事设定,跟画面无关,且"精确年龄+动物角色"是图像安全模型的强触发组合。
   2. **绝对不要**加防御性免责语（这些反作用、会触发安全过滤）：禁止写 "fully clothed"、"upright"、"fully covered"、"appropriate distance"、"no inappropriate"、"safe distance"、"family-friendly" 等。
   3. **避免亲密俯身姿态**：禁止 "crouching near"、"squatting near"、"leaning over/toward"、"bending toward"、"pointing at shuishui"、"paws on knees"。改用直立动词："standing"、"walking"、"watching"、"holding"、"reaching"。
   例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "shuishui reaching toward a colorful maze ball, papa nearby"
@@ -90,13 +90,19 @@ function stripFamilyRoleWords(s: string): string {
   if (!s) return s;
   return s
     // English: dad/mom/parents/family/child/kid/girl/boy/etc.
-    .replace(/\b(dad|daddy|father|fatherly)\b/gi, 'fox')
-    .replace(/\b(mom|mommy|mother|motherly)\b/gi, 'bunny')
+    // Replace with neutral "animal character" instead of specific species —
+    // earlier we used "fox/bunny" but that interferes with papa (now a red panda).
+    .replace(/\b(dad|daddy|father|fatherly)\b/gi, 'animal character')
+    .replace(/\b(mom|mommy|mother|motherly)\b/gi, 'animal character')
     .replace(/\b(papa|mama)\b/gi, '')
     .replace(/\b(parent|parents|family|families)\b/gi, 'animal characters')
-    .replace(/\b(child|children|kid|kids|toddler|toddlers|baby|babies|infant)\b/gi, 'small bunny')
-    .replace(/\b(little\s+(girl|boy|kid))\b/gi, 'small bunny')
+    .replace(/\b(child|children|kid|kids|toddler|toddlers|baby|babies|infant)\b/gi, 'small animal')
+    .replace(/\b(little\s+(girl|boy|kid))\b/gi, 'small animal')
     .replace(/\b(girl|boy)\b/gi, 'character')
+    // Explicit ages ("3 year old", "41-year-old", "aged 5") — a precise human age next to
+    // an animal character is a strong adult+minor signal. Strip the age, keep nothing.
+    .replace(/\b\d{1,3}[\s-]*(year|years|yr|yrs)[\s-]*old\b/gi, '')
+    .replace(/\baged?\s+\d{1,3}\b/gi, '')
     // Defensive disclaimers — these BACKFIRE on Azure safety classifier (saying "fully clothed"
     // signals "this might not be"). Strip them entirely.
     .replace(/\bboth\s+upright\s+and\s+fully\s+clothed\b/gi, '')
@@ -116,11 +122,14 @@ function stripFamilyRoleWords(s: string): string {
     .replace(/\b(red\s+fox|bunny|sheep)\s+pointing\s+(at|toward)\b/gi, '$1 looking at')
     .replace(/\bpaws\s+on\s+knees\b/gi, 'standing')
     // Chinese: 爸爸/妈妈/姥姥/孩子/小朋友/幼儿/宝宝
-    .replace(/(爸爸|父亲)/g, '红狐狸')
-    .replace(/(妈妈|母亲)/g, '兔子')
-    .replace(/(姥姥|外婆|奶奶|爷爷)/g, '动物')
+    // 也改成中性"动物角色",不再绑定 fox/rabbit
+    .replace(/(爸爸|父亲)/g, '动物角色')
+    .replace(/(妈妈|母亲)/g, '动物角色')
+    .replace(/(姥姥|外婆|奶奶|爷爷)/g, '动物角色')
     .replace(/(孩子|小朋友|幼儿|宝宝|小女孩|小男孩|小孩)/g, '小动物')
-    .replace(/(一家三口|一家人|全家)/g, '动物角色们');
+    .replace(/(一家三口|一家人|全家)/g, '动物角色们')
+    // 中文精确年龄 ("3岁"、"3.5岁"、"41岁")——同样是成人+幼儿的强信号,直接删掉。
+    .replace(/\d+(\.\d+)?\s*岁/g, '');
 }
 
 export function buildImagePrompt(args: {

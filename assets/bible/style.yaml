@@ -1,8 +1,8 @@
 id: style
 name: 水水的绘本画风
-reference: Disney Zootopia (2016) — 现代迪士尼 3D 动画
+reference: 现代影院级 3D 动画长片美学（去品牌化原创风格）
 description: |
-  迪士尼《疯狂动物城》风格的 3D 渲染。
+  现代影院级 3D 动画长片风格的渲染。
   拟人动物角色，表情丰富生动，温暖电影级布光，柔和边缘光，
   绘本式背景（略带绘画感而非完全写实），干净清晰的角色剪影，
   鲜亮但和谐的色彩，构图友好，适合 3-4 岁孩子阅读。
@@ -31,10 +31,15 @@ avoid:
   - 过度复杂的背景细节（孩子注意力会分散）
 
 prompt_anchor: |
-  modern 3D animated feature film aesthetic,
-  stylized anthropomorphic animal characters with expressive faces,
-  cinematic warm lighting with soft rim light,
-  painterly storybook background, soft brushwork environments,
-  clean clear silhouettes, vibrant but harmonious palette,
-  subject-centered framing, stylized cartoon proportions, slightly large heads,
-  high-quality storybook illustration in contemporary studio CG style
+  high-end CG storybook illustration,
+  stylized anthropomorphic animal characters with rounded soft shapes,
+  expressive friendly faces with large warm eyes,
+  cinematic warm golden-hour lighting with soft rim light and gentle ambient occlusion,
+  hand-painted picture-book backgrounds with soft brushwork and gentle bokeh,
+  clean readable silhouettes, saturated yet harmonious pastel-leaning palette,
+  subject-centered framing with shallow depth of field,
+  cute stylized cartoon proportions, slightly large heads relative to body,
+  fluffy textured fur with subtle painterly detail,
+  warm domestic mood, gentle and family-friendly tone,
+  rendered with smooth surfaces, no harsh outlines, no photorealistic detail,
+  contemporary children's book CG illustration aesthetic
