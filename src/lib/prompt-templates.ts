@@ -43,8 +43,10 @@ ${charDescriptions}
   1. 只能用上面列出的角色 id 或角色对应的动物物种 (例如 white rabbit / red fox / red panda / sheep) 来指代角色,**绝对不要**写 dad/father/mom/mother/papa/mama/parent/family/child/kid/toddler/baby/girl/boy/little girl 等家庭称谓,也**绝对不要**写任何人类年龄(如 "3 year old"、"41岁"、"aged 5")——年龄是故事设定,跟画面无关,且"精确年龄+动物角色"是图像安全模型的强触发组合。
   2. **绝对不要**加防御性免责语（这些反作用、会触发安全过滤）：禁止写 "fully clothed"、"upright"、"fully covered"、"appropriate distance"、"no inappropriate"、"safe distance"、"family-friendly" 等。
   3. **避免亲密俯身姿态**：禁止 "crouching near"、"squatting near"、"leaning over/toward"、"bending toward"、"pointing at shuishui"、"paws on knees"。改用直立动词："standing"、"walking"、"watching"、"holding"、"reaching"。
-  例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "shuishui reaching toward a colorful maze ball, papa nearby"
-  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"
+  4. **游乐设施/道具要展开成具体英文外观描述,不要直接搬中文名**:图像模型不认识"七彩迷宫球""轮胎滑梯"这类中文活动名,会画错。请把设备翻译成它真实的视觉构造(形状+材质+颜色+玩法)。
+     例:"彩虹滑道" → "a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down";"六边形攀爬洞" → "colorful modular honeycomb climbing structure, large hexagonal tunnel blocks, bright plastic panels, crawl-through holes"。宁可描述得长而具体,也不要用一个模糊的名词。
+  例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "shuishui reaching toward a colorful honeycomb climbing structure with hexagonal crawl-through holes, papa nearby"
+  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词)
 
 # 长度判断（8-15 页动态）
 看故事素材的事件密度自己定 N：
@@ -61,10 +63,12 @@ ${charDescriptions}
 # 镜头节奏要求
 shot 多样化:同一种 shot 不能连续 3 页,也不能超过总页数的 40%。情绪高点用 close-up；建立环境/全景用 wide。
 
-# 角色出场密度要求(硬性约束)
-**每页 characters_in_scene 最多 2 个角色,绝对不能 3 个或以上同框。**
-即便剧情写"一家三口",画面也只画水水 + 一位家长(其他人通过旁白文字提及即可)。
-违反此规则会触发图像生成模型的安全过滤,导致出图失败。
+# 角色出场密度(按剧情自然安排)
+这是一本家庭绘本——一家人就应该能同框。该几个角色一起出现就画几个,
+"全家一起去公园""一家人吃饭"这类温馨同框正是绘本的价值,不要回避。
+按剧情自然安排每页的 characters_in_scene,以画面叙事需要为准。
+(注:早期曾因 Disney/Zootopia 风格 + 狐狸兔子组合触发版权类安全过滤而限制同框人数;
+现已去品牌化 + 改用小熊猫,根因消除,三角色同框已实测稳定通过,故取消该限制。)
 
 # 写作风格
 - 语言节奏短，朗朗上口

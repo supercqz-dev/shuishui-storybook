@@ -1,0 +1,401 @@
+{
+  "id": "playground-redpanda-2026-05-29",
+  "title": "水水的勇敢滑一下",
+  "subtitle": "初夏公园里的快乐早晨",
+  "theme": "勇敢尝试新事物",
+  "moral": "被陪着玩很安心，自己试一试也会发现：我可以！",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "初夏的早晨，风凉凉的，树叶沙沙响。水水和爸爸妈妈一起来到公园游乐场，水水的小脚都想跑起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，今天的公园好香呀！"
+        },
+        {
+          "speaker": "papa",
+          "text": "我们先去看看新玩具吧。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "公园游乐场入口",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "小背包",
+          "遮阳帽",
+          "游乐场指示牌",
+          "树荫"
+        ]
+      },
+      "composition_hint": "white rabbit in a pink dress, red panda in a white t-shirt, and an adult white rabbit in a yellow floral dress walking together side by side toward a park playground entrance, trees and colorful play structures behind them, all standing and smiling",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "游乐场里有一个彩色的六边形攀爬洞，一格一格的，像小蜜蜂的家。水水伸出小手，想钻进去探险。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，这里可以钻进去吗？"
+        },
+        {
+          "speaker": "papa",
+          "text": "可以，我们慢慢走，找到出口。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "六边形攀爬洞区",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "六边形攀爬洞",
+          "彩色塑料板",
+          "钻爬小洞",
+          "软垫地面"
+        ]
+      },
+      "composition_hint": "shuishui reaching toward a colorful modular honeycomb climbing structure, large hexagonal tunnel blocks, bright plastic panels, crawl-through holes, red panda standing nearby on a soft playground floor",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "水水跟着爸爸，爬一爬，钻一钻，钻过一个个六边形小洞，又从圆圆的洞口探出头。新玩具真不错，水水笑得眼睛弯弯。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我找到路啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "水水的小鼻子真会探险。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "六边形攀爬洞区",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "六边形隧道方块",
+          "钻爬小洞",
+          "彩色塑料板"
+        ]
+      },
+      "composition_hint": "shuishui and red panda climbing through a colorful modular honeycomb climbing structure, large hexagonal tunnel blocks, bright plastic panels, crawl-through holes, peeking out of a hexagonal hole",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "接着，水水看见最喜欢的彩虹大滑道。一条条彩虹垫子铺在绿绿的山坡上，好像在说：来呀，滑下来呀！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我要玩这个！这个最快！"
+        },
+        {
+          "speaker": "papa",
+          "text": "好，坐稳，我们一起出发。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "彩虹滑道顶部",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "彩虹滑道",
+          "充气圆圈",
+          "人造草坡"
+        ]
+      },
+      "composition_hint": "shuishui and red panda seated together in a round inflatable tube at the top of a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "呼——坐进圆圆的充气圈，顺着彩虹滑道往下冲，风从耳朵边跑过去。水水紧紧坐好，心里扑通扑通，又怕又想笑。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇——好快呀！"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "刺激",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "彩虹滑道中段",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "充气圆圈",
+          "彩虹滑垫",
+          "草坡"
+        ]
+      },
+      "composition_hint": "shuishui and red panda sitting in a round inflatable tube sliding down a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill, joyful faces and motion",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "滑到坡底，水水稳稳停下，咯咯笑个不停。后来，妈妈也陪水水滑了一次，水水知道：有人陪着，真安心。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "坐稳啦，耳朵也跟着飞起来喽。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "妈妈，我们再滑一次一样快吗？"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "安心",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "彩虹滑道坡底",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "彩虹滑道",
+          "充气圆圈",
+          "人造草坡",
+          "小花丛"
+        ]
+      },
+      "composition_hint": "shuishui and white rabbit at the bottom of a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "妈妈指了指旁边一条短一点的彩虹滑道。水水的小耳朵动了动，心里有一点点紧张。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "水水，要不要自己试试这条短一点的？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我……我可以自己坐吗？"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "犹豫",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "短彩虹滑道旁",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "短彩虹滑道",
+          "充气圆圈",
+          "草坡"
+        ]
+      },
+      "composition_hint": "shuishui in a pink dress standing and looking up at a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill, an adult white rabbit in a yellow floral dress standing beside her pointing toward the slide, both smiling",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "水水一步一步走上小坡，自己坐进充气圈里。她吸一口气，小手抓住圈圈。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "慢慢来，我在下面看着你。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好，我试一试！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "短彩虹滑道顶部",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "彩虹滑道",
+          "充气圆圈",
+          "草坡",
+          "树影"
+        ]
+      },
+      "composition_hint": "shuishui sitting in a round inflatable tube at the top of a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill, white rabbit standing at the landing area",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "咕噜咕噜，充气圈顺着彩虹滑道滑下去啦！短短的一下，亮亮的一下，水水自己成功了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我滑下来啦！我自己滑的！"
+        },
+        {
+          "speaker": "mama",
+          "text": "是呀，你勇敢地试了。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "短彩虹滑道坡底",
+        "weather": "晴朗凉快",
+        "time_of_day": "早",
+        "props": [
+          "彩虹滑道",
+          "充气圆圈",
+          "草坡",
+          "小旗子"
+        ]
+      },
+      "composition_hint": "shuishui in a round inflatable tube arriving at the bottom of a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down from the top of the hill, white rabbit watching with warm encouragement",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "玩过滑梯，水水和爸爸换上防水服，来到一个超大的浅水池。池子里，小金鱼一闪一闪，游得飞快。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "准备好小网了吗？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "准备好啦，小金鱼等等我！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园浅水捞鱼池",
+        "weather": "晴朗凉快",
+        "time_of_day": "中",
+        "props": [
+          "防水服",
+          "小渔网",
+          "浅水池",
+          "金鱼"
+        ]
+      },
+      "composition_hint": "shuishui and red panda wearing rain overalls, each holding a small fishing net beside a shallow fish pond",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "小金鱼左一闪，右一闪，水水和爸爸追来追去。一次捞到一条，有两次一下捞到两条，水水数得很认真。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "一、二、三……我们有八条啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "水水的小网真厉害。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园浅水捞鱼池",
+        "weather": "晴朗凉快",
+        "time_of_day": "中",
+        "props": [
+          "小渔网",
+          "透明小桶",
+          "八条金鱼",
+          "水花"
+        ]
+      },
+      "composition_hint": "shuishui and red panda looking at a clear bucket with small goldfish, nets and gentle splashes nearby",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "午饭时间到了。水水把小鱼都倒回池子里，和金鱼说拜拜，也和这个凉快的早晨说拜拜。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小金鱼，拜拜！下次再一起玩。"
+        },
+        {
+          "speaker": "papa",
+          "text": "回家吃饭喽。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园浅水捞鱼池边",
+        "weather": "晴朗凉快",
+        "time_of_day": "中",
+        "props": [
+          "浅水池",
+          "小渔网",
+          "透明小桶",
+          "午饭时间提示牌"
+        ]
+      },
+      "composition_hint": "shuishui and red panda releasing goldfish back into a shallow pond, sunny park playground in the distance",
+      "image_path": "/generated/playground-redpanda-2026-05-29/page-12.png"
+    }
+  ],
+  "created_at": "2026-06-02T11:39:00.258Z",
+  "status": "finished"
+}
