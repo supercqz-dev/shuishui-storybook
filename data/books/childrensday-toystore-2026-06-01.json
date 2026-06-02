@@ -1,0 +1,404 @@
+{
+  "id": "childrensday-toystore-2026-06-01",
+  "title": "ShuiShui's Special Day",
+  "subtitle": "六一这天,妈妈和姥姥陪水水逛玩具店的特别一天",
+  "theme": "勇敢面对小病痛，感受家人的陪伴",
+  "moral": "计划变了也没关系，有爱的人陪着，平凡的一天也会变得特别。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "六一儿童节的早上，阳光照进客厅。水水窝在沙发上，耳朵软软的，今天有一点不舒服。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "水水今天先在家休息，不去幼儿园啦。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嗯……我有一点点没力气。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "蔫蔫的",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "沙发",
+          "小毯子",
+          "抱枕",
+          "窗边绿植"
+        ]
+      },
+      "composition_hint": "shuishui resting on a sofa under a soft blanket, mama standing nearby in a yellow flower dress, warm sunny living room with pillows and plants.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "妈妈端来小药水，味道有一点怪。水水皱皱鼻子，还是一小口一小口喝完了。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "哭没有用，哭不解决问题，我们来想个办法。喝完我们贴一张勇敢小贴纸。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我可以自己喝。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小药水杯",
+          "温水杯",
+          "勇敢小贴纸"
+        ]
+      },
+      "composition_hint": "shuishui holding a tiny measuring cup with both paws, mama watching with a gentle smile, a warm water cup and a star sticker on the table.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "姥姥来了，白卷毛蓬蓬的，亚麻衫干干净净。她还给水水带来一条配好的小发带。",
+      "dialogue": [
+        {
+          "speaker": "laolao",
+          "text": "我们水水真棒！今天不去学校，也可以过一个开心的节日。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "真的吗？"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "被鼓励",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里玄关",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小发带",
+          "布包",
+          "鞋柜"
+        ]
+      },
+      "composition_hint": "close view of shuishui smiling softly while laolao the sheep holds a cute hairband, mama in a yellow flower dress standing beside them in a tidy entryway.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "妈妈和姥姥带水水去大融城商场。商场亮亮的，节日彩旗一排又一排。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，好多灯！"
+        },
+        {
+          "speaker": "laolao",
+          "text": "走，我们去看看你喜欢的玩具。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "大融城商场中庭",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "节日彩旗",
+          "玻璃扶梯",
+          "商场灯牌",
+          "购物袋"
+        ]
+      },
+      "composition_hint": "shuishui, mama, and laolao walking through a bright modern shopping mall atrium with colorful Children's Day banners, glass escalators, and cheerful shop lights.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "玩具店里，玩具好多好多。水水先走到毛绒玩具区，摸摸小熊，又看看小猫。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它们都软软的。"
+        },
+        {
+          "speaker": "mama",
+          "text": "可以慢慢看，想好了再选。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "玩具店毛绒玩具区",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "毛绒小熊",
+          "毛绒小猫",
+          "玩具货架",
+          "购物篮"
+        ]
+      },
+      "composition_hint": "shuishui walking along shelves filled with plush bears and plush cats, mama and laolao watching nearby, colorful toy store aisles in the background.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "水水看了半天，轻轻摇摇头。家里已经有好多毛绒朋友啦，今天不选毛绒玩具。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它们很可爱，可是我没有特别想带回家。"
+        },
+        {
+          "speaker": "mama",
+          "text": "你会自己想一想，真好。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "有主意",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "玩具店毛绒玩具区",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "毛绒玩具货架",
+          "空购物篮",
+          "彩色价签"
+        ]
+      },
+      "composition_hint": "close view of shuishui gently shaking her head beside a shelf of plush toys, mama smiling beside a shopping basket in a bright toy aisle.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "忽然，水水看见一个小兔子钥匙扣。小小的耳朵，圆圆的脸，挂在亮晶晶的架子上。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "这个像我！我想选它。"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "玩具店小饰品区",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "小兔子钥匙扣",
+          "金属挂架",
+          "彩色小挂件"
+        ]
+      },
+      "composition_hint": "extreme close view of shuishui reaching toward a tiny white rabbit keychain hanging on a shiny metal display rack with colorful charms.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "接着，水水找到一盒粉色的水晶泥。盒子透明透明的，里面像一团粉粉的云。",
+      "dialogue": [
+        {
+          "speaker": "laolao",
+          "text": "这个颜色跟今天的小发带很搭呢。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "粉粉的，我喜欢！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "玩具店手工玩具区",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "粉色水晶泥盒",
+          "透明玩具盒",
+          "展示桌",
+          "小发带"
+        ]
+      },
+      "composition_hint": "shuishui holding a clear box of pink slime that looks soft and glossy, laolao the sheep in a linen shirt holding a matching hairband beside a toy display table.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "最后，水水看见一个粉色双层小推车玩具。上面一层可以放小玩具，下面一层也可以放小玩具。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它可以推来推去，还能装好多东西！"
+        },
+        {
+          "speaker": "mama",
+          "text": "那我们把三样一起放进篮子吧。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "玩具店推车玩具区",
+        "weather": "晴天",
+        "time_of_day": "中午",
+        "props": [
+          "粉色双层小推车玩具",
+          "小兔子钥匙扣",
+          "粉色水晶泥盒",
+          "购物篮"
+        ]
+      },
+      "composition_hint": "close view of shuishui placing a pink two-tier toy shopping cart into a basket with a rabbit keychain and a clear pink slime box, mama and laolao standing nearby.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "买好玩具，水水的肚子咕噜咕噜叫。妈妈和姥姥带她去吃最喜欢的炸鸡翅和小汉堡。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "香香的味道跑到我鼻子里啦！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "商场餐厅",
+        "weather": "晴天",
+        "time_of_day": "中午",
+        "props": [
+          "餐桌",
+          "炸鸡翅",
+          "小汉堡",
+          "纸巾",
+          "托盘"
+        ]
+      },
+      "composition_hint": "shuishui, mama, and laolao sitting at a bright mall restaurant table with crispy chicken wings, small burgers, napkins, and a tray.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "水水咬一口小汉堡，又啃一口鸡翅。她的眼睛弯弯的，心里也热乎乎的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "今天好好吃，也好好玩！"
+        },
+        {
+          "speaker": "laolao",
+          "text": "慢慢吃，开心就好。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "幸福",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "商场餐厅",
+        "weather": "晴天",
+        "time_of_day": "中午",
+        "props": [
+          "小汉堡",
+          "炸鸡翅",
+          "餐盘",
+          "果汁杯"
+        ]
+      },
+      "composition_hint": "close view of shuishui smiling with a small burger on a plate and crispy chicken wings nearby, laolao the sheep sitting across the table with a happy expression.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "这个儿童节，水水没有去幼儿园。可是有妈妈和姥姥陪着，她发现，特别的一天也可以从一个小小的勇敢开始。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我今天喝了小药水，还自己选了玩具。"
+        },
+        {
+          "speaker": "mama",
+          "text": "是呀，勇敢的水水，节日快乐。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "商场休息区",
+        "weather": "晴天",
+        "time_of_day": "下午",
+        "props": [
+          "购物袋",
+          "小兔子钥匙扣",
+          "粉色水晶泥盒",
+          "粉色双层小推车玩具",
+          "长椅"
+        ]
+      },
+      "composition_hint": "shuishui holding a shopping bag with a rabbit keychain, clear pink slime box, and pink two-tier toy cart visible, mama and laolao standing with her in a cozy mall seating area.",
+      "image_path": "/generated/childrensday-toystore-2026-06-01/page-12.png"
+    }
+  ],
+  "created_at": "2026-06-02T15:04:46.199Z",
+  "status": "finished",
+  "cover_image": "/generated/childrensday-toystore-2026-06-01/cover.png"
+}
