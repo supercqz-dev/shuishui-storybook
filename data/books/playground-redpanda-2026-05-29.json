@@ -1,7 +1,7 @@
 {
   "id": "playground-redpanda-2026-05-29",
-  "title": "水水的勇敢滑一下",
-  "subtitle": "初夏公园里的快乐早晨",
+  "title": "ShuiShui's Big Slide",
+  "subtitle": "水水第一次自己滑彩虹滑道",
   "theme": "勇敢尝试新事物",
   "moral": "被陪着玩很安心，自己试一试也会发现：我可以！",
   "age_target": "3-4",
@@ -397,5 +397,6 @@
     }
   ],
   "created_at": "2026-06-02T11:39:00.258Z",
-  "status": "finished"
+  "status": "finished",
+  "cover_image": "/generated/playground-redpanda-2026-05-29/cover.png"
 }
