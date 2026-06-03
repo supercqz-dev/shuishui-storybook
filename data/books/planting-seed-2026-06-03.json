@@ -1,0 +1,413 @@
+{
+  "id": "planting-seed-2026-06-03",
+  "title": "ShuiShui's Little Seed",
+  "subtitle": "学校亲子日,水水和爸爸种下一颗小花生",
+  "theme": "植物生长、亲子陪伴、耐心与责任",
+  "moral": "小种子需要每天细心照顾，做事情也要慢慢来、坚持做。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "一大早，爸爸去了花卉市场。他挑呀挑，想给水水找一个最可爱的花盆。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "这个圆圆的兔子花盆，水水一定会喜欢！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "papa"
+      ],
+      "scene_state": {
+        "location": "花卉市场",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "各种花盆",
+          "花架",
+          "小推车"
+        ]
+      },
+      "composition_hint": "A red panda holding a round white rabbit-shaped flower pot with tall upright rabbit ears in a colorful outdoor flower market, rows of pots and green plants around.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "到了幼儿园，水水一眼就看见了兔子花盆。圆圆的花盆上，有一对高高的兔耳朵。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，它像我一样有长耳朵！"
+        },
+        {
+          "speaker": "papa",
+          "text": "今天，它要陪我们种小种子。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园门口",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "书包",
+          "幼儿园门牌"
+        ]
+      },
+      "composition_hint": "shuishui reaching toward a round rabbit-shaped flower pot with tall ears while papa holds it at the kindergarten entrance, bright morning light.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "教室里热热闹闹。大家带来了各种各样的花盆：方的、圆的、高的、矮的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "好多花盆呀！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "classmates",
+        "other_animals"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "各种花盆",
+          "长桌",
+          "姓名贴"
+        ]
+      },
+      "composition_hint": "shuishui looking at many different shaped flower pots on classroom tables, papa standing nearby, various animal classmates and animal characters in the background.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "有一只灰山羊也带来了花盆。那个花盆超级大，像一个小桶！大家都笑了。",
+      "dialogue": [
+        {
+          "speaker": "classmates",
+          "text": "哈哈，好大的花盆！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "goat_with_big_pot",
+        "classmates",
+        "other_animals"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "超大盆栽花盆",
+          "长桌",
+          "小椅子"
+        ]
+      },
+      "composition_hint": "A gray goat holding an oversized deep round plant pot as big as a bucket in a bright classroom, shuishui and papa watching with smiling animal classmates around.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "王老师请大家坐好。她说，小种子会先睡在土里，再慢慢发芽、长叶，长大。",
+      "dialogue": [
+        {
+          "speaker": "wang_teacher",
+          "text": "今天，我们要种的种子是——花生！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "花生也会长大吗？"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "wang_teacher",
+        "classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "植物生长图卡",
+          "花生种子",
+          "小黑板"
+        ]
+      },
+      "composition_hint": "An owl teacher standing beside picture cards showing seed, sprout, leaves, and a tall plant, shuishui and papa watching from a classroom table.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "刘老师又教大家：先放土，再放种子，盖一层土，最后浇半杯水。",
+      "dialogue": [
+        {
+          "speaker": "liu_teacher",
+          "text": "小手轻轻的，种子会很舒服。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "liu_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "泥土",
+          "花生种子",
+          "小杯子",
+          "示范花盆"
+        ]
+      },
+      "composition_hint": "A cat teacher showing peanut seeds, dark soil, and a small watering cup on a classroom table, shuishui watching carefully, papa beside her.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "每个小朋友分到两颗花生种子。三个人一组，共用一个装满土的泡沫箱和一桶水。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "这两颗小小的，是我的花生宝宝。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "珍惜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "两颗花生种子",
+          "装满土的泡沫箱",
+          "水桶",
+          "小杯子"
+        ]
+      },
+      "composition_hint": "shuishui holding two peanut seeds in her paws at a classroom table, a white foam box filled with dark soil and a small water bucket nearby, papa standing with her.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "爸爸和水水一起往兔子花盆里填土。土软软的，像一床小被子。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "我们给种子铺一张舒服的小床。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "轻轻放，轻轻放。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "泥土",
+          "小铲子",
+          "泡沫箱"
+        ]
+      },
+      "composition_hint": "shuishui and papa adding dark soil from a white foam box into a round rabbit-shaped flower pot with tall ears on a classroom table, animal classmates working at nearby tables.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "水水把两颗花生放进土里，又盖上一层薄薄的土。最后，她给种子浇了半杯水。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小花生，喝水啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "完成啦，水水真细心。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园活动教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "花生种子",
+          "泥土",
+          "洒水的小杯子"
+        ]
+      },
+      "composition_hint": "shuishui pouring water from a small cup into the round rabbit-shaped flower pot with tall ears, papa watching, dark soil visible inside the pot.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "活动结束后，水水洗了小手，又和爸爸一起吃了晚饭。兔子花盆安安静静地等在一边。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我们等它发芽吧！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "幼儿园洗手区和餐桌旁",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "洗手池",
+          "小毛巾",
+          "餐盘",
+          "兔子形状花盆"
+        ]
+      },
+      "composition_hint": "shuishui and papa at a kindergarten dining table after hand washing, the round rabbit-shaped flower pot with tall ears resting on the side table.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "回到家，水水把兔子花盆放在窗边。她每天都来看一看。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "花生，你醒了吗？"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里客厅窗边",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "窗台",
+          "兔子形状花盆",
+          "小水杯",
+          "日历"
+        ]
+      },
+      "composition_hint": "shuishui placing the round rabbit-shaped flower pot with tall ears on a living room windowsill, papa standing nearby, cozy home interior with a small cup and calendar.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "可是，过了好几天，土还是平平的，什么也没有冒出来。水水有一点点着急。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，它是不是不想长大？"
+        },
+        {
+          "speaker": "papa",
+          "text": "小种子需要时间，也需要我们每天照顾。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "着急",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里客厅窗边",
+        "weather": "多云",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "日历",
+          "小水杯"
+        ]
+      },
+      "composition_hint": "shuishui looking at the flat soil inside the round rabbit-shaped flower pot with tall ears on the windowsill, papa standing beside the window with a small water cup.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-12.png"
+    },
+    {
+      "page": 13,
+      "narration": "水水看着还没发芽的兔子花盆，想了想。明天、后天、大后天，她都要记得给小花生喝水。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我会慢慢等，也会好好照顾你。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "若有所思又期待",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "家里客厅窗边",
+        "weather": "多云转晴",
+        "time_of_day": "早",
+        "props": [
+          "兔子形状花盆",
+          "泥土",
+          "小水杯",
+          "阳光"
+        ]
+      },
+      "composition_hint": "shuishui gazing at the round rabbit-shaped flower pot with tall ears on a sunny windowsill, flat dark soil inside, a small water cup beside the pot.",
+      "image_path": "/generated/planting-seed-2026-06-03/page-13.png"
+    }
+  ],
+  "created_at": "2026-06-03T14:51:07.900Z",
+  "status": "finished",
+  "cover_image": "/generated/planting-seed-2026-06-03/cover.png"
+}
