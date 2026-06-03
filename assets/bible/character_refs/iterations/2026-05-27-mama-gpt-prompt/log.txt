@@ -1,7 +1,0 @@
-=== zh-prompt run 2026-05-27T06:25:05.808Z ===
-Prompt:
-可爱的拟人化兔子，采用高级动画电影级CGI风格，拥有柔软的灰色兔毛，点缀着淡淡的白色，一双灵动的大紫色眼睛，竖起的耳朵，温暖灿烂的笑容，蓬松细腻的毛发，紧凑灵活的身形，身着浅黄色碎花夏日连衣裙，饰以精致的白色小花，活泼乐观的性格，全身角色设计，电影级柔和的光照，全局光照，柔和的轮廓光，鲜艳而自然的色彩，富有表现力的面部表情和迷人的轮廓，柔和的景深，优雅可爱，自然放松的姿态。
-
-[2026-05-27T06:25:05.813Z] attempt=1 SUCCESS → /Users/gary/claude code 项目集合/水水的绘本/assets/bible/character_refs/iterations/2026-05-27-mama-gpt-prompt/attempt-1.png
-[2026-05-27T06:28:15.126Z] attempt=2 FAIL code=moderation_blocked
-[2026-05-27T06:32:16.327Z] attempt=3 FAIL code=moderation_blocked

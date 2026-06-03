@@ -3,7 +3,7 @@
 //
 // gpt-image-2 renders English text imperfectly → we generate N candidates; you pick the
 // one with correct spelling + nice look, then set it as the book's cover_image.
-// Candidates go to assets/branding/iterations/<date>-<book>-cover/ ; nothing is auto-promoted.
+// Candidates go to experiments/<date>/<book>-cover/ (gitignored); nothing is auto-promoted.
 import fs from 'fs';
 import path from 'path';
 import OpenAI from 'openai';
@@ -23,7 +23,8 @@ if (!BOOK_ID || !TITLE) { console.error('missing BOOK_ID or TITLE env'); process
 const client = new OpenAI({ apiKey, baseURL });
 const PROJ = path.resolve(process.cwd());
 const date = new Date().toISOString().slice(0, 10);
-const outDir = path.join(PROJ, 'assets/branding/iterations', `${date}-${BOOK_ID}-cover`);
+// 候选产物落到 experiments/<date>/<book>-cover/(experiments 已 gitignore,见 experiments/README.md)
+const outDir = path.join(PROJ, 'experiments', date, `${BOOK_ID}-cover`);
 fs.mkdirSync(outDir, { recursive: true });
 
 // Style anchor kept consistent with assets/bible/style.yaml so cover matches interior pages.

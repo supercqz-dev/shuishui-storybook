@@ -6,8 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* 儿童端默认 */
-  --bg: #FFF8F0;
+  /* 儿童端默认(绘本馆奶油底)。
+     #FFF4E3 = Tiny Days 头图(banner.png)底边的纯色,头图满幅贴顶后底边与本背景同色 → 天然无缝 */
+  --bg: #FFF4E3;
   --ink: #5C4434;
   --accent: #FFA8C2;
 }
@@ -18,6 +19,15 @@ html, body {
   color: var(--ink);
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior: none;
+}
+
+/* ━━━ 绘本馆背景 ━━━
+   头图(banner.png)底边是纯色 #FFF4E3,满幅贴顶后直接接本背景 → 无缝,无需过渡条。
+   整页奶油底 #FFF4E3 + 极淡暖色圆点纹理增加质感。 */
+.lib-shelf {
+  background-color: #FFF4E3;
+  background-image: radial-gradient(rgba(196, 142, 80, 0.06) 1.4px, transparent 1.4px);
+  background-size: 22px 22px;
 }
 
 body {

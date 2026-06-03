@@ -23,3 +23,6 @@ next-env.d.ts
 
 # Claude Code 工具配置(本地用)
 .claude/
+
+# 效果测试产物(本地,不进版本库/部署)
+experiments/

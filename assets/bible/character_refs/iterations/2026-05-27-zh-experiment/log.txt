@@ -1,4 +1,0 @@
-=== zh-character experiment 2026-05-27T12:11:15.574Z ===
-[2026-05-27T12:11:15.575Z] shuishui attempt=1 SUCCESS → /Users/gary/claude code 项目集合/水水的绘本/assets/bible/character_refs/iterations/2026-05-27-zh-experiment/shuishui-attempt-1.png
-[2026-05-27T12:14:13.324Z] papa attempt=1 SUCCESS → /Users/gary/claude code 项目集合/水水的绘本/assets/bible/character_refs/iterations/2026-05-27-zh-experiment/papa-attempt-1.png
-[2026-05-27T12:17:24.199Z] laolao attempt=1 SUCCESS → /Users/gary/claude code 项目集合/水水的绘本/assets/bible/character_refs/iterations/2026-05-27-zh-experiment/laolao-attempt-1.png

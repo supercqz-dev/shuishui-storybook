@@ -81,7 +81,7 @@ export default function BookReader({ book }: { book: Book }) {
     return (
       <div className="fixed inset-0 bg-gradient-to-br from-shuishui-pink-soft via-cream-50 to-shuishui-yellow flex flex-col items-center justify-center px-6 select-none">
         <div className="text-7xl mb-6 animate-gentle-bounce">✨</div>
-        <h1 className="text-4xl sm:text-5xl font-bold text-shuishui-brown text-center">
+        <h1 className="font-display text-4xl sm:text-5xl font-bold text-shuishui-brown text-center">
           读完啦!
         </h1>
         <p className="text-lg text-shuishui-brown-soft mt-3 text-center">
@@ -114,7 +114,7 @@ export default function BookReader({ book }: { book: Book }) {
 
   return (
     <div
-      className="min-h-screen bg-cream-50 select-none"
+      className="min-h-screen bg-cream-bg select-none"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
       onClick={onTap}
@@ -162,11 +162,11 @@ export default function BookReader({ book }: { book: Book }) {
       <div className="px-5 sm:px-8 pt-4 pb-12">
         {isCover ? (
           <div className="text-center max-w-2xl mx-auto">
-            <h1 className="text-2xl sm:text-3xl font-bold text-shuishui-brown leading-tight">
+            <h1 className="font-display text-2xl sm:text-3xl font-bold text-shuishui-brown leading-tight">
               {book.title}
             </h1>
             {book.subtitle && (
-              <p className="text-sm sm:text-base text-shuishui-brown-soft mt-1">
+              <p className="font-kid text-sm sm:text-base text-shuishui-brown-soft mt-1">
                 {book.subtitle}
               </p>
             )}
