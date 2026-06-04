@@ -1,7 +1,7 @@
 {
   "id": "planting-seed-2026-06-03",
   "title": "ShuiShui's Little Seed",
-  "subtitle": "学校亲子日,水水和爸爸种下一颗小花生",
+  "subtitle": "水水和爸爸一起种下第一颗花生种子",
   "theme": "植物生长、亲子陪伴、耐心与责任",
   "moral": "小种子需要每天细心照顾，做事情也要慢慢来、坚持做。",
   "age_target": "3-4",
@@ -31,7 +31,7 @@
           "小推车"
         ]
       },
-      "composition_hint": "A red panda holding a round white rabbit-shaped flower pot with tall upright rabbit ears in a colorful outdoor flower market, rows of pots and green plants around.",
+      "composition_hint": "A red panda standing in an outdoor flower market, holding up with both paws a COMPLETELY EMPTY round white rabbit-shaped ceramic flower pot with one pair of tall upright ears. The pot is brand new and totally empty — no soil, no flowers, no plants, no leaves inside, just a clean hollow empty pot. Flower stalls in the background.",
       "image_path": "/generated/planting-seed-2026-06-03/page-01.png"
     },
     {
@@ -63,7 +63,7 @@
           "幼儿园门牌"
         ]
       },
-      "composition_hint": "shuishui reaching toward a round rabbit-shaped flower pot with tall ears while papa holds it at the kindergarten entrance, bright morning light.",
+      "composition_hint": "At a kindergarten entrance, the red panda papa holds a COMPLETELY EMPTY round white rabbit-shaped ceramic pot with tall ears (empty hollow pot, nothing inside — no soil, no flowers, no plants), shuishui (white bunny in pink dress) reaching up to touch it, bright morning.",
       "image_path": "/generated/planting-seed-2026-06-03/page-02.png"
     },
     {
@@ -101,7 +101,7 @@
       "narration": "有一只灰山羊也带来了花盆。那个花盆超级大，像一个小桶！大家都笑了。",
       "dialogue": [
         {
-          "speaker": "classmates",
+          "speaker": "小朋友们",
           "text": "哈哈，好大的花盆！"
         }
       ],
@@ -124,7 +124,7 @@
           "小椅子"
         ]
       },
-      "composition_hint": "A gray goat holding an oversized deep round plant pot as big as a bucket in a bright classroom, shuishui and papa watching with smiling animal classmates around.",
+      "composition_hint": "Bright classroom. On the LEFT, a tall GRAY GOAT parent (gray fur, horns, goat face) hugs an oversized bucket-sized empty terracotta plant pot with both arms. On the RIGHT, shuishui (white bunny) and her red panda papa stand together EMPTY-HANDED, laughing and pointing at the goat's huge pot. Other animal classmates around. The big pot belongs to the goat, the red panda is NOT holding any pot.",
       "image_path": "/generated/planting-seed-2026-06-03/page-04.png"
     },
     {
@@ -132,7 +132,7 @@
       "narration": "王老师请大家坐好。她说，小种子会先睡在土里，再慢慢发芽、长叶，长大。",
       "dialogue": [
         {
-          "speaker": "wang_teacher",
+          "speaker": "王老师",
           "text": "今天，我们要种的种子是——花生！"
         },
         {
@@ -158,7 +158,7 @@
           "小黑板"
         ]
       },
-      "composition_hint": "An owl teacher standing beside picture cards showing seed, sprout, leaves, and a tall plant, shuishui and papa watching from a classroom table.",
+      "composition_hint": "Classroom lesson. At the FRONT stands the teacher: a friendly GIANT PANDA teacher (black-and-white panda, NO glasses) pointing at picture cards showing seed→sprout→leaves→tall plant. In the FOREGROUND shuishui (white bunny) and red panda papa are SEATED together at a low table as listeners, looking up at the panda teacher. The panda teacher is the one teaching at the front; the red panda papa is only a seated parent in the audience.",
       "image_path": "/generated/planting-seed-2026-06-03/page-05.png"
     },
     {
@@ -166,7 +166,7 @@
       "narration": "刘老师又教大家：先放土，再放种子，盖一层土，最后浇半杯水。",
       "dialogue": [
         {
-          "speaker": "liu_teacher",
+          "speaker": "刘老师",
           "text": "小手轻轻的，种子会很舒服。"
         }
       ],
@@ -188,7 +188,7 @@
           "示范花盆"
         ]
       },
-      "composition_hint": "A cat teacher showing peanut seeds, dark soil, and a small watering cup on a classroom table, shuishui watching carefully, papa beside her.",
+      "composition_hint": "Planting demonstration. The teacher is a tall GIRAFFE (long neck, NO glasses) bending down at the front table, demonstrating with peanut seeds, dark soil and a small watering cup. shuishui (white bunny) watches closely; red panda papa sits beside her as a listener. The giraffe teacher is doing the demonstrating, NOT the red panda.",
       "image_path": "/generated/planting-seed-2026-06-03/page-06.png"
     },
     {
@@ -314,7 +314,7 @@
           "兔子形状花盆"
         ]
       },
-      "composition_hint": "shuishui and papa at a kindergarten dining table after hand washing, the round rabbit-shaped flower pot with tall ears resting on the side table.",
+      "composition_hint": "At a kindergarten dining table, ONLY shuishui (white bunny in pink dress) is eating her own small dinner from a plate with a spoon. The red panda papa sits beside her with NO food in front of him, just smiling and keeping her company (papa is not eating, only shuishui eats). A clean empty rabbit-shaped pot with plain soil sits on a side table.",
       "image_path": "/generated/planting-seed-2026-06-03/page-10.png"
     },
     {
@@ -330,6 +330,7 @@
       "emotion": "期待",
       "characters_in_scene": [
         "shuishui",
+        "mama",
         "papa"
       ],
       "scene_state": {
@@ -343,7 +344,7 @@
           "日历"
         ]
       },
-      "composition_hint": "shuishui placing the round rabbit-shaped flower pot with tall ears on a living room windowsill, papa standing nearby, cozy home interior with a small cup and calendar.",
+      "composition_hint": "At home by a living-room windowsill, shuishui (white bunny, pink dress) places a rabbit-shaped pot that holds ONLY flat brown soil — absolutely nothing has grown, NO flowers, NO sprout, NO green at all (it was just planted today). Her mama (an adult white rabbit in a yellow floral dress) and her red panda papa both stand beside her looking warmly at the plain soil pot. Cozy home, a calendar on the wall.",
       "image_path": "/generated/planting-seed-2026-06-03/page-11.png"
     },
     {
@@ -407,7 +408,6 @@
       "image_path": "/generated/planting-seed-2026-06-03/page-13.png"
     }
   ],
-  "created_at": "2026-06-03T14:51:07.900Z",
-  "status": "finished",
-  "cover_image": "/generated/planting-seed-2026-06-03/cover.png"
+  "created_at": "2026-06-04T02:11:58.776Z",
+  "status": "finished"
 }
