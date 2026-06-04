@@ -52,8 +52,11 @@ ${charDescriptions}
   3. **避免亲密俯身姿态**：禁止 "crouching near"、"squatting near"、"leaning over/toward"、"bending toward"、"pointing at shuishui"、"paws on knees"。改用直立动词："standing"、"walking"、"watching"、"holding"、"reaching"。
   4. **游乐设施/道具要展开成具体英文外观描述,不要直接搬中文名**:图像模型不认识"七彩迷宫球""轮胎滑梯"这类中文活动名,会画错。请把设备翻译成它真实的视觉构造(形状+材质+颜色+玩法)。
      例:"彩虹滑道" → "a colorful outdoor rainbow dry tubing slide on an artificial grass slope, covered with rainbow-colored sliding mats, riders sitting in round inflatable tubes sliding down";"六边形攀爬洞" → "colorful modular honeycomb climbing structure, large hexagonal tunnel blocks, bright plastic panels, crawl-through holes"。宁可描述得长而具体,也不要用一个模糊的名词。
-  例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "shuishui reaching toward a colorful honeycomb climbing structure with hexagonal crawl-through holes, papa nearby"
-  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词)
+  5. **任何非家庭配角(老师、同学、其他家长、路人等)都必须指定一个明确的动物物种**,并在 composition_hint 里让该配角作为画面动作的主体清晰出现。**血泪教训**:如果只写"老师/同学"而不给物种,图像模型不知道他们长什么样,会把"讲课/拿东西/做动作"这些主体动作错误地安到有固定形象的家庭角色(尤其是 papa)身上,导致"本该老师讲课却画成爸爸讲课"。
+     - **固定配角物种(必须遵守,保持跨绘本一致)**:王老师 = 大熊猫(giant panda,不戴眼镜);刘老师 = 长颈鹿(giraffe,不戴眼镜)。其他临时配角(同学/别的家长)自行指定合理物种(熊/小猪/小象/松鼠等)并写进 hint。
+     - 当配角是画面动作主体时,hint 要点明分工,例:"a GIANT PANDA teacher at the front teaching the class, shuishui and red panda papa SEATED in the audience listening (papa is a listener, NOT teaching)"。
+  例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
+  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词); "the teacher teaching the class"(配角无物种,会被画成爸爸)
 
 # 长度判断（8-15 页动态）
 看故事素材的事件密度自己定 N：

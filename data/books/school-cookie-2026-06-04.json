@@ -1,0 +1,449 @@
+{
+  "id": "school-cookie-2026-06-04",
+  "title": "ShuiShui Goes to School",
+  "subtitle": "不想上学的早晨,却变成超棒的一天",
+  "theme": "情绪引导与入园适应",
+  "moral": "哭闹不能解决问题，试着勇敢走出去，可能会遇见意想不到的快乐。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "早晨，太阳照进小屋。水水坐在门口，眼泪吧嗒吧嗒掉。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我不想去幼儿园……"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "委屈",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里玄关",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小书包",
+          "小鞋子",
+          "纸巾",
+          "挂钟"
+        ]
+      },
+      "composition_hint": "shuishui wiping tears by the home entryway, a larger white rabbit in a yellow floral dress standing beside her holding a tissue, warm morning light and a small backpack on the floor.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "妈妈没有着急，她轻轻递来纸巾。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "水水生病这几天没上课，今天差不多好啦，就该去幼儿园咯。"
+        },
+        {
+          "speaker": "mama",
+          "text": "哭没有用，哭不解决问题，我们来想个办法。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "难过",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里玄关",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "纸巾",
+          "小书包",
+          "挂钟"
+        ]
+      },
+      "composition_hint": "shuishui holding a tissue, the larger white rabbit in a yellow floral dress standing calmly nearby, both beside a tidy entry bench and a round wall clock.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "妈妈数了数手指，声音软软的。今天周四，明天周五，再过两天就是周末啦。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "王老师都说想水水了，好几天没看到你啦。"
+        },
+        {
+          "speaker": "mama",
+          "text": "再哭下去，就赶不上热狗、发糕和小馄饨啦！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "犹豫",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "家里玄关",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "纸巾",
+          "小书包",
+          "早餐图案贴纸"
+        ]
+      },
+      "composition_hint": "close view of shuishui with teary eyes starting to listen, a larger white rabbit in a yellow floral dress holding up two fingers, small breakfast picture stickers nearby.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "水水吸吸鼻子，把眼泪擦干净。她背上小书包，和妈妈一起出门。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "那……我去看看吧。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "小小勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "wanglaoshi"
+      ],
+      "scene_state": {
+        "location": "幼儿园门口",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小书包",
+          "幼儿园门牌",
+          "花坛"
+        ]
+      },
+      "composition_hint": "shuishui walking into a colorful kindergarten gate with a backpack, a larger white rabbit in a yellow floral dress walking beside her, a GIANT PANDA teacher without glasses greeting them at the doorway.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "幼儿园里香喷喷的。水水吃到了热乎乎的早饭，肚子暖暖的。",
+      "dialogue": [],
+      "shot": "medium",
+      "emotion": "安心",
+      "characters_in_scene": [
+        "shuishui",
+        "wanglaoshi",
+        "animal_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "小餐桌",
+          "热狗",
+          "发糕",
+          "小馄饨",
+          "餐盘"
+        ]
+      },
+      "composition_hint": "shuishui seated at a small classroom table with a plate of hot dog, steamed cake, and wontons, a GIANT PANDA teacher without glasses serving breakfast, bear and squirrel animal pupils eating happily.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "吃完早饭，大家排排坐。中班的哥哥姐姐要演绘本剧啦！",
+      "dialogue": [
+        {
+          "speaker": "wanglaoshi",
+          "text": "今天我们看《小红帽和大灰狼》。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "wanglaoshi",
+        "animal_classmates",
+        "middle_class_performers"
+      ],
+      "scene_state": {
+        "location": "幼儿园多功能厅",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "小舞台",
+          "红色幕布",
+          "小椅子",
+          "绘本剧道具"
+        ]
+      },
+      "composition_hint": "a kindergarten hall with a small stage and red curtains, shuishui sitting with bear and squirrel animal pupils, a GIANT PANDA teacher without glasses at the side, bear, pig, elephant, and squirrel performers waiting on stage.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "小红帽来了，篮子晃呀晃。大灰狼也来了，头套圆圆的，一点也不可怕。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，好好看！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "middle_class_performers"
+      ],
+      "scene_state": {
+        "location": "幼儿园多功能厅",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "红斗篷",
+          "小篮子",
+          "灰狼头套",
+          "舞台灯"
+        ]
+      },
+      "composition_hint": "shuishui watching with bright eyes in the foreground, a bear performer wearing a red hooded cape holding a small basket and a pig performer wearing a soft gray wolf headpiece with friendly round eyes on the stage.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "音乐响起来，哥哥姐姐们一起跳兔子舞。水水的小耳朵也跟着一晃一晃。",
+      "dialogue": [],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "animal_classmates",
+        "middle_class_performers"
+      ],
+      "scene_state": {
+        "location": "幼儿园多功能厅",
+        "weather": "晴天",
+        "time_of_day": "上午",
+        "props": [
+          "音箱",
+          "小舞台",
+          "彩色地垫"
+        ]
+      },
+      "composition_hint": "bear, pig, elephant, and squirrel performers dancing in a cheerful line on colorful floor mats, shuishui and animal pupils watching and clapping from small seats.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "快放学时，刘老师拿出一个大大的袋子。原来是给水水的儿童节礼物！",
+      "dialogue": [
+        {
+          "speaker": "liulaoshi",
+          "text": "水水，这是你的饼干礼物。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "谢谢刘老师！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "liulaoshi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴天",
+        "time_of_day": "下午",
+        "props": [
+          "一大包饼干",
+          "幼儿园小柜子",
+          "姓名贴"
+        ]
+      },
+      "composition_hint": "a GIRAFFE teacher without glasses holding a large bag of cookies near a row of small classroom cubbies, shuishui reaching to receive the cookies with a happy smile.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "水水把饼干放进自己的小柜子里。她拍拍柜门，好像把快乐也放了进去。",
+      "dialogue": [],
+      "shot": "medium",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "liulaoshi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴天",
+        "time_of_day": "下午",
+        "props": [
+          "一大包饼干",
+          "幼儿园小柜子",
+          "小书包"
+        ]
+      },
+      "composition_hint": "shuishui placing a large bag of cookies into a small cubby with a name label, a GIRAFFE teacher without glasses standing nearby and watching warmly.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "放学啦，姥姥来接水水。她们说说笑笑，走到半路，水水忽然停住了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哎呀！刘老师给的饼干忘拿啦！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "着急",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "回家路上",
+        "weather": "晴天",
+        "time_of_day": "傍晚",
+        "props": [
+          "小书包",
+          "路边花坛",
+          "姥姥的电动小摩托车"
+        ]
+      },
+      "composition_hint": "shuishui with wide surprised eyes beside a sheep with white curly wool and a linen shirt, a compact pale blue electric scooter parked near a sidewalk flowerbed.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "姥姥立刻骑上电动小摩托，带着水水回幼儿园。小摩托嗡嗡嗡，风也轻轻吹。",
+      "dialogue": [
+        {
+          "speaker": "laolao",
+          "text": "别急，我们现在就回去拿！"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "幼儿园附近街道",
+        "weather": "晴天",
+        "time_of_day": "傍晚",
+        "props": [
+          "电动小摩托车",
+          "头盔",
+          "路灯",
+          "树影"
+        ]
+      },
+      "composition_hint": "extreme close view of shuishui holding the handlebar area of a compact pale blue electric scooter, a sheep with white curly wool and a linen shirt riding with her along a tree-lined street.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-12.png"
+    },
+    {
+      "page": 13,
+      "narration": "刘老师还在教室里忙着。水水打开小柜子，哈哈，饼干还在！",
+      "dialogue": [
+        {
+          "speaker": "liulaoshi",
+          "text": "水水怎么又回来啦？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我忘拿饼干啦，哈哈哈！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "松了一口气",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao",
+        "liulaoshi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴天",
+        "time_of_day": "傍晚",
+        "props": [
+          "一大包饼干",
+          "幼儿园小柜子",
+          "小书包"
+        ]
+      },
+      "composition_hint": "shuishui taking a large bag of cookies from a small cubby, a GIRAFFE teacher without glasses standing by a classroom table, a sheep with white curly wool and a linen shirt standing near the doorway.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-13.png"
+    },
+    {
+      "page": 14,
+      "narration": "回到家，水水拆开饼干，咔嚓咬了一口。真香呀！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "幸好我今天去幼儿园了！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "幸福",
+      "characters_in_scene": [
+        "shuishui",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里餐桌旁",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "一大包饼干",
+          "小盘子",
+          "水杯",
+          "餐桌"
+        ]
+      },
+      "composition_hint": "close view of shuishui smiling and eating a cookie at a cozy dining table, a sheep with white curly wool and a linen shirt placing the opened cookie bag on a small plate.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-14.png"
+    },
+    {
+      "page": 15,
+      "narration": "今天有热乎乎的早饭，有好看的演出，还有香香的礼物。水水想：明天，我还要去上学！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "明天见，幼儿园！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴天",
+        "time_of_day": "晚",
+        "props": [
+          "小书包",
+          "一大包饼干",
+          "绘本",
+          "沙发"
+        ]
+      },
+      "composition_hint": "shuishui packing her small backpack beside a sofa, a larger white rabbit in a yellow floral dress and a sheep with white curly wool and a linen shirt standing nearby, an open cookie bag and a picture book on the table.",
+      "image_path": "/generated/school-cookie-2026-06-04/page-15.png"
+    }
+  ],
+  "created_at": "2026-06-04T15:47:12.263Z",
+  "status": "finished",
+  "cover_image": "/generated/school-cookie-2026-06-04/cover.png"
+}
