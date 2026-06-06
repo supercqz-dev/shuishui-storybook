@@ -18,6 +18,34 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  rainyday: {
+    book_id: 'rainyday-2026-06-06',
+    chars: ['shuishui', 'papa', 'laolao'],
+    trigger: `周末的早晨,下起了小雨。吃完早饭的水水,要跟爸爸下楼去玩水。
+水水穿上了自己透明的小雨衣和涉水服(雨衣的帽子上有一颗小星星),还带了一把印着小动物图案的小雨伞。爸爸也穿上了雨衣。两人带上滋水玩具水枪,下楼玩咯!
+爸爸带着水水来到停车场。早上的雨下得不大,地面上都是浅浅的小水坑。水水拿着滋水玩具,努力地对着地上的一个小水坑抽水,抽上了小半管,转身往爸爸身上滋——哈哈哈!爸爸穿着雨衣,还打开小雨伞当盾牌,挡住了水水滋过来的水柱。
+玩了两下,水坑实在太小啦。爸爸就问水水,要不要去小区里的大水池那边玩?水水点点头,说:我们骑小摩托车去吧!于是爸爸带着水水,骑着踏板小摩托,来到了小区里的水池边。水池里的水可满啦!爸爸帮水水把水枪玩具吸满了一大管水,滋到摩托车上,给小摩托洗洗澡。冲了两三管水,小摩托可干净啦。
+忽然,水水发现一只小鸟停在不远处。水水问爸爸:能不能用水滋到那只小鸟呀?爸爸说:我们试试看。两人转身抽了一大管水,可一回头,小鸟已经飞走啦!可能是小鸟听到水水要滋它,赶紧跑掉了吧,哈哈哈!
+那滋哪里好呢?爸爸说:你抬头看这棵大树,我们能不能把水滋到高高的树叶上?水水说:试试吧!一、二、三!爸爸和水水一起举着水枪玩具,喷出又高又长的大水柱,直直地滋到了大树高高的树枝上!
+玩了一会儿,下雨天还真有点冷。爸爸握着水水的小手,有点凉凉的,该赶紧回家啦。爸爸带着水水骑着小摩托回到家——姥姥早就做好了好吃的红烧肉和海参,等着他们吃午饭呢!
+回家咯~
+
+构图提示:
+- 主要是水水(白兔)和爸爸(小熊猫)两个人的玩水故事,该同框就同框。姥姥(绵羊,白卷毛+亚麻衫)只在最后回到家、端出午饭的那一页出现;前面所有玩水的页面只画水水+爸爸。
+- 关键道具要展开成具体英文外观,不要直接搬中文名:
+  · 水水的雨衣 = a clear transparent kids' raincoat with a hood, a small yellow star on the hood;涉水服 = matching waterproof wading overalls。
+  · 小雨伞 = a small kids' umbrella printed with cute little animal patterns。
+  · 爸爸也穿一件雨衣。
+  · "滋水枪"一律画成 a brightly colored TOY water squirter / pump-action water blaster toy(玩具,鲜艳塑料,千万不要画成真枪、不要用 gun 这个词,用 water squirter / water blaster / water toy)。
+  · 踏板小摩托 = a compact pastel-colored electric step-through scooter(和家里那辆小电动摩托一致)。
+  · 浅水坑 = shallow rain puddles on the parking-lot ground;大水池 = a big water pool / fountain pond in the residential compound。
+  · 小鸟 = a small bird perched on a railing(后面一页飞走);大树 = a tall leafy tree with high branches。
+  · 水柱 = an arcing jet/stream of water。
+- 雨天氛围:细雨、灰蓝柔和的天色、地面湿亮反光、空气清新,但整体温暖欢乐,不要阴沉。
+- 几个动作高点单独成页:对爸爸滋水(爸爸举雨伞当盾牌)、给小摩托洗澡、想滋小鸟结果鸟飞走、一起把水柱滋上大树。
+- 结尾页:回到家,姥姥(绵羊)端出红烧肉和海参,一家人温馨吃午饭。`,
+    edu: '感受雨天玩耍和亲子陪伴的快乐;认识雨具(雨衣/雨伞/涉水服)的用处和水的好玩;同时懂得玩得尽兴也要注意冷暖、手凉了就该回家,生活里处处有温暖。',
+  },
   school: {
     book_id: 'school-cookie-2026-06-04',
     chars: ['shuishui', 'mama', 'laolao'],

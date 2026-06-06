@@ -1,0 +1,423 @@
+{
+  "id": "rainyday-2026-06-06",
+  "title": "ShuiShui's Rain Play",
+  "subtitle": "水水和爸爸的周末雨天玩水记",
+  "theme": "雨天玩耍、亲子陪伴、认识雨具与水的乐趣",
+  "moral": "玩得开心，也要照顾身体；手凉了，就带着快乐回家。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周末的早晨，小雨沙沙地下。吃完早饭，水水看着窗外，眼睛亮亮的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，我们下楼玩水吧！"
+        },
+        {
+          "speaker": "papa",
+          "text": "好呀，穿好雨具就出发。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里客厅窗边",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "早餐盘",
+          "窗户",
+          "小雨点",
+          "雨具"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit and a red panda standing by a bright apartment window, soft gray-blue rainy morning outside, breakfast dishes on a small table.",
+      "image_path": "/generated/rainyday-2026-06-06/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "水水穿上透明小雨衣，帽子上有一颗小星星。她还穿好涉水服，拿起印着小动物的小雨伞。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我的小星星，出门啦！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家门口玄关",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "透明小雨衣",
+          "涉水服",
+          "小雨伞",
+          "滋水玩具",
+          "雨靴"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit wearing a clear transparent small raincoat with a hood and a yellow star on the hood, matching waterproof wading overalls, holding a small umbrella printed with cute animal patterns; a red panda wearing a raincoat holds two brightly colored plastic pump-action water squirter toys near the doorway.",
+      "image_path": "/generated/rainyday-2026-06-06/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "楼下的停车场湿湿亮亮，地上有一个个浅浅的小水坑。水水把滋水玩具伸进水坑里，用力抽呀抽。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "慢慢来，小水坑也有小力气。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区停车场",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "浅水坑",
+          "滋水玩具",
+          "小雨伞",
+          "雨衣"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit standing on wet reflective parking-lot ground, placing a brightly colored plastic pump-action water squirter toy into shallow rain puddles; a red panda in a raincoat watches nearby, gentle drizzle and parked cars in the background.",
+      "image_path": "/generated/rainyday-2026-06-06/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "抽上来小半管水，水水一转身，哗——滋向爸爸！爸爸举起小雨伞，像一面小盾牌。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "滋到你啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "盾牌来啦，挡住挡住！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区停车场",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "滋水玩具",
+          "小雨伞",
+          "浅水坑",
+          "雨衣"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit laughing while holding a bright plastic water squirter toy that sends an arcing stream of water; a red panda in a raincoat holds a small umbrella printed with animal patterns like a shield, wet pavement sparkling with raindrops.",
+      "image_path": "/generated/rainyday-2026-06-06/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "可是小水坑太浅啦，抽两下就不够了。爸爸想了想，指了指小区里的大水池方向。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "要不要去大水池那边玩？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "要！我们骑小摩托去吧！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "雀跃",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "停车场边",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "滋水玩具",
+          "浅水坑",
+          "小雨伞",
+          "踏板小摩托"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit and a red panda walking beside a compact pastel-colored electric step-through scooter, carrying bright plastic water squirter toys, shallow rain puddles behind them and the residential compound path ahead.",
+      "image_path": "/generated/rainyday-2026-06-06/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "小摩托嘟嘟向前，雨点轻轻落在雨衣上。水水抱着小雨伞，开心得像一朵会笑的小云。",
+      "dialogue": [],
+      "shot": "wide",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区小路",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "踏板小摩托",
+          "小雨伞",
+          "雨衣",
+          "滋水玩具"
+        ]
+      },
+      "composition_hint": "a red panda riding a compact pastel-colored electric step-through scooter along a wet residential path, shuishui the white rabbit seated on the scooter holding a small animal-pattern umbrella, soft drizzle, green bushes, reflective pavement.",
+      "image_path": "/generated/rainyday-2026-06-06/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "大水池到了！池子里的水满满的，爸爸帮水水把滋水玩具吸满一大管水。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，满满的水！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区水池边",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "大水池",
+          "滋水玩具",
+          "踏板小摩托",
+          "雨衣"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit holding a brightly colored plastic pump-action water squirter toy near a big fountain pond in a residential compound; a red panda stands beside her with another water squirter toy, pastel electric step-through scooter parked nearby, rain making soft ripples on the water.",
+      "image_path": "/generated/rainyday-2026-06-06/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "水水把水滋到小摩托上，给它洗洗澡。哗啦啦，车身变得亮晶晶。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "再来一管，轮子也洗一洗！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "小摩托，洗香香！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区水池边",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "踏板小摩托",
+          "滋水玩具",
+          "大水池",
+          "水花"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit aiming a bright plastic water squirter toy at a compact pastel-colored electric step-through scooter, an arcing jet of water splashing over the scooter body and wheels; a red panda watches with a happy expression beside the fountain pond.",
+      "image_path": "/generated/rainyday-2026-06-06/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "忽然，水水看见不远处的栏杆上，停着一只小鸟。小鸟抖抖羽毛，也在看雨呢。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，能滋到那只小鸟吗？"
+        },
+        {
+          "speaker": "papa",
+          "text": "我们试试看。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区水池边栏杆旁",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "栏杆",
+          "小鸟",
+          "滋水玩具",
+          "大水池"
+        ]
+      },
+      "composition_hint": "a small bird perched on a metal railing near a big fountain pond; shuishui the white rabbit and a red panda stand a few steps away holding bright plastic water squirter toys, soft rain and wet stone ground around them.",
+      "image_path": "/generated/rainyday-2026-06-06/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "他们吸满一大管水，刚一回头——咦？小鸟飞走啦！水水笑得肩膀都抖了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它听见啦，先跑掉了！"
+        },
+        {
+          "speaker": "papa",
+          "text": "小鸟的耳朵真灵！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "好笑",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区水池边栏杆旁",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "空栏杆",
+          "飞走的小鸟",
+          "滋水玩具",
+          "水池"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit laughing while holding a bright plastic water squirter toy, a red panda smiling beside her; a small bird flying away from the metal railing in the background, gray-blue rainy sky and fountain pond nearby.",
+      "image_path": "/generated/rainyday-2026-06-06/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "那滋哪里好呢？爸爸抬头看见一棵高高的大树。水水和爸爸一起举起滋水玩具，一、二、三——水柱飞到高高的树叶上！",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "看那棵大树，我们试试树叶吧。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "一、二、三，滋上去！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区大树下",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "高大的树",
+          "滋水玩具",
+          "水柱",
+          "雨衣"
+        ]
+      },
+      "composition_hint": "shuishui the white rabbit and a red panda standing under a tall leafy tree with high branches, both holding bright plastic water squirter toys sending long arcing streams of water up to the green leaves, wet pavement reflecting the tree and gentle drizzle.",
+      "image_path": "/generated/rainyday-2026-06-06/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "玩了一会儿，风有点凉。爸爸握握水水的小手，凉凉的，还是回家暖一暖吧。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "小手凉了，我们回家吃热乎饭。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好，回家咯！"
+        }
+      ],
+      "shot": "extreme-close-up",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区水池边",
+        "weather": "小雨",
+        "time_of_day": "中",
+        "props": [
+          "小手",
+          "雨衣袖口",
+          "滋水玩具",
+          "小雨伞"
+        ]
+      },
+      "composition_hint": "close detail of shuishui the white rabbit's small paw resting in a red panda's paw, raincoat sleeves with water droplets, a bright plastic water squirter toy and a small animal-pattern umbrella visible at the edge of the frame.",
+      "image_path": "/generated/rainyday-2026-06-06/page-12.png"
+    },
+    {
+      "page": 13,
+      "narration": "小摩托嘟嘟回到家，屋里暖暖的。姥姥端出香喷喷的红烧肉和海参，雨天的午饭也亮晶晶。",
+      "dialogue": [
+        {
+          "speaker": "laolao",
+          "text": "回来啦，快吃热乎的！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "今天的雨，好好玩呀！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "温暖",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里餐厅",
+        "weather": "小雨",
+        "time_of_day": "中",
+        "props": [
+          "红烧肉",
+          "海参",
+          "餐桌",
+          "雨衣挂钩",
+          "踏板小摩托钥匙"
+        ]
+      },
+      "composition_hint": "a sheep with white curly wool and a linen shirt carrying plates of braised pork and sea cucumber to a cozy dining table; shuishui the white rabbit and a red panda standing near the table with raincoats hanging on wall hooks, warm indoor light and rainy window in the background.",
+      "image_path": "/generated/rainyday-2026-06-06/page-13.png"
+    }
+  ],
+  "created_at": "2026-06-06T18:58:44.665Z",
+  "status": "finished"
+}
