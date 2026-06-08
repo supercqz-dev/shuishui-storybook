@@ -18,8 +18,9 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  // 《Two Rainy Miles》已发布版 = cycling-2km-v2(克制版镜头 + p5/p6/p14 精修 + 庆祝卡)。
   cycling: {
-    book_id: 'cycling-2km-2026-06-08',
+    book_id: 'cycling-2km-v2-2026-06-08',
     chars: ['shuishui', 'papa'],
     trigger: `周六早晨,天空下着小雨。水水要和爸爸一起完成一项挑战。
 小区外面新修了一条小道,起点在小区门口,终点不知道通到哪里。上次听一位爷爷说,这条小路挺长,有一公里,那来回就是两公里。水水准备骑上她那辆带平衡轮的小自行车,和爸爸一起挑战——看看能不能自己骑完两公里!

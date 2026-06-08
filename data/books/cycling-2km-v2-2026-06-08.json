@@ -1,0 +1,493 @@
+{
+  "id": "cycling-2km-v2-2026-06-08",
+  "title": "Two Rainy Miles",
+  "subtitle": "水水和爸爸的小雨两公里挑战",
+  "theme": "雨天骑行、坚持完成挑战、温暖陪伴",
+  "moral": "小小的坚持，会带来大大的开心；有人陪伴时，勇敢可以慢慢长出来。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周六早晨，小雨沙沙下。小区门口，新修的砖红色小道亮亮的，像一条长长的红丝带。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "水水，今天我们挑战两公里，好不好？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好！我骑车，你走路！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区门口",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "砖红色小道",
+          "白色分割线",
+          "小自行车",
+          "透明雨衣",
+          "灰色雨衣",
+          "小树",
+          "小花"
+        ]
+      },
+      "composition_hint": "a high-angle wide view of a brick-red community path with a white center line in light rain, shuishui in a transparent raincoat on a small bicycle with training wheels, a red panda in a gray raincoat walking beside her, small trees and flowers along both sides",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "水水戴好小帽檐，踩上脚踏板。小自行车两边的平衡轮，咕噜咕噜等着出发。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "先慢慢骑，眼睛看前面。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "收到！小车车，准备好！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区门口起点",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "小自行车",
+          "平衡轮",
+          "雨靴",
+          "起点标记",
+          "雨滴"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui adjusting on a small bicycle with two training wheels, transparent raincoat and rain boots visible, a red panda in a gray raincoat standing nearby on the brick-red path, both faces clear",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "爸爸轻轻一挥手，挑战开始啦！水水的小车沿着白线，一点一点往前骑。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "出发——雨滴小队！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嘀嘀！雨滴小队出发！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小道起点前方",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "砖红色路面",
+          "白色分割线",
+          "雨衣帽檐",
+          "小自行车铃铛"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up view of shuishui smiling while pedaling along the white center line, transparent raincoat dotted with raindrops, a red panda in a gray raincoat walking beside her and smiling",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "小道左转了。右边长长的高铁墙上，有一排玻璃窗，里面忽然闪过一列火车。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，看！火车跑得好快！"
+        },
+        {
+          "speaker": "papa",
+          "text": "它跑远路，我们骑两公里，都很棒。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "from-behind",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小道左转处",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "高铁墙",
+          "玻璃窗",
+          "火车影子",
+          "砖红色小道",
+          "小树"
+        ]
+      },
+      "composition_hint": "from behind: shuishui rides a small bicycle with training wheels and a red panda walks beside her as they follow the brick-red path turning left, a tall high-speed rail wall with long glass windows on the right showing a passing train shape",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "草地边，有一个还没盖好的黑黑下水道洞。水水把车骑慢了，耳朵也竖起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "那里是不是有怪兽呀？"
+        },
+        {
+          "speaker": "papa",
+          "text": "不是怪兽，是下水道洞。我们离它远一点，从白线这边走。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "有点紧张",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小道旁草地",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "黑色下水道洞",
+          "草地",
+          "小橙锥",
+          "砖红色小道",
+          "白色分割线"
+        ]
+      },
+      "composition_hint": "an eye-level medium view on a RED ASPHALT path with a white center line: shuishui rides her small training-wheel bike on the LEFT side of the path in a transparent raincoat; a red panda in a gray raincoat walks on the RIGHT side, protectively between her and a dark round uncovered drain hole that sits well back in the grass away from the path edge, with small orange warning cones around it; both faces visible, shuishui looking curious and a little cautious",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "他们把黑洞留在身后,继续往前。小路弯弯曲曲,一眼望不到尽头。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我没有停下来哦。"
+        },
+        {
+          "speaker": "papa",
+          "text": "我看见了，你很勇敢。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "离开草地洞口的小道",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "小自行车",
+          "雨滴",
+          "白色分割线",
+          "路边小花"
+        ]
+      },
+      "composition_hint": "a high-angle view from just above the red panda's head height, looking FORWARD down a long RED ASPHALT road with a white center line that winds and curves into the far distance with no end in sight; young trees and patches of little flowers along both sides in light rain; far ahead and small on the path, shuishui on her training-wheel bike in a transparent raincoat with the red panda in a gray raincoat walking beside her",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "前面出现了一座彩虹拱门，红、橙、黄、绿、蓝，像雨天的小桥。爸爸拿出手机，给水水拍照。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "水水，给彩虹一个大笑脸！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "茄——子！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "over-the-shoulder",
+      "emotion": "得意",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "第一座彩虹拱门下",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "彩虹拱门",
+          "手机",
+          "小自行车",
+          "砖红色小道",
+          "雨衣"
+        ]
+      },
+      "composition_hint": "an over-the-shoulder medium view from behind-and-to-the-side of a red panda in a gray raincoat holding up a phone to photograph shuishui ahead under a rainbow-colored arch over the brick-red path; shuishui poses on a small bicycle with training wheels, transparent raincoat visible, NOT a selfie",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "骑了一会儿，水水的小手冰冰的。爸爸停在路边，把她的手轻轻包在自己的手心里。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我的手像小冰块。"
+        },
+        {
+          "speaker": "papa",
+          "text": "那就充一充暖暖电。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "被照顾的安心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小道旁树下",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "小自行车",
+          "雨衣袖口",
+          "雨滴",
+          "小树"
+        ]
+      },
+      "composition_hint": "an eye-level close-up view of a red panda in a gray raincoat standing beside shuishui and gently holding her small paws to warm them, shuishui seated on a small bicycle with training wheels in a transparent raincoat, soft raindrops on sleeves",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "暖暖电充好了！他们又经过两座彩虹拱门，一座像糖果，一座像积木。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "第一座、第二座、第三座！我数对啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "小骑士的眼睛真亮。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "恢复活力",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "连续彩虹拱门路段",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "两座彩虹拱门",
+          "砖红色小道",
+          "白色分割线",
+          "小树",
+          "小花"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of the brick-red path passing through two rainbow-colored arches, shuishui riding a small bicycle with training wheels in a transparent raincoat, a red panda in a gray raincoat walking beside her, light rain and flowers along the path",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "水水的小腿有点累了，脚踏板也变重了。可是地铁站的屋顶，已经在前面露出来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我有一点点累。"
+        },
+        {
+          "speaker": "papa",
+          "text": "累了可以慢，挑战还可以继续。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "努力",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "接近地铁站的小道",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "远处地铁站",
+          "人行天桥",
+          "小自行车",
+          "雨衣",
+          "白色分割线"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view of shuishui pedaling slowly but steadily on a small bicycle with training wheels, a red panda in a gray raincoat walking beside her, a metro station roof and pedestrian overpass visible ahead through light rain",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "终于，他们到了终点——地铁站！旁边有人行天桥，还有一家热乎乎的包子店。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "到啦？真的到啦？"
+        },
+        {
+          "speaker": "papa",
+          "text": "真的到啦，两公里完成一半，回家就是全挑战！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "惊喜又自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "地铁站终点",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "地铁站入口",
+          "人行天桥",
+          "包子店招牌",
+          "小自行车",
+          "雨伞架"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of a modern metro station entrance with a pedestrian overpass and a small steamed-bun shop sign nearby, shuishui on a small bicycle with training wheels in a transparent raincoat, a red panda in a gray raincoat standing on the brick-red path beside her",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "回去的路，雨还在下，花还在点头。水水听着车轮咕噜声，心里也咕噜咕噜地开心。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我骑了好远好远。"
+        },
+        {
+          "speaker": "papa",
+          "text": "是呀，远远的路，被你一小段一小段骑完了。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "回程小道",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "小花",
+          "小树",
+          "砖红色小道",
+          "牵引绳",
+          "小自行车"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of the rainy brick-red path with small trees and flowers, shuishui steering a small bicycle with training wheels in a transparent raincoat, a red panda in a gray raincoat walking ahead holding a short rope, both faces partly turned and visible",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-13.png"
+    },
+    {
+      "page": 13,
+      "narration": "终点就在前面啦!水水用力蹬,爸爸笑着跟跑——两公里,马上就要骑完!冲呀!",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我做到了！"
+        },
+        {
+          "speaker": "papa",
+          "text": "是你自己，一直没有放弃。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "骄傲",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区门口起点",
+        "weather": "小雨",
+        "time_of_day": "早",
+        "props": [
+          "起点标记",
+          "小自行车",
+          "透明雨衣",
+          "灰色雨衣",
+          "砖红色小道"
+        ]
+      },
+      "composition_hint": "a three-quarter FRONT view of shuishui pedaling hard on her training-wheel bike in a transparent raincoat and a red panda in a gray raincoat running happily beside her, both rushing toward the finish at the end of the RED ASPHALT road, big bright excited joyful smiles, raindrops in the air, a triumphant sense of achievement",
+      "image_path": "/generated/cycling-2km-v2-2026-06-08/page-14.png"
+    },
+    {
+      "narration": "两公里,往返一整圈,水水自己骑完啦!挑战成功!",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "自豪庆祝",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "2公里骑行庆祝卡",
+        "weather": "晴",
+        "time_of_day": "白天",
+        "props": [
+          "小区平面图",
+          "L形红色小路",
+          "蓝色往返路线",
+          "奖杯",
+          "小旗子",
+          "彩色撒花"
+        ]
+      },
+      "composition_hint": "a flat top-down cartoon CELEBRATION CARD (a designed achievement card, not a real scene): a long rectangular community map seen from above with many little cartoon apartment buildings; around the OUTER edge of the community runs an L-shaped winding RED path; a bright BLUE dotted line is drawn along that red path tracing a round-trip route (out and back); two cute round cartoon HEAD-STICKER badges, one of shuishui the white rabbit and one of the red panda, smiling; a gold trophy, little triumphant flags, and colorful confetti scattered around; large playful celebratory title text reading exactly \"2KM\" with a smaller \"CHALLENGE DONE\" beneath it; bright cheerful happy design",
+      "page": 14
+    }
+  ],
+  "created_at": "2026-06-08T15:00:40.100Z",
+  "status": "finished",
+  "cover_image": "/generated/cycling-2km-v2-2026-06-08/cover.png"
+}

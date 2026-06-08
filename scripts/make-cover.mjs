@@ -28,7 +28,11 @@ const outDir = path.join(PROJ, 'experiments', date, `${BOOK_ID}-cover`);
 fs.mkdirSync(outDir, { recursive: true });
 
 // Style anchor kept consistent with assets/bible/style.yaml so cover matches interior pages.
-const STYLE = `high-end CG storybook illustration, stylized anthropomorphic animal characters with rounded soft shapes, expressive friendly faces with large warm eyes, cinematic warm golden-hour lighting with soft rim light, hand-painted picture-book background with soft brushwork and gentle bokeh, cute stylized cartoon proportions slightly large heads, fluffy textured fur, warm gentle family-friendly tone, contemporary children's book CG aesthetic`;
+// 干净现代 3D 动画电影风(对标皮克斯/迪士尼):通透、明亮、干净的渲染。
+// 注意:刻意不写 "hand-painted/brushwork/oil painting"(会出油画厚涂笔触)、
+// 不写 "golden-hour"(会加发黄复古滤镜)、不写 "cinematic/heavy fur texture"(会过度锐化出颗粒感)。
+// 这些词此前让封面反复出现"老旧油画+过锐颗粒感",已移除。
+const STYLE = `clean modern 3D animated movie style, Pixar / Disney quality CGI, stylized anthropomorphic animal characters with rounded soft shapes and smooth clean surfaces, expressive friendly faces with large bright eyes, soft even bright daylight, gentle soft shadows, crisp clean rendering, smooth polished textures, bright cheerful pastel color palette, contemporary 3D children's animation aesthetic, high quality, clean and smooth (NOT painterly, no oil-paint brushstrokes, no heavy grain, no harsh sharpening, no vintage filter)`;
 
 // ━━━ Title lettering ━━━
 // 默认 'auto':不指定任何具体字体风格,让出图模型(gpt-image-2 的英文标题字体设计是专门
