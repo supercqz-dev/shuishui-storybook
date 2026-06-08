@@ -30,36 +30,34 @@ fs.mkdirSync(outDir, { recursive: true });
 // Style anchor kept consistent with assets/bible/style.yaml so cover matches interior pages.
 const STYLE = `high-end CG storybook illustration, stylized anthropomorphic animal characters with rounded soft shapes, expressive friendly faces with large warm eyes, cinematic warm golden-hour lighting with soft rim light, hand-painted picture-book background with soft brushwork and gentle bokeh, cute stylized cartoon proportions slightly large heads, fluffy textured fur, warm gentle family-friendly tone, contemporary children's book CG aesthetic`;
 
-// ━━━ Title lettering styles ━━━
-// 标题字体不该千篇一律——按题材挑。选择用 TITLE_STYLE 环境变量(默认 balloon,向后兼容旧封面)。
-// 题材→风格推荐(经验值,可灵活):
-//   · 欢快/玩水/玩耍/夏天   → watercolor(水彩跟水/清新呼应) 或 balloon
-//   · 温情/家人/睡前/情绪   → crayon(稚拙温暖) 或 serif
-//   · 自然/成长/种植/季节   → watercolor 或 serif
-//   · 知识/探索/观察(蚂蚁) → minimal(干净) 或 serif
-//   · 节日/热闹/惊喜        → balloon(热闹甜)
+// ━━━ Title lettering ━━━
+// 默认 'auto':不指定任何具体字体风格,让出图模型(gpt-image-2 的英文标题字体设计是专门
+// 训练过的)自己设计契合该故事氛围的绘本标题——实测比我们硬描述字体更好看、更多变。
+// 仍保留几个显式预设(watercolor/crayon/serif/minimal/balloon),想强制某种风格时用
+// TITLE_STYLE=xxx 指定;一般情况下不要指定,交给模型。
 const TITLE_STYLES = {
-  // 现状:粗圆气球立体字,热闹但偏甜腻
+  auto: null, // 交给模型自由设计,prompt 里不写字体描述
   balloon: 'a custom hand-crafted playful picture-book display lettering: bold rounded letters, thick strokes, warm pastel color with soft 3D bevel and gentle inner glow, professional storybook title typography',
-  // 手写水彩笔刷:文艺、灵动、有笔触和水痕,跟"水/雨/自然"题材最搭
   watercolor: 'hand-lettered watercolor brush title typography: soft flowing brush strokes with visible bristle texture and gentle watercolor color-bleeds, slightly translucent painterly letters in warm watercolor tones, artistic and gentle like a classic hand-painted picture book',
-  // 蜡笔/儿童涂鸦:稚拙天真,像孩子自己写的,温暖不完美
   crayon: 'childlike hand-drawn crayon title lettering: chunky slightly uneven letters as if happily drawn by a young child with wax crayons, visible waxy crayon texture and a playful natural wobble, innocent warm and heartfelt',
-  // 经典衬线:复古童话书,稳重有格调,不甜腻
   serif: 'classic storybook serif title lettering: an elegant warm serif typeface with refined tapered strokes, vintage fairytale-book feel, tasteful and timeless, in a gentle warm color',
-  // 现代极简无衬线:当代独立绘本,干净、高级、留白多
   minimal: 'clean modern minimalist title typography: simple well-spaced rounded sans-serif letters in a single soft warm color, contemporary independent picture-book aesthetic, lots of breathing room, understated and elegant',
 };
-const TITLE_STYLE = process.env.TITLE_STYLE || 'balloon';
-const titleLettering = TITLE_STYLES[TITLE_STYLE];
-if (!titleLettering) {
+const TITLE_STYLE = process.env.TITLE_STYLE || 'auto';
+if (!(TITLE_STYLE in TITLE_STYLES)) {
   console.error(`unknown TITLE_STYLE "${TITLE_STYLE}", choices: ${Object.keys(TITLE_STYLES).join(', ')}`);
   process.exit(1);
 }
-console.log(`title style: ${TITLE_STYLE}`);
+const titleLettering = TITLE_STYLES[TITLE_STYLE];
+console.log(`title style: ${TITLE_STYLE}${titleLettering ? '' : ' (model decides)'}`);
+
+// auto 模式:只要求一个漂亮、契合氛围、拼写正确的标题,字体设计交给模型。
+const titleClause = titleLettering
+  ? `rendered in ${titleLettering}. The title occupies about the top 25-30% of the canvas, well-kerned, crisp and perfectly legible`
+  : `rendered as a beautiful, professionally designed children's picture-book title — choose lettering that best fits the mood of this story. The title occupies about the top 25-30% of the canvas, crisp and perfectly legible`;
 
 const prompt = `A premium children's picture-book COVER, portrait orientation, ${STYLE}.
-At the TOP of the cover, a large title text reads exactly "${TITLE}" — rendered in ${titleLettering}. The title occupies about the top 25-30% of the canvas, well-kerned, crisp and perfectly legible.
+At the TOP of the cover, a large title text reads exactly "${TITLE}" — ${titleClause}.
 Below the title, the illustration: ${SCENE}. Subject-centered, warm cinematic lighting, soft bokeh background.
 CRITICAL: the title spelling must be EXACTLY "${TITLE}" — clean, well-spaced letters, no garbled or extra characters, no other text anywhere on the cover.`;
 
