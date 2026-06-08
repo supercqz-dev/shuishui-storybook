@@ -1,0 +1,418 @@
+{
+  "id": "basketball-park-2026-06-08",
+  "title": "Pink Ball Day",
+  "subtitle": "水水和爸爸的运动周末：拍球、滑梯和勇敢说出来",
+  "theme": "周末亲子运动与勇敢表达",
+  "moral": "练习会让自己一点点进步；遇到小问题时，可以勇敢、清楚地说出来。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周末的太阳暖暖的，窗外的小树轻轻摇。妈妈看见水水抱着粉粉的篮球，笑了。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "天气真好，我们下楼去小广场拍会儿球吧。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好呀！我要带我的粉色篮球！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "粉紫相间篮球",
+          "小水壶",
+          "儿童运动鞋"
+        ]
+      },
+      "composition_hint": "A sunny apartment living room, shuishui holding a basketball with alternating pink and lavender-purple panels, an adult white rabbit in a yellow flower dress standing by the window, a red panda near the door with a small backpack.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "水水和爸爸走到楼下，还没到小广场，水水的小脑袋已经有新主意了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "要不我们骑摩托车去公园投篮吧！"
+        },
+        {
+          "speaker": "papa",
+          "text": "篮框很高哦，我们先去看看，有机会就试试。"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区楼下步道",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "粉紫相间篮球",
+          "小头盔",
+          "小区绿化"
+        ]
+      },
+      "composition_hint": "shuishui walking beside a red panda on a clean neighborhood path, shuishui carrying a pink-and-lavender basketball, trees and apartment buildings in the background.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "爸爸把篮球放进前车筐，水水坐在前面的小座椅上。小摩托“突突突”，向公园出发啦。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "出发！去看看大篮框！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区门口道路",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "小摩托",
+          "前车筐",
+          "粉紫相间篮球",
+          "两个小头盔"
+        ]
+      },
+      "composition_hint": "A small pastel step-through underbone scooter with a front basket and a front-mounted small passenger seat; shuishui sits in the front seat wearing a small helmet, a red panda rides behind wearing a helmet, the pink-and-lavender basketball rests in the basket.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "到了公园，四个高高的篮框下面都很热闹。熊、狼、鹿和猴子哥哥们正在打比赛。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "看，大家都在比赛呢。我们就在旁边拍球吧。"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "young_bear_player",
+        "young_wolf_player",
+        "young_deer_player",
+        "young_monkey_player"
+      ],
+      "scene_state": {
+        "location": "公园篮球场边",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "四个篮球框",
+          "篮球场线",
+          "粉紫相间篮球"
+        ]
+      },
+      "composition_hint": "An outdoor basketball court with four tall hoops, a taller young bear, young wolf, young deer, and young monkey playing a friendly game on the court; shuishui and a red panda stand at the sideline with the pink-and-lavender basketball.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "水水站在场边的小空地上，开始一下一下拍球。咚、咚、咚……她连着拍了二十下！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "一、二、三……二十！"
+        },
+        {
+          "speaker": "papa",
+          "text": "哇，水水的手真稳！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园篮球场边",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "粉紫相间篮球",
+          "橡胶运动地面"
+        ]
+      },
+      "composition_hint": "shuishui smiling proudly while dribbling a basketball with alternating pink and lavender-purple panels on a flat rubberized sport surface, a red panda standing nearby and clapping.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "拍完球，爸爸和水水练习传球。球飞过去，又飞回来，像一只圆圆的小鸟。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "准备好了吗？轻轻接住。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我接到啦！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "专注",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园篮球场边",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "粉紫相间篮球",
+          "运动地面",
+          "场边长椅"
+        ]
+      },
+      "composition_hint": "shuishui and a red panda practicing chest passes beside an outdoor basketball court, the pink-and-lavender basketball in midair between them, friendly players blurred in the distance.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "玩了一会儿，水水的小腿有点累了。她和爸爸坐下来，看哥哥们打球，还吃了一块香香的饼干。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "他们跑得好快呀。"
+        },
+        {
+          "speaker": "papa",
+          "text": "我们补充一点能量，再去玩别的。"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "young_bear_player",
+        "young_deer_player"
+      ],
+      "scene_state": {
+        "location": "公园篮球场边长椅",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "饼干",
+          "水壶",
+          "粉紫相间篮球",
+          "长椅"
+        ]
+      },
+      "composition_hint": "shuishui and a red panda sitting on a wooden bench, shuishui holding a small cookie, the pink-and-lavender basketball beside the bench; a young bear and young deer continue playing basketball in the background.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "吃完饼干，水水想起公园里还有滑梯。她坐着滑下来，又趴着滑下来，笑声像小铃铛。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哈哈哈，再来一次！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "公园游乐区",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "彩色滑梯",
+          "安全软垫地面",
+          "粉紫相间篮球"
+        ]
+      },
+      "composition_hint": "A colorful playground slide with bright plastic side rails and a smooth blue sliding surface, shuishui sliding down happily, a red panda standing at the bottom watching, the pink-and-lavender basketball resting near the soft play mat.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "正要再滑一次，滑梯上面来了几个大哥哥。他们挤在滑梯口，笑着闹着，路被挡住了。",
+      "dialogue": [],
+      "shot": "extreme-close-up",
+      "emotion": "犹豫",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "young_bear",
+        "young_deer"
+      ],
+      "scene_state": {
+        "location": "公园滑梯口",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "彩色滑梯",
+          "滑梯平台",
+          "栏杆"
+        ]
+      },
+      "composition_hint": "At the top platform of a colorful playground slide, a young bear and a young deer playfully crowd the entrance, while shuishui waits on the steps with a serious thinking face; a red panda stands farther down near the slide.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "水水吸了一口气，小手叉在腰上。她的声音又清楚又勇敢。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "你们快走开！我要滑滑梯啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "说得真清楚，真勇敢！"
+        }
+      ],
+      "shot": "close-up",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "young_bear",
+        "young_deer"
+      ],
+      "scene_state": {
+        "location": "公园滑梯口",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "彩色滑梯",
+          "滑梯平台",
+          "安全软垫地面"
+        ]
+      },
+      "composition_hint": "shuishui standing with paws on hips and a brave expression at the slide entrance, a young bear and a young deer stepping aside with friendly smiles, a red panda clapping near the bottom of the colorful slide.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "回家的路上，爸爸选了一条新修的红色小道。水水坐在小摩托前面，一路开心地唱歌。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "啦啦啦，今天真好玩！"
+        }
+      ],
+      "shot": "wide",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区外围红色小道",
+        "weather": "晴朗",
+        "time_of_day": "傍晚",
+        "props": [
+          "小摩托",
+          "前车筐",
+          "粉紫相间篮球",
+          "彩色方形拱门",
+          "白色分割线"
+        ]
+      },
+      "composition_hint": "A freshly paved red pathway with a white center dividing line, shared by walkers and small scooters, colorful square arch gates over the path; shuishui sits in the front-mounted small passenger seat of a pastel scooter, a red panda rides behind, both wearing small helmets, the pink-and-lavender basketball in the front basket.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-11.png"
+    },
+    {
+      "page": 12,
+      "narration": "半路上，他们遇见了对门的安安和棕熊阿姨。安安也在散步，慢慢地挥挥小手。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "安安你好！我今天拍了二十下球！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "anan_bear_cub",
+        "adult_brown_bear"
+      ],
+      "scene_state": {
+        "location": "小区外围红色小道",
+        "weather": "晴朗",
+        "time_of_day": "傍晚",
+        "props": [
+          "红色小道",
+          "彩色方形拱门",
+          "小摩托",
+          "粉紫相间篮球"
+        ]
+      },
+      "composition_hint": "On a freshly paved RED pathway with a white center line and colorful square arch gates overhead, shuishui (white rabbit) sits on the front child-seat of a pastel step-through scooter and waves a paw, ONE red panda rides behind her (only a single red panda in the whole image, do not duplicate him), the pink-and-lavender basketball in the front basket. Walking toward them and greeting are TWO clearly BROWN BEAR characters: a small fuzzy brown BEAR CUB toddler and a taller adult BROWN BEAR beside him — both are brown bears with round ears, NOT red pandas and NOT rabbits.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-12.png"
+    },
+    {
+      "page": 13,
+      "narration": "到家啦！水水一进门，就把今天的事讲给妈妈听：拍球、传球、看比赛、滑滑梯，还有那一句勇敢的话。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "你们去哪儿玩啦？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我拍了二十下，还自己请大哥哥让开啦！"
+        }
+      ],
+      "shot": "medium",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴朗",
+        "time_of_day": "傍晚",
+        "props": [
+          "粉紫相间篮球",
+          "小头盔",
+          "沙发",
+          "水杯"
+        ]
+      },
+      "composition_hint": "A cozy apartment living room at sunset, shuishui animatedly acting out dribbling beside the pink-and-lavender basketball, an adult white rabbit in a yellow flower dress listening warmly on the sofa, a red panda placing two small helmets on a shelf.",
+      "image_path": "/generated/basketball-park-2026-06-08/page-13.png"
+    }
+  ],
+  "created_at": "2026-06-08T03:58:02.107Z",
+  "status": "finished"
+}

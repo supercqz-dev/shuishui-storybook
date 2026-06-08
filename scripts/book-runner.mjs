@@ -18,6 +18,32 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  basketball: {
+    book_id: 'basketball-park-2026-06-08',
+    chars: ['shuishui', 'papa', 'mama'],
+    trigger: `周末天气非常好。妈妈建议水水下楼去拍会儿篮球——小区里的小广场有一块橡胶地面,在那儿拍球应该很棒。水水带着自己粉色的篮球,跟爸爸一起下了楼。
+走到半路,水水跟爸爸说:"要不我们骑摩托车去公园投篮吧!"爸爸说:"篮框那么高,咱们现在还小,投不上去呢。"水水说:"你抱我投呗!"爸爸笑着说:"你这个小机灵鬼!可是爸爸抱着你也投不上去,篮框实在太高啦。要不这样,咱们先去看看,有篮框就试试,不过可能都是大哥哥们在那儿打比赛呢。"水水说:"行,咱们先去看看!"
+爸爸骑着小摩托,把粉色篮球放进前车筐,带着水水去公园了。
+到了公园,果然,篮球场上四个篮球框全被大哥哥们占着打比赛。水水就和爸爸在场地边上拍球。水水现在拍篮球可厉害了,能连着拍二十下!还和爸爸一起练习传球。玩了一会儿,水水和爸爸坐下来一起看比赛,顺便吃了块饼干补充能量。
+吃完饼干,水水想起公园里还有个滑梯。爸爸带着她去玩滑梯。水水坐着滑下来,又趴着滑下来,开心得咯咯笑。正准备再滑一次,滑梯口来了几个大哥哥,挤在一起打闹,把滑梯口堵住了。水水勇敢地大喊一声:"你们快走开!"太棒啦!爸爸给水水鼓掌:我们水水现在已经是勇敢的大宝贝了,能自己解决问题,连大哥哥都不怕啦!
+玩完滑梯,爸爸骑着摩托带水水回家,水水一路上开心地唱着歌。回家时爸爸选了一条新路——小区外围新修的一条红色小道(中间画着白色分割线),既能走人也能走小摩托,小路上还有彩色的方形拱门。半路上还碰到了住对门的安安弟弟和他妈妈在散步。
+到家啦!妈妈问水水:你们去哪儿玩啦?水水开心地跟妈妈分享了一下午的游乐活动。
+
+构图提示:
+- 主体是水水(白兔)和爸爸(小熊猫)。妈妈(白兔,黄花裙)只在开头"建议下楼拍球"和结尾"在家听分享"出现;中间公园所有页面只画水水+爸爸。
+- 关键道具/设施一律展开成具体英文外观,不要直接搬中文名:
+  · 摩托车 = a small pastel step-through underbone moped/scooter with a CHILD SEAT mounted on the frame IN FRONT of the adult rider so the small rabbit sits up front, plus a front basket; 爸爸骑车在后、水水坐前面的儿童座椅上,两人都戴小头盔。
+  · 篮球 = a kids' basketball in alternating PINK and lavender-purple panels(粉色与粉紫相间)。
+  · 拍球场地 = a small community plaza with a flat rubberized sport floor。
+  · 公园篮球场 = an outdoor basketball court with four hoops, taller "big kid" animal characters playing a game on the court(大哥哥们画成各种小动物:熊/狼/鹿/猴等青少年体型,友善打球氛围,不可怕)。
+  · 滑梯 = a colorful kids' playground slide。
+  · "堵滑梯口的大哥哥们" = a few slightly bigger teenage animal characters (e.g. a young bear and a young deer) playfully crowding the top of the slide;水水叉腰勇敢喊他们让开,表情是勇敢不是害怕,氛围轻松,大哥哥们友善地让开。
+  · 新修的小路 = a freshly paved RED pathway with a white center dividing line, shared by pedestrians and small scooters, with colorful square arch gates over it。
+  · 安安弟弟 = a small toddler BEAR CUB(比水水还小一点的棕色小熊),他妈妈 = an adult BROWN BEAR;两人在小路上散步,跟水水和爸爸打招呼。
+- 情绪高点单独成页:水水连拍篮球二十下(自豪)、勇敢喊大哥哥让开(勇敢)、骑摩托走红色新路唱歌(快乐)。
+- 结尾页在家:水水兴奋地跟妈妈比划分享,温馨。`,
+    edu: '运动与坚持(拍球进步、练习传球)+ 勇敢自己解决问题(勇敢请大哥哥让开滑梯口)+ 亲子陪伴的快乐周末;让孩子感到"我长大了、我很勇敢"。',
+  },
   rainyday: {
     book_id: 'rainyday-2026-06-06',
     chars: ['shuishui', 'papa', 'laolao'],
