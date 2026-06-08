@@ -56,10 +56,34 @@ const titleClause = titleLettering
   ? `rendered in ${titleLettering}. The title occupies about the top 25-30% of the canvas, well-kerned, crisp and perfectly legible`
   : `rendered as a beautiful, professionally designed children's picture-book title — choose lettering that best fits the mood of this story. The title occupies about the top 25-30% of the canvas, crisp and perfectly legible`;
 
-const prompt = `A premium children's picture-book COVER, portrait orientation, ${STYLE}.
+// ━━━ COVER_MODE: 'classic'(默认,上面的 title+SCENE 拼法) vs 'story'(融合 GPT 建议:主题驱动 + 标题用故事元素做设计、融入插画)━━━
+// story 模式采纳 GPT 思路,但保留我们的硬约束:精确拼写、锁定角色形象(SCENE)、无真人、竖版、与内页一致的风格锚点。
+// 需传入 STORY_THEME(故事主题/梗概一句话),让标题字体从故事世界取材。
+const COVER_MODE = process.env.COVER_MODE || 'classic';
+const STORY_THEME = process.env.STORY_THEME || '';
+
+let prompt;
+if (COVER_MODE === 'story') {
+  prompt = `Children's picture book cover illustration. Portrait orientation.
+Story Title: "${TITLE}"
+Story Theme: ${STORY_THEME}
+
+Create a beautiful, premium, award-winning storybook cover.
+The book title "${TITLE}" is integrated INTO the artwork as a custom-designed title treatment — the lettering style is uniquely inspired by THIS story: incorporate visual motifs, materials, shapes, colors and decorative elements from the story world into the title design, so the title becomes part of the illustration and helps tell the story. Make it magical, expressive, playful and handcrafted. Avoid generic fonts or plain text overlays. The title stays HIGHLY READABLE and occupies roughly the top 25-30% of the canvas.
+
+Below / around the title, the cover illustration: ${SCENE}. Subject-centered, rich cinematic warm lighting, detailed illustration, soft bokeh background. Visual style: ${STYLE}.
+
+HARD CONSTRAINTS (must follow exactly):
+- The title spelling must be EXACTLY "${TITLE}" — clean, well-spaced letters, no garbled, missing, or extra characters. No other text anywhere on the cover.
+- Keep the characters' designs EXACTLY as described in the illustration above (species, fur colors, outfits). Do not redesign them.
+- This is an all-animal world: every character is an anthropomorphic animal. NO real humans anywhere.`;
+} else {
+  prompt = `A premium children's picture-book COVER, portrait orientation, ${STYLE}.
 At the TOP of the cover, a large title text reads exactly "${TITLE}" — ${titleClause}.
 Below the title, the illustration: ${SCENE}. Subject-centered, warm cinematic lighting, soft bokeh background.
 CRITICAL: the title spelling must be EXACTLY "${TITLE}" — clean, well-spaced letters, no garbled or extra characters, no other text anywhere on the cover.`;
+}
+console.log(`cover mode: ${COVER_MODE}${COVER_MODE === 'story' ? ` (theme: ${STORY_THEME.slice(0,40)}...)` : ''}`);
 
 fs.writeFileSync(path.join(outDir, 'cover.prompt.txt'), prompt);
 console.log(`Cover for "${TITLE}" → ${N} candidates\nout: ${outDir}\n`);
@@ -73,7 +97,8 @@ for (let i = 1; i <= N; i++) {
     const r = await client.images.generate({ model, prompt, size: '1024x1536', quality: 'high', n: 1 });
     const b64 = r.data?.[0]?.b64_json;
     if (b64) {
-      const out = path.join(outDir, `cover-${TITLE_STYLE}-${i}.png`);
+      const tag = COVER_MODE === 'story' ? 'story' : TITLE_STYLE;
+      const out = path.join(outDir, `cover-${tag}-${i}.png`);
       fs.writeFileSync(out, Buffer.from(b64, 'base64'));
       process.stdout.write(`SUCCESS → ${out}\n`);
       ok++;
