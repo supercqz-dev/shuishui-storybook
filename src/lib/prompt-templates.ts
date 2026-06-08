@@ -42,7 +42,8 @@ ${charDescriptions}
 绘本长度 8-15 页（由你根据故事素材自行决定，详见下方"长度判断"），每页：
 - narration：1-2 句旁白文字（简单中文，3-4 岁能懂）
 - dialogue：0-2 句角色对话（speaker 用角色 id，例如 "shuishui"、"mama"）
-- shot：镜头景别（wide / medium / close-up / extreme-close-up）
+- shot：镜头景别/远近（wide / medium / close-up / extreme-close-up）
+- camera_angle：机位角度，与 shot 正交（两者组合出画面）。eye-level 平视 / high-angle 俯拍鸟瞰（建场，把场景结构铺开）/ low-angle 仰拍（显高大、勇敢）/ over-the-shoulder 过肩（跟随视角）/ from-behind 背身（带观众一起看向前方）/ three-quarter 三克分侧角（更立体生动）/ pov 主角视角（画主角看到的东西本身）
 - emotion：当前页主角的情绪（如"好奇"、"害怕"、"开心"）
 - characters_in_scene：这页出现的角色 id 列表
 - scene_state：location（地点中文）、weather（天气）、time_of_day（早/中/晚）、props（道具数组）
@@ -55,8 +56,15 @@ ${charDescriptions}
   5. **任何非家庭配角(老师、同学、其他家长、路人等)都必须指定一个明确的动物物种**,并在 composition_hint 里让该配角作为画面动作的主体清晰出现。**血泪教训**:如果只写"老师/同学"而不给物种,图像模型不知道他们长什么样,会把"讲课/拿东西/做动作"这些主体动作错误地安到有固定形象的家庭角色(尤其是 papa)身上,导致"本该老师讲课却画成爸爸讲课"。
      - **固定配角物种(必须遵守,保持跨绘本一致)**:王老师 = 大熊猫(giant panda,不戴眼镜);刘老师 = 长颈鹿(giraffe,不戴眼镜)。其他临时配角(同学/别的家长)自行指定合理物种(熊/小猪/小象/松鼠等)并写进 hint。
      - 当配角是画面动作主体时,hint 要点明分工,例:"a GIANT PANDA teacher at the front teaching the class, shuishui and red panda papa SEATED in the audience listening (papa is a listener, NOT teaching)"。
-  例 ✓: "shuishui and papa watching ants on a wooden bench, both standing"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
-  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词); "the teacher teaching the class"(配角无物种,会被画成爸爸)
+  6. **composition_hint 必须呼应当页的 camera_angle**(把机位写进画面描述),否则图像模型只会默认平视正面。例:
+     - high-angle → "a high bird's-eye view looking down on the brick-red path winding below, two small figures cycling along it"
+     - low-angle → "a low-angle view looking up at shuishui standing tall and proud on the slide platform"
+     - from-behind → "seen from behind: shuishui and papa in the foreground looking toward the rainbow arch ahead"
+     - over-the-shoulder → "over shuishui's shoulder, we see the train passing behind the glass wall"
+     - pov → "shuishui's point of view: the dark open drain hole on the grass ahead"
+     - three-quarter → "a three-quarter side angle of the subway station entrance with the footbridge and bun shop spread around"
+  例 ✓: "a high-angle bird's-eye view of the starting gate, the brick-red path stretching into the distance, shuishui on her training-wheel bike and papa walking, both small in frame"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
+  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词); "the teacher teaching the class"(配角无物种,会被画成爸爸); "shuishui and papa standing facing the camera"(永远平视正面、毫无机位设计)
 
 # 长度判断（8-15 页动态）
 看故事素材的事件密度自己定 N：
@@ -70,8 +78,18 @@ ${charDescriptions}
 - 中间约 1/2 的页数：反应、矛盾、尝试、转折（每个关键活动 / 决定都给独立的一页）
 - 结尾约 1/4 的页数：成功 / 学到什么 + 温暖收束（情绪高点用 close-up，末页暗示成长）
 
-# 镜头节奏要求
-shot 多样化:同一种 shot 不能连续 3 页,也不能超过总页数的 40%。情绪高点用 close-up；建立环境/全景用 wide。
+# 导演:镜头与机位(强制——这是画面好看的关键,务必认真当导演)
+你不只是编剧,还是导演。每一页都要同时决定 shot(景别/远近)和 camera_angle(机位角度),两者组合出有电影感的画面。**最常见的失败是"整本都是两个角色正面平视并排站"——绝对要避免。**
+
+1. **景别多样化**:同一种 shot 不能连续 3 页,也不能超过总页数的 40%。情绪高点用 close-up;建立环境/全景用 wide。
+2. **机位多样化(同等重要)**:camera_angle 不能连续 3 页相同;全书至少出现 3 种不同机位;**绝不能整本都是 eye-level 平视**。
+3. **地点即主角 → 用建场镜头**:当某页的看点是一个"地方/场景"本身(出发起点、到达终点、车站、天桥、商店、一排彩虹拱门等),用 wide + high-angle(俯拍鸟瞰)或 three-quarter(侧角),把这个场景的结构、纵深、周围环境**铺开展示**,角色可以缩小成画面里的点景。**不要**把角色怼到镜头前、却把那个本该是主角的场景全糊进背景。
+4. **机位服务情绪/动作**:
+   - 勇敢、坚定、显得高大 → low-angle 仰拍
+   - 探索未知、跟随前行、"我们一起往前看" → over-the-shoulder 过肩 或 from-behind 背身(带前景人物 + 前方景物)
+   - 主角发现/盯着某个新奇东西 → pov(直接画她看到的)或 角色背身 + 前景大景物
+   - 温馨亲密的小互动 → close-up + eye-level 或 three-quarter
+5. **避免相邻页雷同**:如果连续几页发生在同一个地点(例如一直在同一条路上骑行),**必须靠不同的 camera_angle + 取景方向 + 前景元素把每页拉开**,严禁两页构图几乎一样。比如同样在路上:一页用 from-behind 跟拍背影、一页用 low-angle 侧面仰拍、一页用 high-angle 俯瞰整条路的走向。
 
 # 角色出场密度(按剧情自然安排)
 这是一本家庭绘本——一家人就应该能同框。该几个角色一起出现就画几个,
@@ -170,6 +188,18 @@ export function buildImagePrompt(args: {
     'extreme-close-up': 'extreme close-up',
   } as Record<string, string>)[page.shot];
 
+  // 机位角度 → 英文相机术语,与景别拼成完整的 Camera 描述,逼图像模型脱离"平视正面"默认。
+  const angleEn = ({
+    'eye-level': 'eye-level angle',
+    'high-angle': 'high-angle bird\'s-eye view looking down, scene spread out below',
+    'low-angle': 'low-angle looking up',
+    'over-the-shoulder': 'over-the-shoulder following view',
+    'from-behind': 'seen from behind, characters in foreground looking toward the scene ahead',
+    'three-quarter': 'three-quarter side angle',
+    'pov': 'first-person point-of-view of what the character sees',
+  } as Record<string, string>)[page.camera_angle ?? 'eye-level'] ?? '';
+  const cameraEn = angleEn ? `${shotEn}, ${angleEn}` : shotEn;
+
   const sceneState = page.scene_state;
 
   // 注意:防御性表述("NO real humans"、"fully clothed"、"NEVER human-looking" 等)
@@ -190,7 +220,7 @@ SCENE:
 - Weather: ${sceneState.weather ?? 'n/a'}
 - Time: ${sceneState.time_of_day ?? 'n/a'}
 - Props: ${safeProps.join(', ') || 'none'}
-- Camera: ${shotEn}
+- Camera: ${cameraEn}
 - Mood: ${page.emotion}
 
 COMPOSITION: ${safeHint}

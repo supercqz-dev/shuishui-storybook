@@ -25,6 +25,7 @@ export const STORY_JSON_SCHEMA = {
             'narration',
             'dialogue',
             'shot',
+            'camera_angle',
             'emotion',
             'characters_in_scene',
             'scene_state',
@@ -45,9 +46,25 @@ export const STORY_JSON_SCHEMA = {
                 },
               },
             },
+            // shot 只控景别(远近),camera_angle 控机位角度,两者正交、组合出画面。
             shot: {
               type: 'string',
               enum: ['wide', 'medium', 'close-up', 'extreme-close-up'],
+            },
+            // 机位角度——与 shot(景别)正交。eye-level 平视 / high-angle 俯拍鸟瞰(建场,把场景结构铺开)/
+            // low-angle 仰拍(显高大、勇敢)/ over-the-shoulder 过肩(跟随视角)/ from-behind 背身(带观众看向前方)/
+            // three-quarter 三克分侧角(更立体)/ pov 主角视角(看到的东西本身)。
+            camera_angle: {
+              type: 'string',
+              enum: [
+                'eye-level',
+                'high-angle',
+                'low-angle',
+                'over-the-shoulder',
+                'from-behind',
+                'three-quarter',
+                'pov',
+              ],
             },
             emotion: { type: 'string' },
             characters_in_scene: {
