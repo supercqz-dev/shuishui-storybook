@@ -43,7 +43,7 @@ ${charDescriptions}
 - narration：1-2 句旁白文字（简单中文，3-4 岁能懂）
 - dialogue：0-2 句角色对话（speaker 用角色 id，例如 "shuishui"、"mama"）
 - shot：镜头景别/远近（wide / medium / close-up / extreme-close-up）
-- camera_angle：机位角度，与 shot 正交（两者组合出画面）。eye-level 平视 / high-angle 俯拍鸟瞰（建场，把场景结构铺开）/ low-angle 仰拍（显高大、勇敢）/ over-the-shoulder 过肩（跟随视角）/ from-behind 背身（带观众一起看向前方）/ three-quarter 三克分侧角（更立体生动）/ pov 主角视角（画主角看到的东西本身）
+- camera_angle：机位角度，与 shot 正交。**默认且主力是 eye-level 平视 和 three-quarter 正面/侧前**（看得清脸和互动，孩子好理解）。少数点睛页才用：high-angle 俯拍（建场）/ low-angle 仰拍（情绪高点）/ over-the-shoulder 过肩 / from-behind 背身（全册≤2，只为带观众看向前方）。**pov 不要用**（对小朋友太抽象）。详见下方"# 导演"配额规则。
 - emotion：当前页主角的情绪（如"好奇"、"害怕"、"开心"）
 - characters_in_scene：这页出现的角色 id 列表
 - scene_state：location（地点中文）、weather（天气）、time_of_day（早/中/晚）、props（道具数组）
@@ -56,15 +56,14 @@ ${charDescriptions}
   5. **任何非家庭配角(老师、同学、其他家长、路人等)都必须指定一个明确的动物物种**,并在 composition_hint 里让该配角作为画面动作的主体清晰出现。**血泪教训**:如果只写"老师/同学"而不给物种,图像模型不知道他们长什么样,会把"讲课/拿东西/做动作"这些主体动作错误地安到有固定形象的家庭角色(尤其是 papa)身上,导致"本该老师讲课却画成爸爸讲课"。
      - **固定配角物种(必须遵守,保持跨绘本一致)**:王老师 = 大熊猫(giant panda,不戴眼镜);刘老师 = 长颈鹿(giraffe,不戴眼镜)。其他临时配角(同学/别的家长)自行指定合理物种(熊/小猪/小象/松鼠等)并写进 hint。
      - 当配角是画面动作主体时,hint 要点明分工,例:"a GIANT PANDA teacher at the front teaching the class, shuishui and red panda papa SEATED in the audience listening (papa is a listener, NOT teaching)"。
-  6. **composition_hint 必须呼应当页的 camera_angle**(把机位写进画面描述),否则图像模型只会默认平视正面。例:
-     - high-angle → "a high bird's-eye view looking down on the brick-red path winding below, two small figures cycling along it"
-     - low-angle → "a low-angle view looking up at shuishui standing tall and proud on the slide platform"
-     - from-behind → "seen from behind: shuishui and papa in the foreground looking toward the rainbow arch ahead"
-     - over-the-shoulder → "over shuishui's shoulder, we see the train passing behind the glass wall"
-     - pov → "shuishui's point of view: the dark open drain hole on the grass ahead"
-     - three-quarter → "a three-quarter side angle of the subway station entrance with the footbridge and bun shop spread around"
-  例 ✓: "a high-angle bird's-eye view of the starting gate, the brick-red path stretching into the distance, shuishui on her training-wheel bike and papa walking, both small in frame"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
-  例 ✗: "shuishui crouching with paws on knees, red fox leaning nearby, both upright and fully clothed"; "shuishui playing on a 迷宫球"(中文设备名/模糊名词); "the teacher teaching the class"(配角无物种,会被画成爸爸); "shuishui and papa standing facing the camera"(永远平视正面、毫无机位设计)
+  6. **composition_hint 要呼应当页的 camera_angle**,但记住绝大多数页是正面/平视(看得到脸和表情)。只有少数点睛页才用特殊机位。各机位写法示例:
+     - eye-level / three-quarter(主力)→ "an eye-level view of shuishui and papa face to face, both smiling, warm and clear"; "a three-quarter front view of the two playing together"
+     - high-angle(建场,少用)→ "a high view looking down on the brick-red path stretching ahead, the two cycling along it"
+     - low-angle(情绪高点,少用)→ "a low-angle view looking up at shuishui standing tall and proud"
+     - from-behind(全册≤2,只为带观众看向前方)→ "from behind: the two in the foreground looking toward the rainbow arch ahead"
+     - 施动/受动动作 → 写清动作关系,例(拍照):"a three-quarter view from behind-and-to-the-side of papa: papa stands holding up a phone photographing shuishui who poses ahead on her bike — papa's picture-taking pose fully visible, NOT a selfie"
+  例 ✓: "an eye-level three-quarter view of shuishui and papa laughing together by the path, both faces visible"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
+  例 ✗: "shuishui's point of view of the drain hole"(禁用 pov,太抽象); "seen from behind as they look at..."(背影别滥用,看不到脸); "papa and shuishui taking a selfie together"(拍照应是爸爸给水水拍,不是自拍); "the teacher teaching the class"(配角无物种,会被画成爸爸)
 
 # 长度判断（8-15 页动态）
 看故事素材的事件密度自己定 N：
@@ -78,18 +77,27 @@ ${charDescriptions}
 - 中间约 1/2 的页数：反应、矛盾、尝试、转折（每个关键活动 / 决定都给独立的一页）
 - 结尾约 1/4 的页数：成功 / 学到什么 + 温暖收束（情绪高点用 close-up，末页暗示成长）
 
-# 导演:镜头与机位(强制——这是画面好看的关键,务必认真当导演)
-你不只是编剧,还是导演。每一页都要同时决定 shot(景别/远近)和 camera_angle(机位角度),两者组合出有电影感的画面。**最常见的失败是"整本都是两个角色正面平视并排站"——绝对要避免。**
+# 导演:镜头与机位(关键原则——克制!)
+你既是编剧也是导演,每页要定 shot(景别)和 camera_angle(机位)。但**这是给 3 岁孩子看的绘本,绝大多数页面应该是正面、平视、能清楚看到两个角色的脸和表情的画面**——这样孩子最好理解、最能感受角色的互动和情绪。镜头的目的是讲好故事,不是炫技。
 
-1. **景别多样化**:同一种 shot 不能连续 3 页,也不能超过总页数的 40%。情绪高点用 close-up;建立环境/全景用 wide。
-2. **机位多样化(同等重要)**:camera_angle 不能连续 3 页相同;全书至少出现 3 种不同机位;**绝不能整本都是 eye-level 平视**。
-3. **地点即主角 → 用建场镜头**:当某页的看点是一个"地方/场景"本身(出发起点、到达终点、车站、天桥、商店、一排彩虹拱门等),用 wide + high-angle(俯拍鸟瞰)或 three-quarter(侧角),把这个场景的结构、纵深、周围环境**铺开展示**,角色可以缩小成画面里的点景。**不要**把角色怼到镜头前、却把那个本该是主角的场景全糊进背景。
-4. **机位服务情绪/动作**:
-   - 勇敢、坚定、显得高大 → low-angle 仰拍
-   - 探索未知、跟随前行、"我们一起往前看" → over-the-shoulder 过肩 或 from-behind 背身(带前景人物 + 前方景物)
-   - 主角发现/盯着某个新奇东西 → pov(直接画她看到的)或 角色背身 + 前景大景物
-   - 温馨亲密的小互动 → close-up + eye-level 或 three-quarter
-5. **避免相邻页雷同**:如果连续几页发生在同一个地点(例如一直在同一条路上骑行),**必须靠不同的 camera_angle + 取景方向 + 前景元素把每页拉开**,严禁两页构图几乎一样。比如同样在路上:一页用 from-behind 跟拍背影、一页用 low-angle 侧面仰拍、一页用 high-angle 俯瞰整条路的走向。
+**核心配额(务必遵守):**
+- **主力镜头 = eye-level 平视 + 正面/侧前的 three-quarter**,这两类应占全书大多数页(看得到脸、看得到互动)。
+- **"非常规机位"(high-angle 俯拍 / low-angle 仰拍 / over-the-shoulder 过肩 / from-behind 背身)全书总共只用 4-5 页**,作为点睛,不能更多。
+- **from-behind 背身最多 2 页**,且只在"带观众一起看向前方的新发现/新场景"时用;背身看不到脸,不要拿它偷懒交代场景。
+- **pov 第一人称视角:不要使用**(对小朋友太抽象)。
+
+**什么时候才动用非常规机位(精挑 4-5 处):**
+1. **开头建场**:首页可用 wide + high-angle 或正面 wide,把出发地点和环境交代清楚。
+2. **到达/地点即主角**:到达一个重要新场景(终点车站、一片新天地)时,可用 wide 把场景铺开——但仍尽量让角色正面可见,不要只剩背影。
+3. **一个情绪高点**:勇敢/高大的瞬间可用 low-angle 仰拍。
+4. 其余页面老老实实用正面平视/three-quarter,把角色的表情和互动画清楚。
+
+**施动/受动的双人动作,机位要拍出"动作本身"(重要):**
+当一页是"A 给 B 做某事"(例:爸爸给水水拍照、爸爸帮水水暖手、爸爸牵引自行车),机位要让**施动者和受动者都清楚可见、动作姿势完整**,绝不能拍成两人并排自拍的样子。
+- 例(爸爸给水水拍照):斜后方机位——爸爸和水水在一条直线上,镜头在爸爸斜后方,能完整拍到"爸爸举着手机、对着前方的水水拍照"这个姿势(看得到爸爸举机的动作 + 前方被拍的水水)。
+- composition_hint 要把这个动作关系写清楚:谁在做、对着谁、机位从哪看。
+
+**景别**:同一种 shot 不要连续 3 页;情绪高点用 close-up,建场用 wide;但景别变化优先服务"看清表情和互动",不要为变而变。
 
 # 角色出场密度(按剧情自然安排)
 这是一本家庭绘本——一家人就应该能同框。该几个角色一起出现就画几个,
