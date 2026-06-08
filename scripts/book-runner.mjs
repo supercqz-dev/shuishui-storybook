@@ -18,6 +18,38 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  cycling: {
+    book_id: 'cycling-2km-2026-06-08',
+    chars: ['shuishui', 'papa'],
+    trigger: `周六早晨,天空下着小雨。水水要和爸爸一起完成一项挑战。
+小区外面新修了一条小道,起点在小区门口,终点不知道通到哪里。上次听一位爷爷说,这条小路挺长,有一公里,那来回就是两公里。水水准备骑上她那辆带平衡轮的小自行车,和爸爸一起挑战——看看能不能自己骑完两公里!
+这条小道可漂亮了:砖红色的路面,中间画着一条白色分割线,两边种着小树,还间隔种着不同品种的小花。
+水水穿着透明小雨衣,骑着带平衡轮的自行车;爸爸穿着一件灰色雨衣,走在旁边。两人来到小路的起点。
+挑战开始啦!水水跟爸爸说:"爸爸你跑起来,咱们比赛,看谁快!"说着就呼呼地骑了起来。爸爸赶紧跑起来追上水水,两人开心地往前走。
+骑了一小段,前面左转了。小道右边是一条高铁轨道,为了安全,市政修了一堵高高的墙把小道和高铁隔开,墙上开着玻璃窗,能透过玻璃看到火车经过。
+左转之后,右手边的草地上有一个还没修好的下水道,井盖没盖上,远远看去像个黑洞洞。水水问爸爸:"爸爸,那个下水道里是不是有怪兽呀?咱们快走!"爸爸赶紧带着水水往前,离开这个危险的地方。
+再往前,小路弯弯曲曲一眼望不到头。突然,前面出现一座彩虹拱门——是好几个大铁框倾斜排列组成的,像一条彩虹隧道,可漂亮了!爸爸让水水骑到彩虹拱门中间,给她拍了几张漂亮照片。
+拍完照,爸爸给水水喝水,一摸小手——哎呀,拔凉拔凉的!爸爸赶紧给水水暖暖小手,可不能再感冒啦。
+补充完水分,继续挑战。爸爸问水水还有没有劲儿,水水说:"还可有劲了!"太棒啦!再往前,又碰到两座彩虹拱门。骑呀骑,终于,水水和爸爸到了小路的终点——原来这条小路的终点是个地铁站!还有一座人行天桥可以到马路对面,还能去包子店。
+接下来要往回走,才能完成全部挑战。回家的路比较快,水水骑累的时候,爸爸就在小自行车车把上绑了一根绳子,在前面稍微牵引着,水水骑起来就轻松多啦。不一会儿就回到了起点。这下挑战全部成功!两公里的路,水水自己全骑下来了,真是一次特别棒的挑战!
+
+构图提示:
+- 全书只有水水(白兔)和爸爸(小熊猫)两个角色,没有其他家庭角色。
+- ★ 贯穿全书的硬性设定,每一页都要遵守:
+  · 爸爸全程是"走路/跑步"——NEVER riding anything,他是步行陪在旁边或在前面小跑,绝不骑车。
+  · 水水全程骑一辆儿童自行车,后轮两侧带一对小辅助轮(training wheels / balance wheels),她坐在车上骑。
+  · 从出门第一页到最后,水水和爸爸每一幕都穿着雨衣:水水 = a clear transparent hooded kids' raincoat(透明雨衣,能看到里面的粉裙);爸爸 = a grey/gray hooded raincoat(灰色雨衣)。下小雨,天色灰蓝柔和,地面湿亮反光。
+- 关键道具/场景展开成具体英文外观,不要直接搬中文名:
+  · 自行车 = a small kids' bicycle with a pair of training wheels on the rear wheel。
+  · 小道 = a brick-red paved path with a single white center dividing line, young trees and patches of assorted little flowers along both sides。
+  · 高铁隔离墙 = a tall safety wall on the right separating the path from a high-speed railway, with glass windows set into the wall through which a train can be seen passing。
+  · 没修好的下水道 = an unfinished manhole/drain on the grass with its cover off, looking like a dark round hole from a distance(画得神秘但不恐怖,氛围是水水好奇/略紧张,不要真的怪兽)。
+  · 彩虹拱门 = a rainbow arch tunnel made of several big metal frames arranged at a tilt/leaning in a row, colorful like a rainbow。
+  · 终点 = a subway/metro station entrance, with a pedestrian footbridge crossing the road and a little steamed-bun (baozi) shop nearby。
+  · 回程牵引 = papa (walking, in his grey raincoat) holds a rope tied to the handlebar of shuishui's bike, gently towing it from in front while shuishui rides。
+- 情绪/情节高点单独成页:起点出发比赛(欢快)、透过玻璃墙看火车经过(惊奇)、黑洞下水道(好奇又紧张)、彩虹拱门中间拍照(开心)、爸爸暖小手(温暖)、到达地铁站终点(惊喜)、绳子牵引轻松回程(满足)、回到起点挑战成功(自豪)。`,
+    edu: '坚持与挑战自我——独立完成两公里骑行,累了也不放弃;同时认识身边的小道风景(高铁、彩虹拱门、地铁站),感受爸爸一路陪伴和照顾(暖手、牵引)的温暖。',
+  },
   basketball: {
     book_id: 'basketball-park-2026-06-08',
     chars: ['shuishui', 'papa', 'mama'],
