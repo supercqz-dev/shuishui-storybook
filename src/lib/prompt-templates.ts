@@ -198,6 +198,8 @@ COMPOSITION: ${safeHint}
 CHARACTERS:
 ${charBlock}
 
+WORLD RULE: This is an all-animal world. Every character — including any background passer-by, classmate, teacher, teammate, or bystander — is an anthropomorphic ANIMAL. There are NO real humans / NO human people anywhere in the image.
+
 Portrait orientation, family-friendly storybook illustration, no text in image.`;
 }
 
