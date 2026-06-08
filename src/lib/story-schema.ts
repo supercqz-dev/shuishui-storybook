@@ -7,7 +7,8 @@ export const STORY_JSON_SCHEMA = {
     required: ['title', 'subtitle', 'theme', 'moral', 'pages'],
     properties: {
       // title 必须是简短、地道、纯真的英文绘本名(2-5 词),像经典英文童书书名。禁止中文、禁止拼音句子。
-      title: { type: 'string', description: 'Short, natural, picture-book-style ENGLISH title, 2-5 words. e.g. "ShuiShui\'s Big Slide", "Brave Little ShuiShui". No Chinese, no pinyin sentences.' },
+      // 不要在标题里出现主角名 "ShuiShui"——整套绘本都是她的故事,点名多余;用题材/动作/意象命名。
+      title: { type: 'string', description: 'Short, natural, picture-book-style ENGLISH title, 2-5 words. e.g. "Rainy Day Splash", "The Big Slide", "Busy Little Ants". Do NOT include the protagonist name "ShuiShui" in the title. No Chinese, no pinyin sentences.' },
       // subtitle 是一行中文副标题(给家长一眼看懂),简短温暖。
       subtitle: { type: 'string', description: '一行简短的中文副标题(给家长看),温暖、概括故事,例如「水水第一次自己滑滑梯」。' },
       theme: { type: 'string' },

@@ -33,9 +33,9 @@ ${charDescriptions}
 
 # 书名与副标题（非常重要）
 - **title：简短、地道、纯真的英文绘本名,2-5 个词**。像经典英文童书那样朗朗上口。
-  ✓ 好例子："ShuiShui's Big Slide"、"Brave Little ShuiShui"、"ShuiShui and the Busy Ants"
+  ✓ 好例子："Rainy Day Splash"、"The Big Slide"、"Busy Little Ants"、"A Seed of My Own"
   ✗ 坏例子:中文标题("水水的勇敢滑一下")、拼音句子、超过 6 个词的长句、生硬直译。
-  主角名固定用 "ShuiShui"。优先用主角名 + 一个核心意象/动作。
+  **不要在标题里出现主角名 "ShuiShui"**——整套绘本都是她的故事,每本都点名是多余的。请用题材/动作/意象本身来命名,让标题更像一本独立的童书。
 - **subtitle：一行简短的中文副标题**(给家长一眼看懂故事),温暖概括,例如"水水第一次自己滑滑梯"。
 
 # 你必须输出的结构
