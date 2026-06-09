@@ -267,13 +267,11 @@
         "time_of_day": "早",
         "props": [
           "彩色小火车",
-          "香蕉",
-          "蜂蜜罐",
-          "胡萝卜背包",
+          "小猪的小书包",
           "小花"
         ]
       },
-      "composition_hint": "a three-quarter front wide view of the colorful small steam train slowing on the forest track, a chubby pink PIGLET in red shorts running and panting after the last open pastel carriage, a friendly cartoon GREEN CROCODILE train driver looking back kindly from the engine, shuishui in a pink dress and the small brown BEAR CUB, small GREY bunny, and little brown MONKEY watching with caring faces from the carriages",
+      "composition_hint": "a three-quarter front wide view of the colorful small steam train slowing on the forest track, a chubby pink PIGLET in red shorts wearing a small kids school BACKPACK on its back, running and panting after the last open pastel carriage, a friendly cartoon GREEN CROCODILE train driver looking back kindly from the engine, shuishui in a pink dress and the small brown BEAR CUB, small GREY bunny, and little brown MONKEY watching with caring faces from the carriages. The piglet carries only a backpack — do NOT show any carrots, honey jar, or bananas on or near the piglet.",
       "image_path": "/generated/crocodile-train-2026-06-09/page-08.png"
     },
     {
@@ -307,11 +305,10 @@
         "props": [
           "彩色小火车",
           "车厢扶手",
-          "香蕉",
-          "蜂蜜罐"
+          "小花"
         ]
       },
-      "composition_hint": "an eye-level close-up of the open pastel train carriage stopped beside the forest track, shuishui as a white rabbit in a pink dress reaching one paw to help a chubby pink PIGLET in red shorts step onto the carriage, a small brown BEAR CUB, a small GREY bunny, and a little brown MONKEY also reaching welcoming paws, a friendly cartoon GREEN CROCODILE train driver smiling gently from the engine in the background",
+      "composition_hint": "an eye-level close-up of the open pastel train carriage stopped beside the forest track, shuishui as a white rabbit in a pink dress reaching one paw to help a chubby pink PIGLET in red shorts climb onto the carriage. The piglet stands upright on exactly TWO legs (normal two-legged anatomy, not extra legs), wearing a small backpack. A small brown BEAR CUB, a small GREY bunny, and a little brown MONKEY also reach welcoming paws, a friendly cartoon GREEN CROCODILE train driver smiling gently from the engine in the background. Do NOT show any loose honey jar or bananas anywhere in the scene.",
       "image_path": "/generated/crocodile-train-2026-06-09/page-09.png"
     },
     {
