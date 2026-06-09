@@ -6,7 +6,14 @@ import { useState } from 'react';
 import type { Book } from '@/lib/types';
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
-const withBase = (p?: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
+// 生图产物已离线转成体积小 ~9 倍的 WebP(保留同名 PNG 原图可回滚)。
+// 这里把引用的 .png 换成 .webp,大幅加快加载;非 generated 路径(如 banner)不动。
+const toWebp = (p?: string) =>
+  p && p.includes('/generated/') && p.endsWith('.png') ? p.replace(/\.png$/, '.webp') : p;
+const withBase = (p?: string) => {
+  const w = toWebp(p);
+  return w?.startsWith('/') ? `${BASE_PATH}${w}` : w;
+};
 
 export default function LibraryBookCard({
   book,
@@ -52,6 +59,8 @@ export default function LibraryBookCard({
           <img
             src={withBase(cover)}
             alt={book.title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover"
           />
         ) : (

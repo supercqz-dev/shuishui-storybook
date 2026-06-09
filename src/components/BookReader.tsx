@@ -5,7 +5,13 @@ import Link from 'next/link';
 import type { Book } from '@/lib/types';
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
-const withBase = (p?: string) => (p?.startsWith('/') ? `${BASE_PATH}${p}` : p);
+// 生图产物已离线转成体积小 ~9 倍的 WebP(保留同名 PNG 原图可回滚)。
+const toWebp = (p?: string) =>
+  p && p.includes('/generated/') && p.endsWith('.png') ? p.replace(/\.png$/, '.webp') : p;
+const withBase = (p?: string) => {
+  const w = toWebp(p);
+  return w?.startsWith('/') ? `${BASE_PATH}${w}` : w;
+};
 
 export default function BookReader({ book }: { book: Book }) {
   // 翻页结构:
@@ -127,6 +133,8 @@ export default function BookReader({ book }: { book: Book }) {
             key={`page-${idx}`}
             src={withBase(imgSrc)}
             alt={isCover ? `封面:${book.title}` : `第 ${contentPage?.page} 页`}
+            loading={isCover ? 'eager' : 'lazy'}
+            decoding="async"
             className="w-full h-auto block"
           />
         ) : (
