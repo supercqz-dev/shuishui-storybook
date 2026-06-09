@@ -18,6 +18,38 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  // 儿歌绘本:鳄鱼先生开火车。水水作为乘客出现,和小动物们一起搭火车出发。
+  // 全书唯一 bible 角色是 shuishui;鳄鱼先生/小熊/小兔/小猴/小猪都是临时配角,
+  // 只在 composition_hint 里按明确物种出现(和老师/同学的处理方式一致)。
+  crocotrain: {
+    book_id: 'crocodile-train-2026-06-09',
+    chars: ['shuishui'],
+    trigger: `这是一首欢快的儿歌绘本,讲鳄鱼先生开着小火车,小动物们和水水一起搭车出发去远方。请尽量把儿歌原句直接用作每页旁白(narration),保留"嘟嘟嘟嘟嘟嘟嘟""轰隆隆隆隆"这些拟声词的节奏感。
+
+儿歌歌词(按顺序):
+1. 清晨的阳光照在小站台。(开场建场:一个温暖的小火车站台,鳄鱼先生的彩色小火车停在站台边,水水已经在站台上,开心地等着小伙伴们。)
+2. 小熊带着蜂蜜来,看到鳄鱼先生摆摆手,小熊说:"我要去看好朋友。"(小熊抱着一罐蜂蜜走来,鳄鱼先生在火车头朝它招手。)
+3. 可爱的小兔,蹦蹦又跳跳,胡萝卜装满小背包。小兔问:"鳄鱼先生能搭火车吗?""我要去外婆家瞧一瞧。"(小兔背着装满胡萝卜的小背包,蹦跳着上车。)
+4. 副歌:鳄鱼先生开火车,嘟嘟嘟嘟嘟嘟嘟,穿过森林穿过山洞,勇敢向前冲!(火车开动,水水和小动物们坐在车厢里,火车穿过森林、钻进山洞。)
+5. 副歌:鳄鱼先生开火车,嘟嘟嘟嘟嘟嘟嘟,载着快乐轰隆隆隆隆!(火车在山林间飞奔,大家探出头开心欢呼,满载快乐。)
+6. 小猴的尾巴,晃呀晃呀晃,香蕉挂在手臂上,看到鳄鱼先生点点头。小猴说:"远方有香蕉树!"(小猴吊着尾巴、手臂上挂着一串香蕉跑来上车。)
+7. 胖胖的小猪,哼哧哼哧跑,火车就要出发啦!小猪喊:"鳄鱼先生请你等一等,我还没有坐上火车呢!"(胖小猪气喘吁吁地追火车,鳄鱼先生停下来等它,大家伸手拉它上车——学会等一等慢一点的朋友。)
+8. 副歌再现:鳄鱼先生开火车,嘟嘟嘟嘟嘟嘟嘟,穿过森林穿过山洞,勇敢向前冲!载着快乐轰隆隆隆隆!(所有伙伴都上车了,火车满载着大家快乐地驶向远方,温暖收尾。)
+
+构图提示:
+- 全书唯一的固定角色是水水(白色小兔,粉色小裙子+粉色运动鞋+粉色碎花发带),她作为乘客全程出现在画面里:开头在站台等待、每来一个新朋友就开心地迎接、副歌时坐在车厢里和大家一起欢呼。每一页的 characters_in_scene 都应包含 shuishui。
+- 其它角色都是临时配角,必须在 composition_hint 里写明确的英文物种外观,让它们作为画面主体清晰出现:
+  · 鳄鱼先生 = a friendly cartoon GREEN CROCODILE train conductor/driver, gentle smiling face with small rounded teeth (NOT scary), wearing a train conductor's cap and striped overalls, driving the engine。
+  · 小火车 = a cute colorful small toy/steam train: a round friendly engine plus a few open pastel-colored passenger carriages, child-friendly。
+  · 小熊 = a small brown BEAR CUB hugging a honey pot/jar。
+  · 小兔(歌里的) = a small GREY bunny wearing blue overalls, carrying a little backpack stuffed with orange carrots —— 注意要画成灰色背带裤小兔,和水水(白毛+粉裙)明显区分开,不要两只一样的兔子。
+  · 小猴 = a little brown MONKEY with a long curling tail, a bunch of yellow bananas hanging over its arm。
+  · 小猪 = a chubby pink PIGLET, running and panting to catch the train。
+- 站台 = a warm cozy little train platform with a station sign, morning golden sunlight。森林/山洞 = green forest and a rounded tunnel the train passes through。
+- 整体氛围:明亮欢快、阳光温暖、节奏感强(像一首唱的歌),所有动物表情友善开心,鳄鱼先生慈祥不可怕。
+- 情绪/节奏高点单独成页:火车开动穿过山洞(勇敢冲)、满载快乐山林飞奔(欢呼)、胖小猪追火车大家拉它上车(温暖互助)。`,
+    edu: '朋友相伴、一起出发去看望所爱之人的快乐;学会等一等、帮一把跑得慢的朋友(拉小猪上车),感受同行与分享旅程的温暖;在欢快的儿歌节奏里认识小熊/小兔/小猴/小猪等小动物和它们带的食物。',
+  },
   // 《Two Rainy Miles》已发布版 = cycling-2km-v2(克制版镜头 + p5/p6/p14 精修 + 庆祝卡)。
   cycling: {
     book_id: 'cycling-2km-v2-2026-06-08',

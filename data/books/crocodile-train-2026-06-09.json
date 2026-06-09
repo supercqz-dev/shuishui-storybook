@@ -1,0 +1,358 @@
+{
+  "id": "crocodile-train-2026-06-09",
+  "title": "Toot Toot Train",
+  "subtitle": "水水和小伙伴们一起搭小火车去远方",
+  "theme": "朋友同行、分享旅程、等待慢一点的伙伴",
+  "moral": "快乐的路上，有朋友一起更开心；看见慢一点的伙伴，停一停、帮一把。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "清晨的阳光照在小站台。彩色小火车停在站台边，水水开心地等呀等。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小火车，早上好！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor"
+      ],
+      "scene_state": {
+        "location": "小火车站台",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "站牌",
+          "小背包",
+          "车票"
+        ]
+      },
+      "composition_hint": "a high-angle wide view of a warm cozy little train platform with a station sign and morning golden sunlight, shuishui as a white rabbit in a pink dress, pink sneakers, and pink floral headband waiting happily beside a cute colorful small steam train with a round friendly engine and open pastel passenger carriages, a friendly cartoon GREEN CROCODILE train driver with a gentle smiling face, small rounded teeth, a train conductor cap, and striped overalls sitting in the engine",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "小熊带着蜂蜜来，看到鳄鱼先生摆摆手。",
+      "dialogue": [
+        {
+          "speaker": "bear_cub",
+          "text": "我要去看好朋友。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "快来快来，坐这里！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub"
+      ],
+      "scene_state": {
+        "location": "小火车站台",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "蜂蜜罐",
+          "彩色小火车",
+          "站牌"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of a small brown BEAR CUB in a yellow vest hugging a honey jar while walking toward the train, a friendly cartoon GREEN CROCODILE train driver in the engine waving one hand, shuishui in a pink dress smiling from an open pastel carriage, all faces clearly visible",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "可爱的小兔，蹦蹦又跳跳，胡萝卜装满小背包。",
+      "dialogue": [
+        {
+          "speaker": "grey_bunny",
+          "text": "鳄鱼先生，能搭火车吗？我要去外婆家瞧一瞧。"
+        },
+        {
+          "speaker": "crocodile_conductor",
+          "text": "当然可以，上车吧！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "热情",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "grey_bunny"
+      ],
+      "scene_state": {
+        "location": "小火车站台",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "胡萝卜背包",
+          "彩色小火车",
+          "车门小台阶"
+        ]
+      },
+      "composition_hint": "a three-quarter front medium view of a small GREY bunny wearing blue overalls, carrying a little backpack stuffed with orange carrots, hopping toward an open pastel train carriage, shuishui as a white rabbit in a pink dress reaching a welcoming hand from the carriage, a friendly cartoon GREEN CROCODILE train driver smiling in the round engine",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "鳄鱼先生开火车，嘟嘟嘟嘟嘟嘟嘟！小火车慢慢开动啦。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "嘟嘟嘟嘟嘟嘟嘟！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny"
+      ],
+      "scene_state": {
+        "location": "站台旁的铁轨",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "小旗子",
+          "铁轨"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of the cute colorful small steam train starting to roll away from the warm station platform, a friendly cartoon GREEN CROCODILE train driver driving the round engine, shuishui in a pink dress, a small brown BEAR CUB with a honey jar, and a small GREY bunny in blue overalls sitting in open pastel carriages and singing with happy faces",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "穿过森林，穿过山洞，勇敢向前冲！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "山洞黑黑的，我也很勇敢！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "low-angle",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny"
+      ],
+      "scene_state": {
+        "location": "森林山洞口",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "绿色森林",
+          "圆圆山洞",
+          "彩色小火车",
+          "车灯"
+        ]
+      },
+      "composition_hint": "a low-angle wide view looking up slightly as the colorful small steam train enters a rounded tunnel in a green forest, the round engine light glowing, a friendly cartoon GREEN CROCODILE train driver holding the controls, shuishui in a pink dress sitting tall in an open carriage with a brave smile, a small brown BEAR CUB and a small GREY bunny cheering behind her",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "鳄鱼先生开火车，嘟嘟嘟嘟嘟嘟嘟，载着快乐轰隆隆隆隆！",
+      "dialogue": [
+        {
+          "speaker": "bear_cub",
+          "text": "轰隆隆隆隆！"
+        },
+        {
+          "speaker": "grey_bunny",
+          "text": "我们一起出发啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "欢呼",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny"
+      ],
+      "scene_state": {
+        "location": "山林间的铁轨",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "树木",
+          "小花",
+          "蜂蜜罐",
+          "胡萝卜背包"
+        ]
+      },
+      "composition_hint": "a three-quarter front medium view of the colorful small steam train rushing through sunny green hills and trees, a friendly cartoon GREEN CROCODILE train driver smiling in the engine, shuishui in a pink dress, a small brown BEAR CUB hugging a honey jar, and a small GREY bunny in blue overalls leaning out of open pastel carriages with joyful waving paws and clear happy faces",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "小猴的尾巴，晃呀晃呀晃，香蕉挂在手臂上。看到鳄鱼先生点点头。",
+      "dialogue": [
+        {
+          "speaker": "monkey",
+          "text": "远方有香蕉树！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "小猴，来和我们一起唱！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny",
+        "monkey"
+      ],
+      "scene_state": {
+        "location": "森林小站",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "香蕉",
+          "彩色小火车",
+          "小站牌",
+          "树木"
+        ]
+      },
+      "composition_hint": "an eye-level medium view at a small forest stop, a little brown MONKEY in a green shirt with a long curling tail and a bunch of yellow bananas hanging over its arm running toward the open pastel carriage, a friendly cartoon GREEN CROCODILE train driver nodding from the engine, shuishui in a pink dress waving from the carriage with a small brown BEAR CUB and a small GREY bunny visible beside her",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "胖胖的小猪，哼哧哼哧跑，火车就要出发啦！",
+      "dialogue": [
+        {
+          "speaker": "piglet",
+          "text": "鳄鱼先生，请你等一等，我还没有坐上火车呢！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "着急",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny",
+        "monkey",
+        "piglet"
+      ],
+      "scene_state": {
+        "location": "森林铁轨旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "香蕉",
+          "蜂蜜罐",
+          "胡萝卜背包",
+          "小花"
+        ]
+      },
+      "composition_hint": "a three-quarter front wide view of the colorful small steam train slowing on the forest track, a chubby pink PIGLET in red shorts running and panting after the last open pastel carriage, a friendly cartoon GREEN CROCODILE train driver looking back kindly from the engine, shuishui in a pink dress and the small brown BEAR CUB, small GREY bunny, and little brown MONKEY watching with caring faces from the carriages",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "小火车停一停，大家伸出手。慢一点也没关系，我们等你一起走。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小猪，抓住我的手！"
+        },
+        {
+          "speaker": "piglet",
+          "text": "谢谢大家！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "温暖",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny",
+        "monkey",
+        "piglet"
+      ],
+      "scene_state": {
+        "location": "森林铁轨旁",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "车厢扶手",
+          "香蕉",
+          "蜂蜜罐"
+        ]
+      },
+      "composition_hint": "an eye-level close-up of the open pastel train carriage stopped beside the forest track, shuishui as a white rabbit in a pink dress reaching one paw to help a chubby pink PIGLET in red shorts step onto the carriage, a small brown BEAR CUB, a small GREY bunny, and a little brown MONKEY also reaching welcoming paws, a friendly cartoon GREEN CROCODILE train driver smiling gently from the engine in the background",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "鳄鱼先生开火车，嘟嘟嘟嘟嘟嘟嘟！穿过森林，穿过山洞，勇敢向前冲，载着快乐轰隆隆隆隆！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我们一起去远方喽！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "crocodile_conductor",
+        "bear_cub",
+        "grey_bunny",
+        "monkey",
+        "piglet"
+      ],
+      "scene_state": {
+        "location": "通往远方的山林铁轨",
+        "weather": "晴天",
+        "time_of_day": "早",
+        "props": [
+          "彩色小火车",
+          "绿色森林",
+          "圆圆山洞",
+          "远处小山",
+          "蜂蜜罐",
+          "胡萝卜背包",
+          "香蕉"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of the cute colorful small steam train traveling through bright green forest toward a rounded tunnel and distant gentle hills, a friendly cartoon GREEN CROCODILE train driver driving the round engine, shuishui in a pink dress, a small brown BEAR CUB with a honey jar, a small GREY bunny in blue overalls with a carrot backpack, a little brown MONKEY with bananas, and a chubby pink PIGLET in red shorts all riding together in open pastel carriages, smiling and singing",
+      "image_path": "/generated/crocodile-train-2026-06-09/page-10.png"
+    }
+  ],
+  "created_at": "2026-06-09T10:23:23.183Z",
+  "status": "finished",
+  "cover_image": "/generated/crocodile-train-2026-06-09/cover.png"
+}
