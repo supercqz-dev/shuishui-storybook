@@ -1,0 +1,320 @@
+{
+  "id": "willow-catkins-2026-06-10",
+  "title": "Fluffy May",
+  "subtitle": "水水和大姨在初夏风里捉柳絮",
+  "theme": "初夏自然与亲人陪伴的简单快乐",
+  "moral": "够不到也没关系，有亲人温柔托举一下，小小的尝试也会变成大大的开心。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "五月的北京，天气暖暖的，风轻轻的。我带着水水下楼，到小区院子里玩。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下院子",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "绿树",
+          "蓝天",
+          "小区小路",
+          "草地",
+          "柳絮"
+        ]
+      },
+      "composition_hint": "a high-angle wide view of a sunny Beijing residential courtyard with green trees and blue sky, shuishui as a small white rabbit in a pink dress, pink sneakers, and pink floral headband walking beside the tall elegant white polar bear in a soft blue pastel summer dress, many soft fluffy white willow and poplar catkins drifting through the air like tiny clouds",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-01.png"
+    },
+    {
+      "page": 2,
+      "narration": "微风一吹，软软的白色小毛絮一团一团飘起来。它们像小云朵，又像小雪花，慢悠悠地飞。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下绿地旁",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "树荫",
+          "草地"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui and the white polar bear standing on a garden path, both faces visible, shuishui looking up with bright eyes while soft fluffy white willow and poplar catkins float at different heights among green trees and warm sunlight",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-02.png"
+    },
+    {
+      "page": 3,
+      "narration": "水水抬起小脑袋，眼睛亮晶晶的。她拉着我的手，蹦了两下。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "大姨！我们一起来捉毛毛玩吧！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下小路",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "小路",
+          "树叶影子"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up view of shuishui holding the white polar bear's hand, shuishui's long rabbit ears and pink floral headband clear, her face excited and smiling, the white polar bear's gentle warm expression visible, cottony white catkins floating between them",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-03.png"
+    },
+    {
+      "page": 4,
+      "narration": "说完，水水张开小胳膊，追着毛毛跑起来。风儿轻轻吹，毛毛绕着她转圈圈。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "活泼",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下草地边",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "草地",
+          "树荫"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui running with arms open on the path, pink dress fluttering, soft fluffy white willow and poplar catkins swirling around her, the tall white polar bear in a pastel summer dress walking behind and watching with a gentle smile, green trees and blue sky balancing the bright scene",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-04.png"
+    },
+    {
+      "page": 5,
+      "narration": "低低飞来的小毛絮，水水踮起脚尖，小手一抓一合。哎呀，抓到了！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我抓到一朵小云啦！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下花坛旁",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "花坛",
+          "小石子路"
+        ]
+      },
+      "composition_hint": "an eye-level close-up view of shuishui on tiptoes, small paws gently closing around a low-floating cottony white catkin, her face focused and cute, the white polar bear standing beside her in a pale yellow pastel dress, smiling softly, green leaves and warm sunlight in the background",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-05.png"
+    },
+    {
+      "page": 6,
+      "narration": "可是，好多毛毛飞得高高的。水水怎么踮脚、怎么伸手，都够不着。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "大姨，你抱我一下吧！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "渴望",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下大树旁",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "高处柳絮",
+          "大树",
+          "裙角"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui looking up at high-floating soft white catkins, one paw reaching upward and the other gently holding the edge of the white polar bear's pastel summer dress, the tall white polar bear standing calmly beside her with round bear ears and a warm expression, their different sizes clearly visible",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-06.png"
+    },
+    {
+      "page": 7,
+      "narration": "我马上抱起水水，稳稳地把她举高。水水的小手伸呀伸，轻轻松松碰到了半空中的毛毛。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "够到啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "low-angle",
+      "emotion": "成就感",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下绿树下",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "树冠",
+          "阳光"
+        ]
+      },
+      "composition_hint": "a low-angle medium view looking up at the tall elegant white polar bear holding shuishui high with both arms, shuishui reaching upward and catching a soft fluffy white willow catkin in midair, both faces visible and joyful, green tree canopy and blue sky above, pastel dress and pink outfit clearly distinguishing the two white-furred animals",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-07.png"
+    },
+    {
+      "page": 8,
+      "narration": "水水攥着软软的小毛絮，举到我面前给我看。她笑得眉眼弯弯，像捧着一个小宝贝。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "看！这是我的小毛毛！"
+        },
+        {
+          "speaker": "dayi",
+          "text": "哇，真软呀。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下长椅旁",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "长椅",
+          "树影"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up view of shuishui proudly holding a tiny cottony white catkin in her paws and showing it to the white polar bear, shuishui smiling with curved eyes, the white polar bear smiling back, both faces clear, soft green tree shade behind them",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-08.png"
+    },
+    {
+      "page": 9,
+      "narration": "有时候，调皮的毛毛从水水的手缝里溜走，又飘回天上。水水一点也不生气，咯咯笑着又追了起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "它飞走啦，我们再捉一朵！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下小路",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "飘走的柳絮",
+          "小路",
+          "草地"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of a cottony white catkin slipping from shuishui's paws and floating upward, shuishui laughing and stepping after it, the white polar bear walking with her and holding one paw ready to help, warm sunlight, green grass, and many floating catkins in the air",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-09.png"
+    },
+    {
+      "page": 10,
+      "narration": "我们在楼下玩了好久，追着风，捉着软软的毛毛。水水额头上出了小细汗，脸上却一直挂着大大的笑。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "捉毛毛太好玩啦！下楼玩耍真开心！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下树荫里",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "纸巾",
+          "树荫",
+          "草地"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up view of shuishui with tiny sweat drops on her forehead and a big happy smile, pink floral headband and long rabbit ears clear, the tall white polar bear standing beside her holding a small tissue and smiling gently, soft fluffy white catkins drifting in warm green shade",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-10.png"
+    },
+    {
+      "page": 11,
+      "narration": "温柔的五月微风里，藏满了水水简简单单、开开心心的小快乐。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "安静快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "北京小区楼下院子",
+        "weather": "初夏晴天，微风",
+        "time_of_day": "上午",
+        "props": [
+          "柳絮",
+          "绿树",
+          "蓝天",
+          "小区小路"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of shuishui and the white polar bear walking together along the sunny residential courtyard path, both smiling and facing slightly toward each other, many soft fluffy white willow and poplar catkins floating like tiny clouds around green trees and blue sky, a warm gentle early-summer atmosphere",
+      "image_path": "/generated/willow-catkins-2026-06-10/page-11.png"
+    }
+  ],
+  "created_at": "2026-06-10T07:24:38.247Z",
+  "status": "finished",
+  "cover_image": "/generated/willow-catkins-2026-06-10/cover.png"
+}

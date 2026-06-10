@@ -1,6 +1,6 @@
 {
   "id": "planting-seed-2026-06-03",
-  "title": "ShuiShui's Little Seed",
+  "title": "A Seed of My Own",
   "subtitle": "水水和爸爸一起种下第一颗花生种子",
   "theme": "植物生长、亲子陪伴、耐心与责任",
   "moral": "小种子需要每天细心照顾，做事情也要慢慢来、坚持做。",
@@ -409,5 +409,6 @@
     }
   ],
   "created_at": "2026-06-04T02:11:58.776Z",
-  "status": "finished"
+  "status": "finished",
+  "cover_image": "/generated/planting-seed-2026-06-03/cover.png"
 }
