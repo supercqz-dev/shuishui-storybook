@@ -55,7 +55,7 @@ export async function POST(req: Request) {
         type: 'json_schema',
         json_schema: STORY_JSON_SCHEMA,
       },
-      max_completion_tokens: 16000,
+      max_completion_tokens: 24000,
     });
 
     const content = completion.choices[0]?.message?.content;

@@ -39,7 +39,7 @@ ${charDescriptions}
 - **subtitle：一行简短的中文副标题**(给家长一眼看懂故事),温暖概括,例如"水水第一次自己滑滑梯"。
 
 # 你必须输出的结构
-绘本长度 8-15 页（由你根据故事素材自行决定，详见下方"长度判断"），每页：
+绘本长度 8-22 页（由你根据故事素材自行决定，详见下方"长度判断"），每页：
 - narration：1-2 句旁白文字（简单中文，3-4 岁能懂）
 - dialogue：0-2 句角色对话（speaker 用角色 id，例如 "shuishui"、"mama"）
 - shot：镜头景别/远近（wide / medium / close-up / extreme-close-up）
@@ -56,7 +56,8 @@ ${charDescriptions}
   5. **任何非家庭配角(老师、同学、其他家长、路人等)都必须指定一个明确的动物物种**,并在 composition_hint 里让该配角作为画面动作的主体清晰出现。**血泪教训**:如果只写"老师/同学"而不给物种,图像模型不知道他们长什么样,会把"讲课/拿东西/做动作"这些主体动作错误地安到有固定形象的家庭角色(尤其是 papa)身上,导致"本该老师讲课却画成爸爸讲课"。
      - **固定配角物种(必须遵守,保持跨绘本一致)**:王老师 = 大熊猫(giant panda,不戴眼镜);刘老师 = 长颈鹿(giraffe,不戴眼镜)。其他临时配角(同学/别的家长)自行指定合理物种(熊/小猪/小象/松鼠等)并写进 hint。
      - 当配角是画面动作主体时,hint 要点明分工,例:"a GIANT PANDA teacher at the front teaching the class, shuishui and red panda papa SEATED in the audience listening (papa is a listener, NOT teaching)"。
-  6. **composition_hint 要呼应当页的 camera_angle**,但记住绝大多数页是正面/平视(看得到脸和表情)。只有少数点睛页才用特殊机位。各机位写法示例:
+  6. **临时服装优先级最高**:如果故事素材/当页明确说角色穿睡衣、雨衣、运动服、围裙等临时衣服,composition_hint 必须写清楚该临时服装,并覆盖角色默认 YAML 服装。不要同时画默认裙子/鞋子。例:"shuishui wears short-sleeve long pajamas instead of her usual pink dress"。
+  7. **composition_hint 要呼应当页的 camera_angle**,但记住绝大多数页是正面/平视(看得到脸和表情)。只有少数点睛页才用特殊机位。各机位写法示例:
      - eye-level / three-quarter(主力)→ "an eye-level view of shuishui and papa face to face, both smiling, warm and clear"; "a three-quarter front view of the two playing together"
      - high-angle(建场,少用)→ "a high view looking down on the brick-red path stretching ahead, the two cycling along it"
      - low-angle(情绪高点,少用)→ "a low-angle view looking up at shuishui standing tall and proud"
@@ -65,11 +66,11 @@ ${charDescriptions}
   例 ✓: "an eye-level three-quarter view of shuishui and papa laughing together by the path, both faces visible"; "a GIRAFFE teacher demonstrating planting at the front table, shuishui watching, red panda papa seated beside her as a listener"
   例 ✗: "shuishui's point of view of the drain hole"(禁用 pov,太抽象); "seen from behind as they look at..."(背影别滥用,看不到脸); "papa and shuishui taking a selfie together"(拍照应是爸爸给水水拍,不是自拍); "the teacher teaching the class"(配角无物种,会被画成爸爸)
 
-# 长度判断（8-15 页动态）
+# 长度判断（8-22 页动态）
 看故事素材的事件密度自己定 N：
 - 单一冲突 / 一个小决定 → 8 页
-- 多个并列活动 / 多场景串联 → 10-13 页
-- 长跨度多幕（如一整天/旅程） → 13-15 页
+- 多个并列活动 / 多场景串联 → 10-15 页
+- 长跨度多幕（如一整天/旅程/幼儿园完整一天） → 15-22 页
 不要为了凑页数注水，也不要为了短而砍掉关键情节。
 
 # 节奏（绘本三幕结构,等比例缩放到 N 页）
@@ -87,10 +88,10 @@ ${charDescriptions}
 - **pov 第一人称视角:不要使用**(对小朋友太抽象)。
 
 **什么时候才动用非常规机位(精挑 4-5 处):**
-1. **开头建场**:首页可用 wide + high-angle 或正面 wide,把出发地点和环境交代清楚。
+1. **开头建场不等于默认俯拍**:首页应根据故事内容选择镜头。室内/亲密互动开场优先 eye-level 或 three-quarter,看清角色脸和动作;只有当首页需要交代大空间布局(操场/街道/长路线/大型场景)时,才可用 wide + high-angle。
 2. **到达/地点即主角**:到达一个重要新场景(终点车站、一片新天地)时,可用 wide 把场景铺开——但仍尽量让角色正面可见,不要只剩背影。
 3. **一个情绪高点**:勇敢/高大的瞬间可用 low-angle 仰拍。
-4. 其余页面老老实实用正面平视/three-quarter,把角色的表情和互动画清楚。
+4. 其余页面根据剧情规划镜头语言:亲密对话用 eye-level/three-quarter,动作关系用能拍清施动者和受动者的角度,场景转换才用 wide,不要为了变化而滥用俯拍。
 
 **施动/受动的双人动作,机位要拍出"动作本身"(重要):**
 当一页是"A 给 B 做某事"(例:爸爸给水水拍照、爸爸帮水水暖手、爸爸牵引自行车),机位要让**施动者和受动者都清楚可见、动作姿势完整**,绝不能拍成两人并排自拍的样子。
@@ -118,7 +119,7 @@ export function buildStoryUserPrompt(req: StoryRequest): string {
 
 教育目标：${req.education_goal}
 
-请按上面"长度判断"决定页数(8-15 页),然后生成绘本。`;
+请按上面"长度判断"决定页数(8-22 页),然后生成绘本。`;
 }
 
 // ━━━ Image prompt compilation ━━━

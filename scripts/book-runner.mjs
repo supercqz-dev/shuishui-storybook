@@ -18,6 +18,55 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  // 幼儿园完整一天:早起、上学、入园、早餐、游戏、户外、午饭、午睡、水果、头套游戏、放学。
+  // 长故事,允许 15-22 页。早晨水水/爸爸/妈妈都穿睡衣,需要覆盖默认服装。
+  kindergarten: {
+    book_id: 'kindergarten-day-2026-06-11',
+    chars: ['shuishui', 'papa', 'mama', 'laolao'],
+    trigger: `这是一本较长的幼儿园一日生活绘本,请扩展成 15-22 页,像日记一样温暖、连贯、细节丰富。主题是:幼儿园的一天很充实,水水能自己完成很多事情,也和老师、小朋友一起快乐玩耍。
+
+故事素材:
+清晨,太阳公公照进房间。水水和妈妈睡在同一张大床上。水水穿着短袖长睡衣从睡梦中醒来,在妈妈身边伸了个懒腰。妈妈也穿着睡衣,侧躺在同一张床上搂了搂水水,说:"早上好呀,我的小宝贝。"水水搂着妈妈脖子,亲了亲妈妈的小脸。
+水水自己下床,来到爸爸房间门口,duang 的一声推开门,大喊:"爸爸,起床啦!"爸爸穿着睡衣,被水水吓了一跳,表情要夸张一点;水水得意地哈哈笑。
+妈妈开始给水水换上漂亮的裙子和鞋子。水水从沙发椅背上一排毛绒玩具里挑了小橘猫,要带它一起去上学。带上水杯,出发。今天是爸爸送水水。
+爸爸骑一辆弯梁小摩托(step-through scooter / underbone motorbike),弯梁中间脚踏通道的位置加装了一个小小的儿童前座,水水坐在爸爸前面的加装座椅上,开心去上学。一路阳光明媚,小风徐徐,水水和爸爸有说有笑。
+很快到学校了。爸爸牵着水水的手进入幼儿园,来到班级门口。今天是王老师值班。王老师给水水用体温枪检查脑门体温,又用小手电筒照了照小牙齿有没有刷干净。水水跟爸爸拜拜,开心地跟王老师进班级。
+一会儿章老师推着早餐来了。早餐很丰富:花卷、鸡蛋、肉沫小白菜粥、小煎饼。小朋友们一起开心地吃香喷喷的早餐。
+吃完早餐开始玩游戏。三三两两的好朋友们一起搭积木、画画、给布娃娃讲故事。水水和果儿、十一一起玩磁力片,合作搭了一个高高的冰雪城堡。
+玩了一会,王老师给大家讲故事,小朋友围成一圈认真听。
+上午休息时间到了,章老师给大家推来了酸奶。小朋友排成一队,一人一盒酸奶。水水和毛毛西坐在一起,说说笑笑地喝酸奶。
+喝完酸奶,刘老师来了,带着大家排成两队,手牵手来到操场。大家一起玩滑滑梯、拍球、滚轮胎。水水和毛毛西一起玩翘翘板。玩了一会儿,水水有点渴,回到班级,自己拿水杯咕咚咚喝了好几口。
+中午到了,章老师又给大家带午餐:红薯米饭、红烧丸子、鸡蛋炒莴笋、冬瓜汤。
+吃完饭,王老师说:"小朋友们,准备睡觉啦。"午睡的大房间里整齐排列着好几排小床,每个小朋友一张小床。水水爬到自己的小床上,咕噜噜滚了几下,觉得太舒服了。她盖上小被子,闭上眼睛,没一会儿就睡着了。王老师走过来,看看睡着的水水,轻轻给她拉了拉被子,眼神里都是表扬:水水会自己睡觉了,太棒了。
+午睡结束,王老师放了轻柔的音乐,把小朋友们轻轻唤醒。小朋友们都伸了伸懒腰,午睡一会儿可太舒服了。
+章老师给大家准备了水果。水水吃了几颗葡萄,真甜呀。
+下午又有搞笑的游戏:小朋友们戴上水果头套一起玩。水水戴着西瓜头套,有的小动物戴草莓头套,有的戴苹果头套,有的戴南瓜头套,还有的戴香蕉头套,大家笑得前仰后合。
+欢乐的时光过得真快,放学到了。小朋友们排成一队,跟着王老师来到学校门口。水水突然发现门口来接自己的竟然是爸爸,这是惊喜。水水高兴地朝爸爸挥挥手。出了校门,原来姥姥也来了。
+水水和爸爸一起骑着小摩托回家。又是开心快乐的幼儿园一天,明天还要来玩。
+
+固定角色与临时角色视觉设定(非常重要):
+- 固定 bible 角色:水水=白色小兔;爸爸=小熊猫 red panda;妈妈=白色兔子;姥姥=绵羊。使用角色 YAML 的 prompt_anchor 保持形象。
+- 早晨起床段落的服装是临时服装,必须覆盖默认服装:水水穿短袖长睡衣,不是粉色小裙子;妈妈穿柔软睡衣,不是黄色碎花裙;爸爸穿宽松睡衣,不是默认服装。第一页必须画水水和妈妈睡在同一张大床上、都穿睡衣,妈妈在床上搂着水水,不要把妈妈画成站在床边。composition_hint 必须写清楚 "shuishui and white rabbit share the same bed, both wearing pajamas instead of usual outfits"。
+- 换衣服后到幼儿园全天,水水恢复漂亮裙子、鞋子、发带的默认上学造型,并带小橘猫毛绒玩具和水杯。
+- 王老师 = 亲切的大熊猫老师,giant panda teacher, no glasses, 温柔值班老师。
+- 章老师 = 斑点狗老师,Dalmatian dog teacher,推餐车/酸奶车/水果车,活泼能干。
+- 刘老师 = 长颈鹿老师,giraffe teacher, no glasses, 负责带队去操场。
+- 果儿 = 小鹿同学,small fawn/deer classmate,温柔可爱。
+- 十一 = 小象同学,small elephant calf classmate,圆圆的、力气大、爱合作。
+- 毛毛西 = 小白猫同学,small white kitten classmate,爱笑,和水水一起喝酸奶、玩翘翘板。
+- 其他小朋友:每页出现时都明确分配动物物种,例如小松鼠、小猪、小熊、小浣熊、小狐狸、小鸭子、小刺猬等。不要写 human children。
+
+构图与安全提示:
+- 图像 composition_hint 里不要写 dad/mom/father/mother/parent/child/kid/toddler/baby/girl/boy 或人类年龄;用 shuishui / red panda / white rabbit / sheep / giant panda teacher / dalmatian teacher / giraffe teacher / animal classmates 等描述。
+- 幼儿园是全动物世界,老师和同学都是拟人动物,没有真人。
+- 入园检查页要明确动作分工:giant panda teacher holds a forehead thermometer near shuishui's forehead and a small flashlight for checking teeth; red panda stands aside saying goodbye, NOT doing the teacher action。
+- 摩托车页:画一辆 gentle pastel step-through scooter / underbone motorbike。重点构图必须正确:弯梁车中间低低的脚踏通道/弯梁位置加装一个 small front child seat,这个小座椅在驾驶员前方、车把后方、踏板上方;red panda 坐在后面的正常驾驶座上双手扶车把;shuishui 坐在前方加装小座椅上,位于 red panda 和车把之间,不是后座,不是并排,不是 sidecar。sunny morning road, both happy。不要画成赛车或危险高速。
+- 教室游戏页不要塞太多人;每页 3-6 个小动物足够。重点页分别给早餐、磁力片冰雪城堡、围圈听故事、排队拿酸奶、操场、喝水、午饭、午睡、醒来、水果、头套游戏、放学。
+- 午睡页温柔安静:rows of small nap beds, each small animal in its own bed, shuishui tucked in, giant panda teacher gently adjusting the blanket, warm praise in her eyes。
+- 水果头套游戏页要特别欢乐:shuishui wears a watermelon headpiece; animal classmates wear strawberry, apple, pumpkin, banana headpieces, everyone laughing, silly and bright。
+- 书名必须是简短英文绘本名,不要出现 ShuiShui;副标题用中文。`,
+    edu: '帮助水水回顾并喜欢幼儿园的一天:早起、入园、吃饭、游戏、听故事、户外、喝水、午睡、放学;强化自己起床、自己喝水、自己午睡、和小朋友合作的成就感,也让她期待明天继续去幼儿园。',
+  },
   // 捉柳絮:北京初夏,大姨(漂亮白熊)带水水在楼下追捉柳絮。第一人称(大姨"我")叙述。
   // 大姨(dayi)已升级为固定 bible 角色(蓝裙白熊,强化女性特征),用 bible 锚点保证跨页一致。
   catkins: {

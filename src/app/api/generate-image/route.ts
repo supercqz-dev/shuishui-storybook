@@ -52,7 +52,7 @@ export async function POST(req: Request) {
         size: IMAGE_SIZE,
         quality: IMAGE_QUALITY,
         n: 1,
-      } as Parameters<typeof client.images.generate>[0]);
+      } as unknown as Parameters<typeof client.images.generate>[0]);
     } catch (e) {
       const err = e as { status?: number; message?: string; error?: unknown };
       console.error(`[generate-image] gateway rejected. status=${err.status} message=${err.message}`);

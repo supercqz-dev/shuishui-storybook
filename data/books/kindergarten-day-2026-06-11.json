@@ -1,0 +1,753 @@
+{
+  "id": "kindergarten-day-2026-06-11",
+  "title": "A Busy School Day",
+  "subtitle": "水水充实又快乐的幼儿园一日生活",
+  "theme": "幼儿园一日生活、自理能力、合作玩耍与温暖告别",
+  "moral": "水水发现，自己能起床、喝水、午睡，也能和老师、小朋友一起完成很多快乐的小事。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "清晨，太阳公公照进房间。水水和妈妈睡在同一张大床上，水水穿着短袖长睡衣醒来，伸了一个大大的懒腰。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "早上好呀，我的小宝贝。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "甜甜的开心",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "水水的卧室",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "小床",
+          "薄被子",
+          "窗帘",
+          "晨光"
+        ]
+      },
+      "composition_hint": "a warm three-quarter medium view inside a cozy bedroom in morning sunlight: shuishui and the adult white rabbit share the SAME large bed under soft blankets, both clearly wearing soft pajamas instead of their usual outfits; shuishui wears short-sleeve long pajamas and stretches beside the adult white rabbit; the adult white rabbit is lying/sitting on the bed cuddling shuishui with a warm smile, NOT standing beside the bed; intimate eye-level family morning moment, both faces visible"
+    },
+    {
+      "page": 2,
+      "narration": "水水自己下了床，啪嗒啪嗒跑到爸爸房间门口。她“duang”地推开门，声音响亮极了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，起床啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "哎呀！小闹钟来啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "得意又调皮",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "爸爸房间门口",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "房门",
+          "枕头",
+          "被子"
+        ]
+      },
+      "composition_hint": "a three-quarter front view of shuishui wearing short-sleeve long pajamas instead of usual outfit pushing open a bedroom door, red panda wearing loose pajamas instead of usual outfit sitting up in bed with an exaggerated surprised face, shuishui laughing proudly"
+    },
+    {
+      "page": 3,
+      "narration": "洗漱以后，妈妈帮水水换上漂亮的裙子和小鞋子。水水从一排毛绒玩具里，选中了小橘猫。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小橘猫也要去上学！"
+        },
+        {
+          "speaker": "mama",
+          "text": "好呀，水杯也带上。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "认真又期待",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "客厅",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "沙发",
+          "一排毛绒玩具",
+          "小橘猫毛绒玩具",
+          "水杯",
+          "小鞋子"
+        ]
+      },
+      "composition_hint": "an eye-level close-up of shuishui in a pretty school dress, shoes, and hairband holding an orange cat plush toy, white rabbit beside her holding a water bottle, a sofa back lined with plush toys in the background"
+    },
+    {
+      "page": 4,
+      "narration": "今天是爸爸送水水去幼儿园。小摩托轻轻向前，早上的风也轻轻吹。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "风在唱歌呢！"
+        },
+        {
+          "speaker": "papa",
+          "text": "我们也唱一首吧。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区外的街道",
+        "weather": "阳光明媚",
+        "time_of_day": "早",
+        "props": [
+          "弯梁小摩托",
+          "小乘客座椅",
+          "头盔",
+          "路边树",
+          "书包",
+          "水杯"
+        ]
+      },
+      "composition_hint": "a clear three-quarter side view of a gentle pastel step-through scooter / underbone motorbike on a sunny morning road: the scooter has a low curved step-through frame with a small FRONT child seat mounted in the middle footboard area, in front of the driver and behind the handlebars; red panda sits on the normal rear driver seat holding the handlebars; shuishui sits safely on the added front child seat between the red panda and the handlebars, NOT on the rear seat, NOT side-by-side, NOT in a sidecar; shuishui holds an orange cat plush toy and water bottle, both smiling in the morning breeze"
+    },
+    {
+      "page": 5,
+      "narration": "很快，幼儿园到了。王老师在班级门口值班，笑眯眯地迎接大家。",
+      "dialogue": [
+        {
+          "speaker": "wang_teacher",
+          "text": "水水，早上好，我们量一量体温，看一看小牙齿。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "老师早上好！爸爸再见！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "over-the-shoulder",
+      "emotion": "安心又有礼貌",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "wang_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园班级门口",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "体温枪",
+          "小手电筒",
+          "班级门牌",
+          "书包",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an over-the-shoulder view from the side of red panda, showing a GIANT PANDA teacher with no glasses holding a forehead thermometer near shuishui's forehead and a small flashlight for checking teeth, red panda stands aside waving goodbye and NOT doing the teacher action, shuishui smiles at the classroom doorway"
+    },
+    {
+      "page": 6,
+      "narration": "章老师推着早餐车来了，香香的味道跑进了教室。花卷、鸡蛋、粥和小煎饼，都在向大家打招呼。",
+      "dialogue": [
+        {
+          "speaker": "zhang_teacher",
+          "text": "早餐时间到啦！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "闻起来好香呀。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "zhang_teacher",
+        "guoer",
+        "shiyi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "早餐车",
+          "花卷",
+          "鸡蛋",
+          "肉沫小白菜粥",
+          "小煎饼",
+          "小餐盘"
+        ]
+      },
+      "composition_hint": "a three-quarter front view of a cheerful DALMATIAN dog teacher pushing a breakfast cart with steamed buns, eggs, minced-meat cabbage porridge, and small pancakes, shuishui in school dress watching happily, a small fawn classmate and a small elephant calf classmate seated nearby"
+    },
+    {
+      "page": 7,
+      "narration": "小朋友们坐好，一口一口吃早餐。水水也自己拿勺子，吃得香喷喷。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我会自己吃。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "满足又自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "guoer",
+        "shiyi",
+        "maomaoxi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "小餐桌",
+          "小勺子",
+          "粥碗",
+          "花卷",
+          "鸡蛋",
+          "小煎饼"
+        ]
+      },
+      "composition_hint": "an eye-level close-up of shuishui holding a small spoon and eating breakfast at a low classroom table, a small fawn classmate, a small elephant calf classmate, and a small white kitten classmate eating happily beside her"
+    },
+    {
+      "page": 8,
+      "narration": "早餐后，游戏时间开始啦。水水和果儿、十一一起拼磁力片，搭出一座高高的冰雪城堡。",
+      "dialogue": [
+        {
+          "speaker": "guoer",
+          "text": "我放蓝色的屋顶。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我来加一扇亮亮的门！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "专注又兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "guoer",
+        "shiyi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室游戏区",
+        "weather": "晴朗",
+        "time_of_day": "早",
+        "props": [
+          "磁力片",
+          "地垫",
+          "冰雪城堡造型",
+          "收纳盒"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui, a small fawn classmate, and a small elephant calf classmate sitting around colorful magnetic tiles, cooperating to build a tall icy-blue castle with shiny triangular roofs on a soft play mat"
+    },
+    {
+      "page": 9,
+      "narration": "玩了一会儿，王老师拿出一本故事书。大家围成一个圆圈，耳朵都竖起来听。",
+      "dialogue": [
+        {
+          "speaker": "wang_teacher",
+          "text": "故事开始喽。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嘘，我要认真听。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "安静又好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "wang_teacher",
+        "guoer",
+        "shiyi",
+        "maomaoxi",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室阅读角",
+        "weather": "晴朗",
+        "time_of_day": "上午",
+        "props": [
+          "故事书",
+          "圆形地毯",
+          "小靠垫"
+        ]
+      },
+      "composition_hint": "a three-quarter wide view of a GIANT PANDA teacher with no glasses holding a picture book at the front of a circle, shuishui, a small fawn classmate, a small elephant calf classmate, a small white kitten classmate, a small squirrel classmate, and a small piglet classmate sitting on a round rug listening"
+    },
+    {
+      "page": 10,
+      "narration": "上午休息时间到了，章老师又推来了酸奶车。小朋友们排成一队，一人一盒。",
+      "dialogue": [
+        {
+          "speaker": "zhang_teacher",
+          "text": "慢慢排队，每个都有。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我排好啦。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "有秩序的开心",
+      "characters_in_scene": [
+        "shuishui",
+        "zhang_teacher",
+        "maomaoxi",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴朗",
+        "time_of_day": "上午",
+        "props": [
+          "酸奶车",
+          "酸奶盒",
+          "排队地贴"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of a DALMATIAN dog teacher handing out yogurt boxes from a small cart, shuishui waiting in line with a small white kitten classmate, a small squirrel classmate, and a small duckling classmate behind her"
+    },
+    {
+      "page": 11,
+      "narration": "水水和毛毛西坐在一起，咕噜咕噜喝酸奶。两只小脑袋凑着笑，酸奶甜，笑声也甜。",
+      "dialogue": [
+        {
+          "speaker": "maomaoxi",
+          "text": "我的酸奶有小奶胡子！"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "哈哈，我也有吗？"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "开心又亲近",
+      "characters_in_scene": [
+        "shuishui",
+        "maomaoxi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室小桌边",
+        "weather": "晴朗",
+        "time_of_day": "上午",
+        "props": [
+          "酸奶盒",
+          "小吸管",
+          "小椅子"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up of shuishui and a small white kitten classmate seated side by side at a small table, each holding a yogurt box with a straw, both laughing with tiny yogurt mustaches"
+    },
+    {
+      "page": 12,
+      "narration": "喝完酸奶，刘老师来了。大家排成两队，手牵手，一起去操场。",
+      "dialogue": [
+        {
+          "speaker": "liu_teacher",
+          "text": "我们慢慢走，去晒太阳喽。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "from-behind",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "liu_teacher",
+        "maomaoxi",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "教室到操场的走廊",
+        "weather": "晴朗",
+        "time_of_day": "上午",
+        "props": [
+          "走廊",
+          "操场门",
+          "阳光",
+          "排队线"
+        ]
+      },
+      "composition_hint": "from behind: a GIRAFFE teacher with no glasses leads two neat lines of animal classmates toward a sunny playground doorway, shuishui holds hands with a small white kitten classmate, a small raccoon classmate and a small bear cub classmate walk in the line ahead"
+    },
+    {
+      "page": 13,
+      "narration": "操场上真热闹！有的滑滑梯，有的拍球，有的滚轮胎。水水和毛毛西坐上翘翘板，一上一下，咯咯笑。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "毛毛西，我上去啦！"
+        },
+        {
+          "speaker": "maomaoxi",
+          "text": "我下来啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "maomaoxi",
+        "liu_teacher",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园操场",
+        "weather": "阳光明媚",
+        "time_of_day": "上午",
+        "props": [
+          "彩色滑梯",
+          "小皮球",
+          "橡胶轮胎",
+          "翘翘板",
+          "软垫地面"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui and a small white kitten classmate playing on a colorful seesaw, a GIRAFFE teacher with no glasses watching nearby, a small fox classmate rolls a black rubber tire, a small hedgehog classmate bounces a ball, and a small duckling classmate slides down a bright plastic slide in the background"
+    },
+    {
+      "page": 14,
+      "narration": "玩了一会儿，水水有点渴了。她回到班里，自己找到水杯，咕咚咚喝了好几口。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我会自己喝水，身体就有力气啦。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室水杯架旁",
+        "weather": "晴朗",
+        "time_of_day": "上午",
+        "props": [
+          "水杯架",
+          "水杯",
+          "小毛巾",
+          "姓名贴"
+        ]
+      },
+      "composition_hint": "an eye-level close-up of shuishui standing by the classroom cubby shelf, proudly holding her own water bottle with both paws and drinking several big gulps; the orange cat plush rests nearby on the shelf; bright classroom background softly blurred, focus on the self-care moment and shuishui's happy face"
+    },
+    {
+      "page": 15,
+      "narration": "中午到了，章老师送来午餐。红薯米饭、红烧丸子、鸡蛋炒莴笋、冬瓜汤，摆满了小餐桌。",
+      "dialogue": [
+        {
+          "speaker": "zhang_teacher",
+          "text": "今天也要好好吃饭哦。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我想尝一口冬瓜汤。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "期待又满足",
+      "characters_in_scene": [
+        "shuishui",
+        "zhang_teacher",
+        "guoer",
+        "shiyi",
+        "maomaoxi"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室餐区",
+        "weather": "晴朗",
+        "time_of_day": "中午",
+        "props": [
+          "午餐车",
+          "红薯米饭",
+          "红烧丸子",
+          "鸡蛋炒莴笋",
+          "冬瓜汤",
+          "餐盘"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view of a DALMATIAN dog teacher serving lunch from a cart, shuishui seated at a low table with a small fawn classmate, a small elephant calf classmate, and a small white kitten classmate, plates showing sweet potato rice, braised meatballs, scrambled egg with lettuce stems, and winter melon soup"
+    },
+    {
+      "page": 16,
+      "narration": "吃完饭，王老师说：“准备睡觉啦。”午睡房里，一排一排小床整整齐齐，水水爬上自己的小床，咕噜噜滚了几下。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我的小床软软的。"
+        },
+        {
+          "speaker": "wang_teacher",
+          "text": "躺好，盖好小被子。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "舒服又放松",
+      "characters_in_scene": [
+        "shuishui",
+        "wang_teacher",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园午睡房",
+        "weather": "晴朗",
+        "time_of_day": "中午",
+        "props": [
+          "小床",
+          "小被子",
+          "窗帘",
+          "安静标志"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of a calm nap room with rows of small nap beds, shuishui climbing onto her own bed and rolling happily once, a GIANT PANDA teacher with no glasses standing nearby, a small squirrel classmate and a small piglet classmate settling into separate beds"
+    },
+    {
+      "page": 17,
+      "narration": "水水盖上小被子，闭上眼睛，没一会儿就睡着了。王老师轻轻走来，帮她把被角拉好，眼睛里都是表扬。",
+      "dialogue": [],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "安稳",
+      "characters_in_scene": [
+        "shuishui",
+        "wang_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园午睡房",
+        "weather": "晴朗",
+        "time_of_day": "中午",
+        "props": [
+          "小床",
+          "小被子",
+          "柔软枕头",
+          "安静的午睡房"
+        ]
+      },
+      "composition_hint": "a three-quarter close-up of shuishui asleep in her own small nap bed, tucked under a soft blanket, a GIANT PANDA teacher with no glasses standing beside the bed gently adjusting the blanket, warm approving eyes, quiet rows of beds softly blurred behind"
+    },
+    {
+      "page": 18,
+      "narration": "午睡结束，轻柔的音乐响起来。小朋友们伸伸胳膊，伸伸腿，像一朵朵小花慢慢醒来。",
+      "dialogue": [
+        {
+          "speaker": "wang_teacher",
+          "text": "醒醒啦，下午也会很好玩。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "我睡得好舒服。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "懒洋洋又舒服",
+      "characters_in_scene": [
+        "shuishui",
+        "wang_teacher",
+        "maomaoxi",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园午睡房",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "音乐播放器",
+          "小床",
+          "小被子",
+          "窗帘"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui sitting up on her nap bed and stretching, a GIANT PANDA teacher with no glasses near a small music player, a small white kitten classmate and a small bear cub classmate waking in their own beds"
+    },
+    {
+      "page": 19,
+      "narration": "章老师准备了水果。水水吃了几颗葡萄，甜甜的汁水在嘴巴里转圈圈。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "葡萄真甜呀！"
+        },
+        {
+          "speaker": "zhang_teacher",
+          "text": "喜欢就慢慢吃。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "甜蜜",
+      "characters_in_scene": [
+        "shuishui",
+        "zhang_teacher"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "水果盘",
+          "葡萄",
+          "小叉子",
+          "水果车"
+        ]
+      },
+      "composition_hint": "an eye-level close-up of shuishui holding a small fork with grapes on a plate, smiling at the sweet taste, a DALMATIAN dog teacher standing by a fruit cart with more fruit plates"
+    },
+    {
+      "page": 20,
+      "narration": "下午的游戏最搞笑！水水戴上西瓜头套，别的小动物戴着草莓、苹果、南瓜和香蕉头套，大家笑得前仰后合。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我是大西瓜，咚咚咚！"
+        },
+        {
+          "speaker": "other_classmates",
+          "text": "哈哈哈，水果跑起来啦！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "大笑又放飞",
+      "characters_in_scene": [
+        "shuishui",
+        "guoer",
+        "shiyi",
+        "maomaoxi",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室游戏区",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "西瓜头套",
+          "草莓头套",
+          "苹果头套",
+          "南瓜头套",
+          "香蕉头套",
+          "彩色地垫"
+        ]
+      },
+      "composition_hint": "a wide three-quarter eye-level classroom play area full of laughing animal classmates: shuishui wears a watermelon headpiece; a small fawn wears a strawberry headpiece, a small elephant calf wears an apple headpiece, a white kitten wears a pumpkin headpiece, and other small animal classmates wear banana and other fruit headpieces; everyone laughing so hard, silly bright afternoon game, faces clearly visible"
+    },
+    {
+      "page": 21,
+      "narration": "快乐的时间过得真快，放学到了。水水跟着王老师来到校门口，一眼就看见爸爸在等她，旁边还有姥姥！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸！姥姥！我在这里！"
+        },
+        {
+          "speaker": "laolao",
+          "text": "我们的小水水，今天真棒。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "惊喜又开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "laolao",
+        "wang_teacher",
+        "other_classmates"
+      ],
+      "scene_state": {
+        "location": "幼儿园门口",
+        "weather": "晴朗",
+        "time_of_day": "下午",
+        "props": [
+          "校门",
+          "接送牌",
+          "小书包",
+          "小橘猫毛绒玩具",
+          "水杯"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view at the kindergarten gate, shuishui waving happily while standing beside a GIANT PANDA teacher with no glasses, red panda waiting with a smile and sheep standing beside red panda, a small squirrel classmate and a small duckling classmate leaving in the background"
+    },
+    {
+      "page": 22,
+      "narration": "水水和爸爸坐上小摩托，带着小橘猫和水杯回家。今天的幼儿园又香、又甜、又好玩，明天还要来！",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "今天最开心的事是什么？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "好多好多！明天我还要去幼儿园！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "满足又期待",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "回家的街道",
+        "weather": "夕阳温暖",
+        "time_of_day": "下午",
+        "props": [
+          "弯梁小摩托",
+          "小乘客座椅",
+          "小橘猫毛绒玩具",
+          "水杯",
+          "路边树",
+          "夕阳"
+        ]
+      },
+      "composition_hint": "an eye-level wide shot from across the street at a city intersection crosswalk, like a camera on the opposite sidewalk watching a gentle pastel step-through scooter crossing the road slowly. red panda rides the scooter, sitting on the normal driver saddle with both paws on the handlebars, smiling with happy crescent-shaped squinting eyes. shuishui stands safely on the scooter's wide flat front footboard / floorboard area in front of the red panda and below the handlebars, holding an orange cat plush toy and water bottle close, smiling with happy crescent-shaped squinting eyes; shuishui is standing on the footboard, NOT sitting on the rear seat, NOT sitting on the handlebars, NOT in a sidecar. Show the scooter in side view as it crosses the zebra crossing at the intersection, traffic lights and crosswalk lines visible, warm late-afternoon light, joyful going-home ending, both faces visible and very happy."
+    }
+  ],
+  "created_at": "2026-06-11T14:56:36.276Z",
+  "status": "finished",
+  "cover_image": "/generated/kindergarten-day-2026-06-11/cover.png"
+}

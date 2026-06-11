@@ -63,7 +63,7 @@ export async function POST(req: Request) {
         size: '1024x1536',
         quality: 'high',
         n: 1,
-      } as Parameters<typeof client.images.generate>[0]);
+      } as unknown as Parameters<typeof client.images.generate>[0]);
     } catch (e) {
       const err = e as { status?: number; message?: string; error?: unknown };
       console.error(`[generate-character-ref] gateway rejected for ${character.id}. status=${err.status} message=${err.message}`);
