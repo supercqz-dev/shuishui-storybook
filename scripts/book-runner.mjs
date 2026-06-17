@@ -18,6 +18,51 @@ setGlobalDispatcher(new Agent({
 const BASE = 'http://localhost:3000';
 
 const BOOKS = {
+  // 阿那亚度假(上): 出发、路书、午饭、高速、抵达民宿、儿童房和小院子。
+  aranya: {
+    book_id: 'aranya-holiday-part1-2026-06-16',
+    chars: ['shuishui', 'papa', 'mama', 'laolao', 'dayi'],
+    trigger: `这是一本较长的周末海边度假上集绘本,请扩展成 16-20 页,像家庭旅行日记一样温暖、连贯、细节丰富。主题是:出发去海边度假的一路小插曲,以及抵达漂亮民宿后的兴奋探索。故事结尾停在大家刚刚享受小院子的惬意时刻,作为“上集”。
+
+故事素材:
+这周末,爸爸妈妈要开车带水水和姥姥去一个漂亮的海边地方度假。那个地方叫阿那亚,在北戴河海边,从北京开车过去大约 4 小时。爸爸妈妈商量好:出北京前先在北京顺义吃午饭,再继续上路。
+第一页必须是一张手绘地图路线页:从北京出发,中途在北京顺义吃午饭,再到北戴河阿那亚海边。地图上要显示路线、途中吃饭点、全程长度和时长,卡通手帐风,可爱贴纸感。旁白可以像旅行计划一样介绍:北京 → 顺义午饭 → 北戴河阿那亚,约 300 公里,约 4 小时。
+早上起来,妈妈和姥姥在家里收拾行李,水水准备带小橘猫毛绒玩具跟自己一起去度假。
+爸爸把白色大 SUV 开到了楼下。大家装行李的时候,发生了一个小插曲:水水的粉色小推车不见了。爸爸想起来,肯定是之前把露营帐篷从车上拿下来时,把小推车放到了小区路边,走的时候忘了拿,可能被哪个邻居捡走了。爸爸有点不好意思,觉得自己真是太粗心了。水水有一点舍不得,但大家先出发,也提醒自己以后东西要收好。
+车终于开出小区。刚到小区门口,爸爸忽然问:身份证都带了吗?妈妈和姥姥都愣住了:没有!完蛋,赶紧开回去取。大家又掉头回家拿证件,这是第二个小插曲。
+终于,重新上路了。没一会儿就到了第一站:顺义的饭店。妈妈给水水点了好吃的小鱼、鸭舌、蛤蜊萝卜丝汤,可香了。
+吃完饭,爸爸抱着水水去买单。水水发现收银台放着圆圆的小糖果,问爸爸能不能拿。爸爸说可以,但是这是薄荷糖,吃了小嘴巴会冰冰的,你先舔一小口,看敢不敢吃。水水拿着圆圆的小糖果舔了一口,哇塞,太冰了!她朝爸爸吹了一口气,好像把冰冰的风吹给爸爸,逗得自己嘎嘎乐。
+吃完午饭继续出发,车很快上了高速。没一会儿,水水就在车后排睡着了,抱着小橘猫。爸爸稳稳当当地开着车,车窗外的城市慢慢变成高速路、田野和远远的蓝天。
+终于开到目的地了。停车以后,大家刚下车,就看到大姨迎面走了过来。原来大姨这次也来一起度假。水水开心地朝大姨跑过去,这次度假更热闹了。
+大姨带着大家来到房间。哇塞,这个民宿真是太棒了!这是一个三室一厅,还带一个大院子。房主的装修品味非常棒,每个角落都干净、温暖、漂亮。
+水水发现了一个儿童屋,可太棒了。里面有一张上下铺儿童床,有垂直的楼梯可以爬到上层。上层床铺有高高的围栏,还有几个透明的、像太空舱一样的圆形半球透明塑料窗口。水水开心地爬上去,跟爸爸说:爸爸快上来呀!爸爸也跟着爬了上去,哇塞,这里像一个小秘密基地。
+儿童房里还有一个飘窗,铺着白色羊毛软垫,非常舒服。屋顶上挂下来可以爬的软梯和吊环。水水爬到飘窗上,正好够到吊环,小脚一蹬,就把自己挂在吊环上;一松手,又稳稳站在地上,开心地大笑起来。
+儿童房里还有一个落地柜,柜子里装满了各种玩具,简直是个儿童乐园。
+水水叫来大姨,跟她一起在小屋子里玩起了各种玩具。
+爸爸妈妈来到小院子。太漂亮了!这是一个长条形的院子,四周种着小花小草。左边有一个双人的秋千椅,还有一个 L 型户外沙发和方形茶几。右边有一张餐桌,还有一个门可以通到小区里。阳光照在小院子里,妈妈坐在秋千椅上伸了个懒腰,觉得真是太惬意了。
+
+固定角色与临时角色视觉设定(非常重要):
+- 固定 bible 角色:水水=白色小兔;爸爸=小熊猫 red panda;妈妈=白色兔子;姥姥=绵羊;大姨=美丽优雅的白色北极熊,天蓝色夏日连衣裙。使用角色 YAML 的 prompt_anchor 保持形象。
+- 水水全程带着小橘猫毛绒玩具:round orange tabby plush cat toy, soft and chubby, small round tag on its neck。
+- 家庭用车是一辆 white large SUV,干净宽敞,适合家庭出游。车内后排要有安全座椅/儿童安全座,水水坐在后排安全位置,抱着小橘猫睡觉。
+- 餐馆可以画成温暖明亮的中餐海鲜饭店,桌上有 small fish dish, duck tongues dish, clam and shredded radish soup; 食物要温馨可爱,不要夸张惊悚。
+- 阿那亚/北戴河目的地氛围:海边度假社区、蓝天、清爽阳光、浅色建筑、松弛惬意,但本集不必急着画大海,重点在抵达和民宿。
+- 民宿儿童房: bunk bed with vertical ladder, high safety railing, round transparent dome windows like little space-capsule portholes; cozy kids' room, no danger。
+- 飘窗和吊环页: white wool cushion on bay window, hanging rope ladder and gym rings from ceiling; 水水动作开心安全,feet near bay window or floor, not extreme acrobatics。
+- 小院子: long narrow courtyard, flowers and grass around edges, two-person swing chair on left, L-shaped outdoor sofa and square coffee table, dining table on right, little gate/door to residential community, warm afternoon sunlight。
+
+构图与安全提示:
+- 图像 composition_hint 里不要写 dad/mom/father/mother/parent/child/kid/toddler/baby/girl/boy 或人类年龄;用 shuishui / red panda / white rabbit / sheep / white polar bear 等描述。对白和旁白可以自然中文称呼爸爸妈妈姥姥大姨,但 image prompt 字段不要写亲属词或人类年龄词。
+- 全世界都是拟人动物,没有真人;饭店服务员、邻居、路人如果出现,都必须是不同拟人动物,例如 raccoon waiter, squirrel neighbor, deer traveler。
+- 地图页不是现实导航截图,而是 hand-drawn illustrated travel map / cartoon scrapbook map, with cute icons for Beijing, Shunyi lunch stop, Beidaihe Aranya seaside destination, dotted route, label “约300公里 / 约4小时”, little car sticker and sea sticker。不要画真实品牌地图 UI。
+- 小推车丢失页要温和处理:水水有点舍不得,爸爸不好意思挠头,不要表现成大哭或严重冲突。
+- 身份证遗忘页要轻松搞笑:车刚出小区门就停下,大家表情愣住,然后赶紧回家拿;不要焦虑灾难感。
+- 高速页和车内页要安全温柔:车稳稳行驶,不要危险驾驶,不要疾驰追车。
+- 抵达见大姨页:水水朝 white polar bear 开心跑去;红熊猫、白兔、绵羊在旁边拿行李,旅行团圆感。
+- 儿童房探索可分多页:秘密基地、吊环、玩具柜、和 white polar bear 玩玩具。不要把所有细节塞一页。
+- 书名必须是简短英文绘本名,不要出现 ShuiShui;副标题用中文,可体现“阿那亚度假上集”。`,
+    edu: '旅行前要细心准备、证件和物品要检查好;遇到小插曲不用慌,一家人一起解决再继续出发;在旅途中感受家人陪伴、海边度假和新空间探索的快乐。',
+  },
   // 幼儿园完整一天:早起、上学、入园、早餐、游戏、户外、午饭、午睡、水果、头套游戏、放学。
   // 长故事,允许 15-22 页。早晨水水/爸爸/妈妈都穿睡衣,需要覆盖默认服装。
   kindergarten: {

@@ -1,0 +1,673 @@
+{
+  "id": "aranya-holiday-part1-2026-06-16",
+  "title": "Seaside Road Trip",
+  "subtitle": "阿那亚度假上集：一路小插曲和漂亮民宿",
+  "theme": "周末海边度假出发日",
+  "moral": "旅行前细心检查物品和证件；遇到小插曲不用慌，一家人一起想办法，旅程还是会很快乐。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周末旅行计划开始啦：北京 → 顺义午饭 → 北戴河阿那亚。大约300公里，大约4小时，大家要去海边住一晚漂亮民宿。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "期待",
+      "characters_in_scene": [],
+      "scene_state": {
+        "location": "手绘旅行地图页",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "手绘路线地图",
+          "北京图标",
+          "顺义午饭点图标",
+          "北戴河阿那亚海边图标",
+          "小汽车贴纸",
+          "海浪贴纸",
+          "文字“约300公里 / 约4小时”"
+        ]
+      },
+      "composition_hint": "a high-angle view of a hand-drawn illustrated travel map in cartoon scrapbook style, dotted route from Beijing to Shunyi lunch stop to Beidaihe Aranya seaside destination, cute icons, little car sticker, sea sticker, label text “约300公里 / 约4小时”, no real navigation app UI",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-01.webp"
+    },
+    {
+      "page": 2,
+      "narration": "早上，家里忙忙的。妈妈和姥姥把衣服、帽子和小点心一件件放进行李箱。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "小橘猫也要去度假！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "行李箱",
+          "夏天衣服",
+          "遮阳帽",
+          "小点心袋",
+          "round orange tabby plush cat toy, soft and chubby, small round tag on its neck"
+        ]
+      },
+      "composition_hint": "an eye-level view of shuishui holding a round orange tabby plush cat toy while a taller white rabbit and a sheep pack suitcases in a bright living room, warm morning light, all faces clear",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-02.webp"
+    },
+    {
+      "page": 3,
+      "narration": "楼下，爸爸把白色大SUV开来了。车子干干净净，后排也准备好了舒服的位置。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "旅行小队，准备装车喽！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "雀跃",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "小区楼下",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "white large SUV",
+          "行李箱",
+          "背包",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter front view of a clean white large SUV parked downstairs, red panda standing by the open trunk, shuishui holding the orange tabby plush cat toy, taller white rabbit and sheep carrying suitcases, sunny residential courtyard",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-03.webp"
+    },
+    {
+      "page": 4,
+      "narration": "装行李的时候，大家找来找去，水水的粉色小推车不见了。爸爸想起，可能上次拿露营帐篷时，把它忘在小区路边了。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "哎呀，是我太粗心了。下次我们一起检查好。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "小推车……我有一点舍不得。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "舍不得",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "小区楼下车旁",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "white large SUV",
+          "行李箱",
+          "露营帐篷收纳袋",
+          "空出的后备箱角落",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level view beside the white large SUV, red panda scratching the back of his head with an apologetic smile, shuishui holding the orange tabby plush cat toy with a small sad face, taller white rabbit and sheep standing nearby with luggage",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-04.webp"
+    },
+    {
+      "page": 5,
+      "narration": "小推车暂时找不到，旅行还是要继续。大家把行李放好，也把“出门要检查”记在心里。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "有点可惜，但我们先出发。以后东西用完，要一起收好。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "被安慰",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "小区楼下车旁",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "车钥匙",
+          "行李箱拉链",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter close view of shuishui hugging the orange tabby plush cat toy, a taller white rabbit standing calmly beside her, red panda closing a suitcase zipper near the white SUV, gentle expressions",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-05.webp"
+    },
+    {
+      "page": 6,
+      "narration": "车子终于开到小区门口。爸爸忽然问：“身份证都带了吗？”车里一下子安静了。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "哎呀，没有！"
+        },
+        {
+          "speaker": "laolao",
+          "text": "快快快，掉头回去拿。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "惊讶",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "小区门口车内",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "white large SUV interior",
+          "后排旅行座椅",
+          "安全带",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level view inside the white large SUV stopped at the residential gate, red panda at the steering wheel, shuishui seated in a rear travel seat with harness holding the orange tabby plush cat toy, taller white rabbit and sheep looking surprised but playful",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-06.webp"
+    },
+    {
+      "page": 7,
+      "narration": "大家又回到家里。妈妈拿身份证，姥姥检查小包，水水也认真看着。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "这次我们带齐啦！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "家里门口玄关",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "证件小包",
+          "身份证卡片",
+          "钥匙盘",
+          "背包",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter view of a bright entryway, a taller white rabbit placing small identity cards into a pouch, sheep checking a bag, shuishui watching carefully with the orange tabby plush cat toy, red panda waiting by the open door with a suitcase",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-07.webp"
+    },
+    {
+      "page": 8,
+      "narration": "重新上路后，第一站很快到了：顺义午饭。饭店亮亮的，桌上香香的。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "给水水点了小鱼、鸭舌，还有蛤蜊萝卜丝汤。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "馋馋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "顺义中餐海鲜饭店",
+        "weather": "晴",
+        "time_of_day": "中",
+        "props": [
+          "圆桌",
+          "small fish dish",
+          "duck tongues dish",
+          "clam and shredded radish soup",
+          "小碗",
+          "儿童餐具",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level view in a warm bright Chinese seafood restaurant, shuishui seated at a round table with the orange tabby plush cat toy beside her, red panda, taller white rabbit, and sheep around the table, small fish dish, duck tongues dish, clam and shredded radish soup shown in a cozy cute style",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-08.webp"
+    },
+    {
+      "page": 9,
+      "narration": "吃完饭，爸爸抱着水水去买单。收银台上有圆圆的小糖果，水水的小眼睛亮了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，我可以拿一个吗？"
+        },
+        {
+          "speaker": "papa",
+          "text": "可以。它是薄荷糖，先舔一小口试试。"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "over-the-shoulder",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "饭店收银台",
+        "weather": "晴",
+        "time_of_day": "中",
+        "props": [
+          "收银台",
+          "圆圆薄荷糖小碗",
+          "付款小票",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an over-the-shoulder view from beside the red panda holding shuishui, looking toward a restaurant cashier counter with a small bowl of round mint candies, shuishui reaching for one candy while holding the orange tabby plush cat toy, warm indoor light",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-09.webp"
+    },
+    {
+      "page": 10,
+      "narration": "水水轻轻舔了一口。哇，嘴巴冰冰的！她朝爸爸吹了一口气，好像吹出一阵小小的凉风。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "呼——冰冰风来啦！"
+        },
+        {
+          "speaker": "papa",
+          "text": "哈哈，我收到啦！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "饭店收银台旁",
+        "weather": "晴",
+        "time_of_day": "中",
+        "props": [
+          "薄荷糖",
+          "付款小票",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter close view of shuishui laughing and blowing a tiny pretend icy breath toward a smiling red panda, one small round mint candy in her paw, the orange tabby plush cat toy tucked against her arm",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-10.webp"
+    },
+    {
+      "page": 11,
+      "narration": "午饭后，车子上了高速。城市慢慢退到后面，窗外有田野、树影和远远的蓝天。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "平静",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "高速公路车内与窗外",
+        "weather": "晴",
+        "time_of_day": "中",
+        "props": [
+          "white large SUV",
+          "高速路",
+          "田野",
+          "蓝天",
+          "车窗",
+          "后排旅行座椅",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level side view showing the white large SUV traveling steadily on a highway, through the window are fields, trees, and distant blue sky; inside, shuishui rests in a rear travel seat with harness holding the orange tabby plush cat toy, red panda driving calmly, taller white rabbit and sheep seated quietly",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-11.webp"
+    },
+    {
+      "page": 12,
+      "narration": "开着开着，水水睡着了。小橘猫趴在她怀里，也像一起做了一个海边梦。",
+      "dialogue": [],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "安稳",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "车后排",
+        "weather": "晴",
+        "time_of_day": "中",
+        "props": [
+          "后排旅行座椅",
+          "安全带",
+          "小毯子",
+          "round orange tabby plush cat toy, soft and chubby, small round tag on its neck",
+          "车窗阳光"
+        ]
+      },
+      "composition_hint": "an eye-level close view of shuishui sleeping peacefully in a rear travel seat with harness, hugging a soft chubby round orange tabby plush cat toy with a small round tag on its neck, gentle sunlight through the car window",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-12.webp"
+    },
+    {
+      "page": 13,
+      "narration": "终于到啦！大家刚下车，就看见大姨迎面走过来。原来大姨也来一起度假。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "大姨！你也来啦！"
+        },
+        {
+          "speaker": "dayi",
+          "text": "当然啦，我来陪水水玩。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "from-behind",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "阿那亚度假社区停车处",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "white large SUV",
+          "行李箱",
+          "浅色建筑",
+          "蓝天",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "from behind: shuishui in the foreground runs happily toward a white polar bear in a sky-blue summer dress walking forward with open arms; red panda, taller white rabbit, and sheep stand by the white large SUV with suitcases, bright seaside resort buildings and blue sky ahead",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-13.webp"
+    },
+    {
+      "page": 14,
+      "narration": "大姨带大家来到房间。哇，是三室一厅，还有一个大院子，干净、温暖、漂亮。",
+      "dialogue": [
+        {
+          "speaker": "laolao",
+          "text": "这个房子真利索，住着舒服！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "新奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "民宿客厅入口",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "行李箱",
+          "浅色沙发",
+          "木地板",
+          "绿植",
+          "通向小院子的玻璃门",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of a cozy clean vacation rental living room with pale sofa, wooden floor, green plants, glass doors to a courtyard; shuishui holding the orange tabby plush cat toy stands with red panda, taller white rabbit, sheep, and a white polar bear in a sky-blue summer dress, everyone looking delighted",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-14.webp"
+    },
+    {
+      "page": 15,
+      "narration": "水水发现了儿童屋。里面有上下铺、直直的梯子，还有像太空舱一样的圆圆透明小窗。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，快上来呀！这里是小秘密基地！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "low-angle",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "民宿儿童房",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "上下铺儿童床",
+          "垂直梯子",
+          "高围栏",
+          "圆形透明半球塑料窗口",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a low-angle view looking up at shuishui smiling from the upper bunk behind high guard rails, beside round transparent dome windows like little space-capsule portholes; red panda climbs the vertical ladder below, the orange tabby plush cat toy resting on the bunk",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-15.webp"
+    },
+    {
+      "page": 16,
+      "narration": "上铺小小的，暖暖的，像一间藏起来的小屋。爸爸也爬上来，水水笑得眼睛弯弯。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "哇，这里真的像秘密基地。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "小橘猫也有床位！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "民宿儿童房上铺",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "上铺床垫",
+          "高围栏",
+          "圆形透明半球塑料窗口",
+          "小橘猫毛绒玩具",
+          "小枕头"
+        ]
+      },
+      "composition_hint": "a three-quarter close view inside the upper bunk, shuishui and red panda smiling beside round transparent dome porthole windows, the orange tabby plush cat toy placed on a small pillow, cozy bedding and high guard rails visible",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-16.webp"
+    },
+    {
+      "page": 17,
+      "narration": "儿童房还有一个舒服的飘窗，铺着白白软软的羊毛垫。屋顶垂下软梯和吊环，水水轻轻一蹬，就挂了一小下。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "看，我会啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "得意",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "民宿儿童房飘窗旁",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "飘窗",
+          "白色羊毛软垫",
+          "悬挂软梯",
+          "吊环",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "an eye-level view of a cozy playroom bay window with a white wool cushion, hanging rope ladder and gym rings from the ceiling; shuishui holds the gym rings with feet near the bay window cushion, laughing, red panda and a white polar bear in a sky-blue summer dress watching with happy faces, orange tabby plush cat toy on the cushion",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-17.webp"
+    },
+    {
+      "page": 18,
+      "narration": "柜子里还藏着好多玩具。水水叫来大姨，一会儿搭积木，一会儿摆小车，小屋子里热闹起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "大姨，我们玩这个！"
+        },
+        {
+          "speaker": "dayi",
+          "text": "好呀，我陪你玩很久。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "投入",
+      "characters_in_scene": [
+        "shuishui",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "民宿儿童房玩具柜前",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "落地玩具柜",
+          "积木",
+          "小车玩具",
+          "毛绒玩具",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter view of shuishui and a white polar bear in a sky-blue summer dress playing by a floor-to-ceiling toy cabinet filled with blocks, small toy cars, and plush toys; the orange tabby plush cat toy sits nearby, bright cheerful playroom",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-18.webp"
+    },
+    {
+      "page": 19,
+      "narration": "这时，妈妈和爸爸来到小院子。长长的小院边上有花有草，左边是双人秋千椅和户外沙发，右边是餐桌和通向小区的小门。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "哇，这里真舒服。"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "放松",
+      "characters_in_scene": [
+        "mama",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "民宿小院子",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "长条形小院",
+          "花草",
+          "双人秋千椅",
+          "L型户外沙发",
+          "方形茶几",
+          "户外餐桌",
+          "通往小区的小门"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of a long narrow courtyard in warm afternoon sunlight, flowers and grass around the edges, a two-person swing chair on the left, L-shaped outdoor sofa and square coffee table, dining table on the right, a small gate to the residential community; taller white rabbit and red panda stand in the courtyard looking relaxed",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-19.webp"
+    },
+    {
+      "page": 20,
+      "narration": "妈妈坐上秋千椅，轻轻伸了个懒腰。屋里有笑声，院子里有阳光，海边假期才刚刚开始。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "今天的小插曲都过去啦，接下来好好玩。"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "嗯！明天还要探险！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "惬意",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "民宿小院子",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "双人秋千椅",
+          "L型户外沙发",
+          "方形茶几",
+          "花草",
+          "小点心盘",
+          "小橘猫毛绒玩具"
+        ]
+      },
+      "composition_hint": "a three-quarter close view in the sunny courtyard, a taller white rabbit sitting on the two-person swing chair stretching happily, shuishui holding the orange tabby plush cat toy near the L-shaped outdoor sofa, red panda, sheep, and a white polar bear in a sky-blue summer dress enjoying the warm afternoon together among flowers and grass",
+      "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-20.webp"
+    }
+  ],
+  "created_at": "2026-06-16T11:15:58.667Z",
+  "status": "finished",
+  "cover_image": "/generated/aranya-holiday-part1-2026-06-16/cover.webp"
+}
