@@ -19,16 +19,17 @@
         "weather": "晴",
         "time_of_day": "早",
         "props": [
-          "手绘路线地图",
-          "北京图标",
-          "顺义午饭点图标",
-          "北戴河阿那亚海边图标",
-          "小汽车贴纸",
-          "海浪贴纸",
-          "文字“约300公里 / 约4小时”"
+          "hand-drawn route map",
+          "Beijing start icon",
+          "Shunyi lunch stop icon",
+          "Beidaihe Aranya seaside destination icon",
+          "white SUV sticker on the route",
+          "three tiny cartoon avatar stickers: red panda, white rabbit, small white bunny",
+          "sea wave and sand stickers",
+          "label text \"约300公里 / 约4小时\""
         ]
       },
-      "composition_hint": "a high-angle view of a hand-drawn illustrated travel map in cartoon scrapbook style, dotted route from Beijing to Shunyi lunch stop to Beidaihe Aranya seaside destination, cute icons, little car sticker, sea sticker, label text “约300公里 / 约4小时”, no real navigation app UI",
+      "composition_hint": "a clean high-angle hand-drawn illustrated travel map in cartoon scrapbook style, dotted route from Beijing to Shunyi lunch stop to Beidaihe Aranya seaside destination; NO full-body animal characters on the map, only three tiny round cartoon avatar stickers/icons for the travelers: red panda, taller white rabbit, and shuishui; a small WHITE LARGE SUV sticker driving along the route, cute lunch-stop marker, sea wave and sand stickers, label text \"约300公里 / 约4小时\", no real navigation app UI",
       "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-01.webp"
     },
     {
@@ -338,29 +339,23 @@
       "narration": "午饭后，车子上了高速。城市慢慢退到后面，窗外有田野、树影和远远的蓝天。",
       "dialogue": [],
       "shot": "wide",
-      "camera_angle": "eye-level",
+      "camera_angle": "high-angle",
       "emotion": "平静",
-      "characters_in_scene": [
-        "shuishui",
-        "papa",
-        "mama",
-        "laolao"
-      ],
+      "characters_in_scene": [],
       "scene_state": {
-        "location": "高速公路车内与窗外",
+        "location": "高速公路车后方俯拍",
         "weather": "晴",
         "time_of_day": "中",
         "props": [
-          "white large SUV",
-          "高速路",
-          "田野",
-          "蓝天",
-          "车窗",
-          "后排旅行座椅",
-          "小橘猫毛绒玩具"
+          "white large SUV seen from behind",
+          "highway lanes",
+          "road markings",
+          "green fields beside the road",
+          "blue sky",
+          "distant trees"
         ]
       },
-      "composition_hint": "an eye-level side view showing the white large SUV traveling steadily on a highway, through the window are fields, trees, and distant blue sky; inside, shuishui rests in a rear travel seat with harness holding the orange tabby plush cat toy, red panda driving calmly, taller white rabbit and sheep seated quietly",
+      "composition_hint": "a high-angle view from behind and slightly above a correctly shaped white large SUV driving steadily away on a clean highway, the camera follows from the rear so the passengers are not visible; show the full car exterior clearly from the back-top angle, intact roof, rear window, tailgate, rear lights, wheels, and highway lane markings; green fields and distant trees beside the road, blue sky, peaceful safe road-trip mood; no interior view, no cutaway, no visible passengers",
       "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-11.webp"
     },
     {
@@ -542,7 +537,7 @@
       "characters_in_scene": [
         "shuishui",
         "papa",
-        "dayi"
+        "mama"
       ],
       "scene_state": {
         "location": "民宿儿童房飘窗旁",
@@ -556,7 +551,7 @@
           "小橘猫毛绒玩具"
         ]
       },
-      "composition_hint": "an eye-level view of a cozy playroom bay window with a white wool cushion, hanging rope ladder and gym rings from the ceiling; shuishui holds the gym rings with feet near the bay window cushion, laughing, red panda and a white polar bear in a sky-blue summer dress watching with happy faces, orange tabby plush cat toy on the cushion",
+      "composition_hint": "an eye-level view of a cozy playroom bay window with a white wool cushion, hanging rope ladder and gym rings from the ceiling; shuishui holds the gym rings with feet near the bay window cushion, laughing; red panda and a taller white rabbit in a yellow floral dress watch with happy faces; NO white polar bear in this scene; orange tabby plush cat toy on the cushion",
       "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-17.webp"
     },
     {
@@ -636,19 +631,16 @@
           "text": "今天的小插曲都过去啦，接下来好好玩。"
         },
         {
-          "speaker": "shuishui",
-          "text": "嗯！明天还要探险！"
+          "speaker": "papa",
+          "text": "坐在小院子里，真舒服。"
         }
       ],
       "shot": "close-up",
       "camera_angle": "three-quarter",
       "emotion": "惬意",
       "characters_in_scene": [
-        "shuishui",
-        "papa",
         "mama",
-        "laolao",
-        "dayi"
+        "papa"
       ],
       "scene_state": {
         "location": "民宿小院子",
@@ -659,11 +651,10 @@
           "L型户外沙发",
           "方形茶几",
           "花草",
-          "小点心盘",
-          "小橘猫毛绒玩具"
+          "小点心盘"
         ]
       },
-      "composition_hint": "a three-quarter close view in the sunny courtyard, a taller white rabbit sitting on the two-person swing chair stretching happily, shuishui holding the orange tabby plush cat toy near the L-shaped outdoor sofa, red panda, sheep, and a white polar bear in a sky-blue summer dress enjoying the warm afternoon together among flowers and grass",
+      "composition_hint": "a three-quarter medium-wide view in the sunny courtyard with ONLY TWO characters: a taller white rabbit sitting on the two-person swing chair stretching happily, and a red panda sitting relaxed on the L-shaped outdoor sofa beside a square coffee table; flowers and grass around the long narrow courtyard, warm afternoon sunlight; NO shuishui, NO sheep, NO white polar bear, no other characters",
       "image_path": "/generated/aranya-holiday-part1-2026-06-16/page-20.webp"
     }
   ],

@@ -45,6 +45,7 @@ const TITLE_STYLES = {
   watercolor: 'hand-lettered watercolor brush title typography: soft flowing brush strokes with visible bristle texture and gentle watercolor color-bleeds, slightly translucent painterly letters in warm watercolor tones, artistic and gentle like a classic hand-painted picture book',
   crayon: 'childlike hand-drawn crayon title lettering: chunky slightly uneven letters as if happily drawn by a young child with wax crayons, visible waxy crayon texture and a playful natural wobble, innocent warm and heartfelt',
   serif: 'classic storybook serif title lettering: an elegant warm serif typeface with refined tapered strokes, vintage fairytale-book feel, tasteful and timeless, in a gentle warm color',
+  seaside: 'custom seaside storybook title lettering made from soft golden sand and gentle turquoise ocean waves: rounded smooth sandy letters with tiny seashells, sea foam highlights, small wave curls, sunlit beach colors, playful premium picture-book typography; explicitly NOT stitched, NOT thread, NOT sewing, NOT dashed needlework, NOT yarn',
   minimal: 'clean modern minimalist title typography: simple well-spaced rounded sans-serif letters in a single soft warm color, contemporary independent picture-book aesthetic, lots of breathing room, understated and elegant',
 };
 const TITLE_STYLE = process.env.TITLE_STYLE || 'auto';
