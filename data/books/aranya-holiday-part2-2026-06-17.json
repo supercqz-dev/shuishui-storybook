@@ -1,0 +1,374 @@
+{
+  "id": "aranya-holiday-part2-2026-06-17",
+  "title": "Brave Water Day",
+  "subtitle": "阿那亚度假中集：勇敢挑战和喷泉玩水",
+  "theme": "海边度假第二天的乐园挑战与玩水",
+  "moral": "勇敢不是莽撞，而是在家人保护和鼓励下小心尝试；和别人相遇时懂得礼让，玩水也要穿好装备、注意安全。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "第二天早晨，妈妈、姥姥和大姨带水水去食堂吃早餐。餐线长长的，香味也长长的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇，好多好吃的呀！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "度假村食堂早餐区",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "中式早餐餐线",
+          "包子蒸笼",
+          "粥碗",
+          "鸡蛋",
+          "豆浆",
+          "小菜",
+          "餐盘"
+        ]
+      },
+      "composition_hint": "an eye-level wide view of a bright seaside resort cafeteria with many Chinese breakfast buffet lines, bamboo steamers of buns, congee bowls, eggs, soy milk, small side dishes; shuishui stands with a taller white rabbit, a sheep, and a white polar bear in a sky-blue summer dress, all choosing breakfast happily, no other full-body main characters",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-01.webp"
+    },
+    {
+      "page": 2,
+      "narration": "水水选了一个紫色紫薯包子。软软的，甜甜的，像一朵小紫云。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "紫色包子真好吃！"
+        }
+      ],
+      "shot": "close-up",
+      "camera_angle": "three-quarter",
+      "emotion": "满足",
+      "characters_in_scene": [
+        "shuishui",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "食堂餐桌旁",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "soft purple steamed bun",
+          "儿童餐盘",
+          "小碗",
+          "豆浆杯"
+        ]
+      },
+      "composition_hint": "a three-quarter close view of shuishui holding and tasting a soft purple steamed bun, a taller white rabbit sitting beside her smiling, breakfast tray with small bowl and soy milk cup on the table, warm morning cafeteria light",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-02.webp"
+    },
+    {
+      "page": 3,
+      "narration": "吃完早餐，大家来到儿童乐园。大足球场、篮球场、攀爬网、越野障碍区，全都在阳光里等着水水。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao",
+        "dayi"
+      ],
+      "scene_state": {
+        "location": "度假村儿童乐园",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "大足球场",
+          "多个篮球场",
+          "超大攀爬网",
+          "儿童越野障碍区",
+          "度假村步道"
+        ]
+      },
+      "composition_hint": "a high-angle wide establishing view of a sunny seaside resort playground with a big green soccer field, several basketball courts, a huge climbing net, and a children's obstacle course area; shuishui, red panda, taller white rabbit, sheep, and white polar bear enter together as small foreground figures, all-animal resort world",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-03.webp"
+    },
+    {
+      "page": 4,
+      "narration": "爸爸和水水先来到越野障碍区。长长窄窄的独木桥，两边是软软的绳索扶手。",
+      "dialogue": [
+        {
+          "speaker": "papa",
+          "text": "慢慢走，我在旁边陪你。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "儿童越野障碍区独木桥",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "long narrow wooden balance beam bridge",
+          "rope handrails",
+          "soft sand ground",
+          "低矮安全障碍设施"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui carefully stepping along a long narrow wooden balance beam bridge with rope handrails on both sides, low safe height over soft sand ground; red panda walks beside the obstacle encouraging her, clear safe playful scene",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-04.webp"
+    },
+    {
+      "page": 5,
+      "narration": "走到半路，对面也来了一个小朋友。水水往一边靠，小朋友也往一边靠，大家礼貌地错身通过。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "你先过吧。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "礼貌",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "儿童越野障碍区独木桥中段",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "wooden balance beam bridge",
+          "rope handrails",
+          "small squirrel visitor"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view on the narrow wooden balance beam bridge: shuishui politely leans to one side while a small squirrel visitor leans to the other side so they can pass each other smoothly; red panda watches from the side smiling proudly, rope handrails and soft sand below",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-05.webp"
+    },
+    {
+      "page": 6,
+      "narration": "再往前，挑战变难了：脚下变成了绳线，扶手跑到了头顶上。水水要把小手举高高才能抓住。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "要不要换一个安全一点的玩？"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "挑战",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "绳索挑战入口",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "taut rope foot lines",
+          "overhead rope handhold",
+          "soft safety ground",
+          "障碍区木架"
+        ]
+      },
+      "composition_hint": "an eye-level wide view at the start of a rope challenge: taut rope lines underfoot and an overhead rope handhold above; shuishui looks up and reaches toward the overhead rope, red panda stands beside her ready to support, taller white rabbit watches with gentle concern, soft safe ground below",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-06.webp"
+    },
+    {
+      "page": 7,
+      "narration": "爸爸轻轻扶着水水的腰。水水勇敢地踏上绳索，小手往上一够，真的抓住啦！",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "原来水水已经这么高啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "low-angle",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "绳索挑战中段",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "taut rope foot lines",
+          "overhead rope handhold",
+          "soft safety ground"
+        ]
+      },
+      "composition_hint": "a low-angle medium view of shuishui bravely standing on taut rope foot lines while reaching up and holding the overhead rope handhold; red panda supports her carefully by the waist from the side, taller white rabbit watches with surprised proud expression, safe obstacle course setting",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-07.webp"
+    },
+    {
+      "page": 8,
+      "narration": "水水一步一步，小心又勇敢地通过了绳索挑战。上午的挑战，成功！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我走过去啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "绳索挑战终点",
+        "weather": "晴",
+        "time_of_day": "早",
+        "props": [
+          "绳索障碍终点平台",
+          "软地面",
+          "阳光"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view at the end of the rope obstacle, shuishui stepping onto the finish platform with a proud smile, red panda clapping nearby, taller white rabbit smiling with delighted surprise, sunny safe playground",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-08.webp"
+    },
+    {
+      "page": 9,
+      "narration": "下午，广场上出现了一条长长的小水沟。石头泉眼咕嘟咕嘟冒水，清凉的水一路流呀流。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "清凉",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "度假村水系广场",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "shallow flowing water channel",
+          "stone fountain blocks",
+          "bubbling spring stones",
+          "large round pool",
+          "varied fountains"
+        ]
+      },
+      "composition_hint": "a high-angle wide establishing view of a sunny plaza with a long shallow flowing water channel, stone fountain blocks bubbling water like little springs, a large round pool at the start, varied fountains around; shuishui, red panda, and taller white rabbit stand near the water ready to play",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-09.webp"
+    },
+    {
+      "page": 10,
+      "narration": "水水穿上防水背带裤，和爸爸一起下水。滋水玩具吸满水，用力一滋，水柱喷到了墙上！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "一、二、三，滋——！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "痛快",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "大圆池子旁浅水区",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "waterproof wading overalls",
+          "brightly colored toy water squirter",
+          "large round pool",
+          "wall splash area",
+          "喷泉"
+        ]
+      },
+      "composition_hint": "an eye-level medium view of shuishui wearing waterproof wading overalls and a pink floral headband, standing in shallow water with red panda; both hold brightly colored plastic water squirter toys filled with water, spraying a clear stream onto a nearby wall, cheerful sunny splash scene",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-10.webp"
+    },
+    {
+      "page": 11,
+      "narration": "好多小动物也在水里玩。有的小动物被喷泉滋到了脸上，大家哈哈大笑，水花亮晶晶。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "欢乐",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "喷泉浅水广场",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "喷泉水柱",
+          "浅水池",
+          "duckling visitor",
+          "raccoon visitor",
+          "fawn visitor",
+          "piglet visitor"
+        ]
+      },
+      "composition_hint": "a three-quarter medium view of a joyful shallow fountain plaza: shuishui in waterproof wading overalls laughs beside red panda while small animal visitors play in the water; a duckling visitor and raccoon visitor are lightly splashed by fountain jets on their faces, everyone laughing, bright sparkling water, safe playful mood",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-11.webp"
+    },
+    {
+      "page": 12,
+      "narration": "水池边还有一辆会喷水的单轮动感单车。妈妈抱着水水呼呼一骑，车下面就喷出一条大水柱。接下来还有什么好玩的呢？下集见！",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "哇！单车会喷水！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "惊奇",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "水池边单轮动感单车装置",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "single-wheel water-powered exercise bike installation",
+          "water jet nozzle",
+          "large water spray",
+          "浅水池",
+          "阳光广场"
+        ]
+      },
+      "composition_hint": "a three-quarter wide view beside the pool: a taller white rabbit pedals a single-wheel water-powered exercise bike installation, shuishui seated securely in front on her lap, and a strong water jet sprays from a nozzle below the bike; red panda watches nearby smiling, sunny plaza, magical playful ending, no text in image",
+      "image_path": "/generated/aranya-holiday-part2-2026-06-17/page-12.webp"
+    }
+  ],
+  "created_at": "2026-06-17T10:42:30.000Z",
+  "status": "finished",
+  "cover_image": "/generated/aranya-holiday-part2-2026-06-17/cover.webp"
+}

@@ -63,6 +63,42 @@ const BOOKS = {
 - 书名必须是简短英文绘本名,不要出现 ShuiShui;副标题用中文,可体现“阿那亚度假上集”。`,
     edu: '旅行前要细心准备、证件和物品要检查好;遇到小插曲不用慌,一家人一起解决再继续出发;在旅途中感受家人陪伴、海边度假和新空间探索的快乐。',
   },
+  // 阿那亚度假(中): 第二天早餐、儿童乐园障碍挑战、下午水系喷泉和动感单车喷水。
+  aranya_mid: {
+    book_id: 'aranya-holiday-part2-2026-06-17',
+    chars: ['shuishui', 'papa', 'mama', 'laolao', 'dayi'],
+    trigger: `这是“阿那亚度假（中）”,请写成 12-14 页左右的温暖旅行日记绘本。主题是:海边度假第二天,水水在儿童乐园里勇敢挑战,下午又在水系喷泉里玩水,最后留下“下集继续”的期待。
+
+故事素材:
+第二天早晨起床,妈妈、姥姥和大姨带着水水先去度假村食堂吃早餐。食堂餐线很长,有好多好多中式早餐:包子、粥、鸡蛋、蒸点、小菜、豆浆。水水吃了一个好吃的紫色紫薯包子,软软甜甜的。
+吃完早餐,大家来到度假村儿童乐园。这里太好玩了:有大足球场,好几个篮球场,还有一个超大的攀爬网,以及一片儿童越野障碍区。
+爸爸和水水来到儿童越野障碍区。那里有一条又长又窄的独木桥,两边扶手也是绳索。水水勇敢又小心地一点点往前走,爸爸在旁边鼓励水水。走到半路,碰到了对面走过来的小朋友。水水和对面的小朋友都很有礼貌,一个往左靠,一个往右靠,一错身,就都顺利通过了。
+再往前,出现了超级难的挑战:脚下的独木桥变成了绳线,扶手绳变到了头顶上,需要举高双手才能够到。妈妈说:水水要不要换一个安全一点的玩?爸爸觉得水水是可以完成挑战的。爸爸扶着水水的腰,水水勇敢地踏上绳索,小手往上一够,抓住了。妈妈惊讶地说,原来我们水水都这么高了,可以完成这么厉害的挑战了。水水就这样勇敢又小心地通过了绳索挑战。
+上午的挑战结束了。下午更好玩。
+度假村广场上有一条长长的水系,那是一条浅浅的、小朋友可以直接下水玩耍的小水沟。每隔一段距离,就有一个石头墩,像泉眼一样不断往外冒水,让小水沟一直有流水。广场上还有很多不一样的喷泉。
+最开头的地方,有一个大圆池子。那边的喷泉很大。水水穿上防水背带裤,拿上滋水玩具,跟爸爸一起下水玩。水水和爸爸一起把滋水玩具吸满水,然后用力一滋,水柱喷到了墙上。还有好多小朋友也在水里玩,有的小朋友被喷泉滋到了脸上,大家都哈哈笑。
+水池边上还有一个单轮动感单车。妈妈抱着水水坐到上面,妈妈呼呼地骑了起来,就看到一个水柱从动感单车下面的喷水口滋出一条大水柱。
+接下来还有什么好玩的呢?让我们看下集吧。
+
+固定角色与临时角色视觉设定(非常重要):
+- 固定 bible 角色:水水=白色小兔;爸爸=小熊猫 red panda;妈妈=白色兔子;姥姥=绵羊;大姨=美丽优雅的白色北极熊,天蓝色夏日连衣裙。使用角色 YAML 的 prompt_anchor 保持形象。
+- 水水全程仍然是白色小兔,粉色裙子/粉色发带为默认造型;下午玩水时临时换成 waterproof wading overalls / 防水背带裤,可以仍保留粉色发带,并拿 brightly colored toy water squirter / pump-action water blaster toy。不要用 gun 这个词。
+- 早餐食堂: bright seaside resort cafeteria, many Chinese breakfast buffet lines, steamed buns, congee, eggs, soy milk, small side dishes; 紫薯包子要画成 soft purple steamed bun。
+- 儿童乐园: open seaside resort playground with green soccer field, several basketball courts, a huge climbing net, and a children's obstacle course。场景要阳光明亮、度假村感。
+- 障碍区独木桥: long narrow wooden balance beam bridge, rope handrails on both sides, low safe height, soft sand or rubber ground below。
+- 对面小朋友必须是明确物种: a small squirrel animal classmate / young animal visitor, 友好有礼貌。不要写 child/kid。
+- 绳索挑战: footpath becomes taut rope lines underfoot, overhead rope handhold above; red panda supports shuishui carefully by the waist from the side; taller white rabbit watches with surprised proud expression。动作安全,不要危险惊险。
+- 水系广场: shallow flowing water channel safe for small animals, stone fountain blocks / spring stones bubbling water, large round pool, varied fountains, sunny plaza。
+- 玩水页: shuishui in waterproof wading overalls, red panda standing in shallow water, both using bright plastic water squirter toys; water stream splashes onto a wall; other small animal visitors can be background, each as clear species: duckling, raccoon, fawn, piglet, etc.
+- 动感单车页: a single-wheel water-powered exercise bike installation beside the pool; taller white rabbit sits pedaling with shuishui seated securely in front/held on her lap, a strong water jet sprays from a nozzle below the bike。画成游乐装置,不要画成危险机械。
+
+构图与安全提示:
+- 图像 composition_hint 里不要写 dad/mom/father/mother/parent/child/kid/toddler/baby/girl/boy 或人类年龄;用 shuishui / red panda / white rabbit / sheep / white polar bear / small squirrel visitor 等描述。对白和旁白可自然中文称呼爸爸妈妈姥姥大姨,但 image prompt 字段不要写亲属词或人类年龄词。
+- 全世界都是拟人动物,没有真人。所有路人/小朋友/游客都必须是拟人动物,并指定物种。
+- 重点页:早餐紫薯包子、儿童乐园全景、独木桥小心前进、礼貌错身、绳索挑战够到头顶绳、妈妈惊讶表扬、下午水系广场、滋水到墙上、喷泉滋到小动物、动感单车喷水、下集预告。
+- 书名必须是简短英文绘本名,不要出现 ShuiShui;副标题用中文,体现“阿那亚度假中集”。`,
+    edu: '勇敢挑战与礼貌协作:遇到稍难的障碍可以小心尝试,也要听取家人保护和鼓励;和迎面来的小朋友互相礼让;在水边玩耍时穿好防水装备、开心但注意安全。',
+  },
   // 幼儿园完整一天:早起、上学、入园、早餐、游戏、户外、午饭、午睡、水果、头套游戏、放学。
   // 长故事,允许 15-22 页。早晨水水/爸爸/妈妈都穿睡衣,需要覆盖默认服装。
   kindergarten: {
