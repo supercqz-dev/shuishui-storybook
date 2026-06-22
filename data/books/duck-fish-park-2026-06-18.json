@@ -76,26 +76,23 @@
           "text": "这是双闪灯。临时停在路边时，两个黄色转向灯会一起闪。"
         }
       ],
-      "shot": "close-up",
-      "camera_angle": "over-the-shoulder",
+      "shot": "extreme-close-up",
+      "camera_angle": "eye-level",
       "emotion": "好奇",
-      "characters_in_scene": [
-        "shuishui",
-        "papa"
-      ],
+      "characters_in_scene": [],
       "scene_state": {
-        "location": "十字路口红灯前",
+        "location": "十字路口红灯前的摩托车把特写",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "scooter handlebar controls",
+          "black scooter handlebar close-up",
           "hazard light button with two concentric triangle icons",
-          "yellow turn indicators",
-          "red traffic light"
+          "yellow turn indicator icons",
+          "red traffic light blurred in background"
         ]
       },
-      "composition_hint": "over-the-shoulder close-up from the scooter front: shuishui's paw presses a handlebar hazard light button marked with two concentric triangle icons; two yellow turn indicator lights on the black scooter blink at the same time; red panda is behind at the rider position, red traffic light ahead, safe stopped intersection",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-03.webp"
+      "composition_hint": "extreme close-up of the black scooter handlebar control panel only, no full bodies: one small white rabbit paw points at or presses the hazard light button marked with two concentric triangle icons; yellow turn indicator lights/icons on the dashboard are blinking; a red traffic light is softly blurred in the far background; crop tightly around handlebars, dashboard, and paws, do not show full characters, do not show seating posture",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-03.png"
     },
     {
       "page": 4,
@@ -106,26 +103,24 @@
           "text": "我学会啦，爸爸！"
         }
       ],
-      "shot": "close-up",
+      "shot": "extreme-close-up",
       "camera_angle": "eye-level",
       "emotion": "学会",
-      "characters_in_scene": [
-        "shuishui",
-        "papa"
-      ],
+      "characters_in_scene": [],
       "scene_state": {
-        "location": "路口刚起步",
+        "location": "踏板摩托仪表盘和左车把特写",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "speedometer dashboard",
-          "cruise control button with speedometer icon",
+          "speedometer dashboard close-up",
           "18 KM/H display",
-          "purple light bars on both sides of dashboard"
+          "cruise control button with speedometer icon",
+          "purple light bars",
+          "left handlebar controls"
         ]
       },
-      "composition_hint": "eye-level close-up of the scooter dashboard while moving slowly and safely: speedometer display reads 18 KM/H, shuishui's paw presses a cruise control button marked with a speedometer icon on the left handlebar, the dashboard side light bars glow purple instead of blue; red panda's paws remain on the handlebars, calm road ahead",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-04.webp"
+      "composition_hint": "extreme close-up of the scooter dashboard and left handlebar controls only, no full bodies: the speedometer display clearly reads 18 KM/H, a small white rabbit paw presses the cruise control button marked with a speedometer icon, purple light bars glow on both sides of the dashboard; crop tightly around dashboard, buttons, and paws, do not show full characters, do not show seating posture",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-04.png"
     },
     {
       "page": 5,
@@ -149,14 +144,14 @@
         "time_of_day": "下午",
         "props": [
           "park lakeside parking area",
-          "black scooter",
-          "vacuum-packed braised beef packet",
-          "water bottle",
-          "feeding food bag"
+          "black scooter parked nearby",
+          "small vacuum-packed braised beef packet in shuishui paw",
+          "pink-lidded water bottle held by red panda",
+          "small feeding food bag held by red panda"
         ]
       },
-      "composition_hint": "eye-level medium view at a park lakeside parking area, the black scooter parked nearby; shuishui eats a small piece from a vacuum-packed braised beef packet and drinks water from a bottle, red panda holds the feeding food bag, lake trees in background",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-05.webp"
+      "composition_hint": "eye-level medium view at a park lakeside parking area, black scooter parked nearby; shuishui holds and eats one small vacuum-packed braised beef piece with her own paw, NOT hanging from clothing, no food attached to jacket; red panda holds a pink-lidded water bottle in one paw and a small feeding food bag in the other paw; lake trees in background, clear object positions",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-05.png"
     },
     {
       "page": 6,
@@ -305,24 +300,26 @@
         }
       ],
       "shot": "medium",
-      "camera_angle": "eye-level",
+      "camera_angle": "from-behind",
       "emotion": "学习耐心",
       "characters_in_scene": [
         "shuishui",
         "papa"
       ],
       "scene_state": {
-        "location": "玻璃栈道地面",
+        "location": "玻璃栈道上追小鸟",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "small sparrow-like birds",
-          "bread crumbs on walkway",
-          "glass panels"
+          "flat glass walkway",
+          "small birds on walkway ahead",
+          "bread crumbs on glass panels",
+          "birds flying away",
+          "lake railing"
         ]
       },
-      "composition_hint": "eye-level medium view on the glass walkway: a few small sparrow-like birds peck crumbs on the ground, then flutter away as shuishui steps too close; red panda gently gestures to wait from a distance, clear glass panels underfoot",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-11.webp"
+      "composition_hint": "from behind shuishui on the flat glass walkway: shuishui runs forward toward several small sparrow-like birds pecking crumbs ahead, and the birds flap upward and fly away; red panda remains farther behind watching; clear glass panels underfoot and lake railing at the side; camera follows from behind shuishui, not a front view",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-11.png"
     },
     {
       "page": 12,
@@ -341,18 +338,18 @@
         "papa"
       ],
       "scene_state": {
-        "location": "玻璃栈道一侧",
+        "location": "玻璃栈道远距离喂小鸟",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "small birds",
+          "flat glass walkway",
+          "small birds far ahead",
           "bread crumb on ground",
-          "glass walkway",
           "lake railing"
         ]
       },
-      "composition_hint": "three-quarter medium view: shuishui crouches at a respectful distance with red panda beside her, tossing a tiny bread crumb onto the glass walkway near several small birds; one bird hops over and picks up the crumb, shuishui claps happily, lake railing behind",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-12.webp"
+      "composition_hint": "three-quarter wide-medium view on the glass walkway: shuishui and red panda stay together at a respectful distance from several small birds far ahead; shuishui gently tosses a tiny bread crumb onto the ground near the birds from far away, one bird hops toward the crumb; make the distance clear, no crouching close to birds, lake railing behind",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-12.png"
     },
     {
       "page": 13,
@@ -385,40 +382,7 @@
     },
     {
       "page": 14,
-      "narration": "水水有点害怕，又想探索。爸爸假装也很害怕，两个人牵着手，一会儿往东拐，一会儿往西拐。",
-      "dialogue": [
-        {
-          "speaker": "papa",
-          "text": "哎呀，我也有点害怕呢。"
-        },
-        {
-          "speaker": "shuishui",
-          "text": "那我牵着你！"
-        }
-      ],
-      "shot": "medium",
-      "camera_angle": "three-quarter",
-      "emotion": "勇敢又好笑",
-      "characters_in_scene": [
-        "shuishui",
-        "papa"
-      ],
-      "scene_state": {
-        "location": "柏树迷宫小道中",
-        "weather": "晴",
-        "time_of_day": "下午",
-        "props": [
-          "tall cypress hedges",
-          "winding narrow paths",
-          "dappled sunlight"
-        ]
-      },
-      "composition_hint": "three-quarter medium view inside the cypress hedge maze, tall green cypress walls on both sides and winding forked paths; shuishui holds red panda's paw bravely, red panda pretends to be scared with a playful expression, dappled sunlight",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-14.webp"
-    },
-    {
-      "page": 15,
-      "narration": "走着走着，他们遇到一个高高的圆锥形平顶高台。水水牵着爸爸的手，沿着楼梯爬了上去。",
+      "narration": "走着走着，他们遇到一个圆锥形的小土坡。土坡正面有一条直通顶部的石头楼梯。水水牵着爸爸的手，沿着楼梯爬了上去。",
       "dialogue": [],
       "shot": "wide",
       "camera_angle": "low-angle",
@@ -428,21 +392,22 @@
         "papa"
       ],
       "scene_state": {
-        "location": "柏树迷宫里的圆锥形平顶高台",
+        "location": "柏树迷宫里的圆锥形小土坡",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "tall truncated cone platform",
-          "stairs going up",
+          "cone-shaped earthen mound",
           "flat circular top",
+          "straight stone staircase to the top",
+          "spiral gravel path wrapping around mound",
           "cypress hedges around"
         ]
       },
-      "composition_hint": "low-angle wide view of a tall truncated-cone platform with a flat circular top in the cypress maze; a stairway winds or climbs up one side, shuishui and red panda hold paws and climb upward, cypress hedges around, adventurous but safe",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-15.webp"
+      "composition_hint": "low-angle wide view of a cone-shaped earthen mound in the cypress maze, like a small conical hill with a flat circular top; on the front face is one straight stone staircase leading directly to the top; around the cone body, a separate spiral gravel path wraps downward; shuishui and red panda hold paws and climb up the straight stone stairs; cypress hedges around; not a tower, not a cylinder, not a vertical platform",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-14.png"
     },
     {
-      "page": 16,
+      "page": 15,
       "narration": "下来的时候，圆坛有一条螺旋路。水水和爸爸一圈一圈往下绕，绕了三四圈才回到地面。",
       "dialogue": [
         {
@@ -458,20 +423,22 @@
         "papa"
       ],
       "scene_state": {
-        "location": "圆锥形高台螺旋下坡路",
+        "location": "圆锥形小土坡盘旋石子路",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "spiral path around truncated cone platform",
-          "flat top platform",
+          "same cone-shaped earthen mound",
+          "spiral gravel path wrapping down around cone",
+          "straight stone staircase visible on front",
+          "flat circular top",
           "cypress maze below"
         ]
       },
-      "composition_hint": "high-angle wide view looking down at the truncated-cone platform with a spiral path wrapping around it; shuishui and red panda walk down the spiral route together, making several loops before reaching the ground, cypress maze paths visible below",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-16.webp"
+      "composition_hint": "high-angle wide view of the same cone-shaped earthen mound with a flat circular top; a spiral gravel path wraps around the outside of the cone and descends in several loops to the ground; the straight stone staircase to the top is also visible on one side for clarity; shuishui and red panda walk down the spiral gravel path together; cypress maze paths below; not a cylindrical tower",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-15.png"
     },
     {
-      "page": 17,
+      "page": 16,
       "narration": "回家的路上，水水累了，不想站前面了。爸爸把水水抱到后座上，让她抱紧自己。",
       "dialogue": [
         {
@@ -498,10 +465,10 @@
         ]
       },
       "composition_hint": "three-quarter side view of the black step-through scooter with small red decorative side panel; red panda rides slowly and safely, shuishui sits on the rear passenger seat behind him hugging his waist, no standing on floorboard in this return scene, warm late afternoon road",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-17.webp"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-16.webp"
     },
     {
-      "page": 18,
+      "page": 17,
       "narration": "风呼呼地吹，爸爸和水水一路聊天。水水大声喊：爸爸你说啥？听不见！回到家，她绘声绘色地给妈妈讲起公园里的故事。",
       "dialogue": [
         {
@@ -529,7 +496,7 @@
         ]
       },
       "composition_hint": "eye-level medium view in the cozy living room after returning home, shuishui excitedly tells the taller white rabbit about feeding ducks, big goldfish, birds, and exploring the maze; red panda sits nearby smiling, water bottle and empty food bag on the table, warm evening light",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-18.webp"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-17.webp"
     }
   ],
   "created_at": "2026-06-18T00:00:00.000Z",
