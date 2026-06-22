@@ -7,12 +7,17 @@
 import fs from 'fs';
 import path from 'path';
 import OpenAI from 'openai';
+import YAML from 'yaml';
 
 const apiKey = process.env.OPENAI_API_KEY;
 const baseURL = process.env.OPENAI_BASE_URL;
 const model = process.env.IMAGE_MODEL;
 const BOOK_ID = process.env.BOOK_ID;
 const TITLE = process.env.TITLE;
+const CHARS = (process.env.CHARS || '')
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean);
 const SCENE = process.env.SCENE ||
   'a small chibi white bunny toddler in a pink dress with pink floral headband and heart clip, sitting in a round inflatable tube beside a tall slim anthropomorphic RED PANDA in a white t-shirt and dark navy pants, at the top of a colorful outdoor rainbow tubing slide on a green grassy slope';
 const N = parseInt(process.env.N || '3', 10);
@@ -26,6 +31,23 @@ const date = new Date().toISOString().slice(0, 10);
 // 候选产物落到 experiments/<date>/<book>-cover/(experiments 已 gitignore,见 experiments/README.md)
 const outDir = path.join(PROJ, 'experiments', date, `${BOOK_ID}-cover`);
 fs.mkdirSync(outDir, { recursive: true });
+
+function loadCharacterLocks(ids) {
+  return ids.map((id) => {
+    const file = path.join(PROJ, 'assets', 'bible', 'characters', `${id}.yaml`);
+    if (!fs.existsSync(file)) {
+      console.warn(`[cover] character bible not found: ${id}`);
+      return null;
+    }
+    const data = YAML.parse(fs.readFileSync(file, 'utf8'));
+    return `[${id}]:\n${String(data.prompt_anchor || '').trim()}`;
+  }).filter(Boolean).join('\n\n');
+}
+
+const characterLocks = loadCharacterLocks(CHARS);
+const characterLockBlock = characterLocks
+  ? `\nCHARACTER VISUAL LOCKS (follow exactly; SCENE describes only pose/action/composition):\n${characterLocks}\n`
+  : '';
 
 // Style anchor kept consistent with assets/bible/style.yaml so cover matches interior pages.
 // 干净现代 3D 动画电影风(对标皮克斯/迪士尼):通透、明亮、干净的渲染。
@@ -46,6 +68,7 @@ const TITLE_STYLES = {
   crayon: 'childlike hand-drawn crayon title lettering: chunky slightly uneven letters as if happily drawn by a young child with wax crayons, visible waxy crayon texture and a playful natural wobble, innocent warm and heartfelt',
   serif: 'classic storybook serif title lettering: an elegant warm serif typeface with refined tapered strokes, vintage fairytale-book feel, tasteful and timeless, in a gentle warm color',
   seaside: 'custom seaside storybook title lettering made from soft golden sand and gentle turquoise ocean waves: rounded smooth sandy letters with tiny seashells, sea foam highlights, small wave curls, sunlit beach colors, playful premium picture-book typography; explicitly NOT stitched, NOT thread, NOT sewing, NOT dashed needlework, NOT yarn',
+  pond: 'custom pond-adventure storybook title lettering: large SOLID rounded letters with thick readable strokes, cream-and-golden letter faces like sunlit bread crumbs and smooth pond pebbles, subtle polished 3D bevel, turquoise water-ripple underline, tiny duck-feather edge accents and orange-gold fish bubbles around the letters; highly legible, NOT watercolor wash, NOT thin brush script, NOT translucent, NOT color bleeding',
   minimal: 'clean modern minimalist title typography: simple well-spaced rounded sans-serif letters in a single soft warm color, contemporary independent picture-book aesthetic, lots of breathing room, understated and elegant',
 };
 const TITLE_STYLE = process.env.TITLE_STYLE || 'auto';
@@ -58,8 +81,8 @@ console.log(`title style: ${TITLE_STYLE}${titleLettering ? '' : ' (model decides
 
 // auto 模式:只要求一个漂亮、契合氛围、拼写正确的标题,字体设计交给模型。
 const titleClause = titleLettering
-  ? `rendered in ${titleLettering}. The title occupies about the top 25-30% of the canvas, well-kerned, crisp and perfectly legible`
-  : `rendered as a beautiful, professionally designed children's picture-book title — choose lettering that best fits the mood of this story. The title occupies about the top 25-30% of the canvas, crisp and perfectly legible`;
+  ? `rendered in ${titleLettering}. The title occupies about the top 25-30% of the canvas, max two lines, well-kerned, crisp and perfectly legible at phone thumbnail size`
+  : `rendered as a beautiful, professionally designed children's picture-book title — choose lettering that best fits the mood of this story. The title occupies about the top 25-30% of the canvas, max two lines, crisp and perfectly legible at phone thumbnail size`;
 
 // ━━━ COVER_MODE: 'classic'(默认,上面的 title+SCENE 拼法) vs 'story'(融合 GPT 建议:主题驱动 + 标题用故事元素做设计、融入插画)━━━
 // story 模式采纳 GPT 思路,但保留我们的硬约束:精确拼写、锁定角色形象(SCENE)、无真人、竖版、与内页一致的风格锚点。
@@ -72,7 +95,7 @@ if (COVER_MODE === 'story') {
   prompt = `Children's picture book cover illustration. Portrait orientation.
 Story Title: "${TITLE}"
 Story Theme: ${STORY_THEME}
-
+${characterLockBlock}
 Create a beautiful, premium, award-winning storybook cover.
 The book title "${TITLE}" is integrated INTO the artwork as a custom-designed title treatment — the lettering style is uniquely inspired by THIS story: incorporate visual motifs, materials, shapes, colors and decorative elements from the story world into the title design, so the title becomes part of the illustration and helps tell the story. Make it magical, expressive, playful and handcrafted. Avoid generic fonts or plain text overlays. The title stays HIGHLY READABLE and occupies roughly the top 25-30% of the canvas.
 
@@ -84,9 +107,10 @@ HARD CONSTRAINTS (must follow exactly):
 - This is an all-animal world: every character is an anthropomorphic animal. NO real humans anywhere.`;
 } else {
   prompt = `A premium children's picture-book COVER, portrait orientation, ${STYLE}.
+${characterLockBlock}
 At the TOP of the cover, a large title text reads exactly "${TITLE}" — ${titleClause}.
 Below the title, the illustration: ${SCENE}. Subject-centered, warm cinematic lighting, soft bokeh background.
-CRITICAL: the title spelling must be EXACTLY "${TITLE}" — clean, well-spaced letters, no garbled or extra characters, no other text anywhere on the cover.`;
+CRITICAL: the title spelling must be EXACTLY "${TITLE}" — clean, well-spaced letters, no garbled or extra characters, no other text anywhere on the cover. Keep decorative motifs around or on letter edges; do not distort letter shapes.`;
 }
 console.log(`cover mode: ${COVER_MODE}${COVER_MODE === 'story' ? ` (theme: ${STORY_THEME.slice(0,40)}...)` : ''}`);
 
