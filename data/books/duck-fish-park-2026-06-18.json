@@ -81,18 +81,19 @@
       "emotion": "好奇",
       "characters_in_scene": [],
       "scene_state": {
-        "location": "十字路口红灯前的摩托车把特写",
+        "location": "十字路口红灯前右侧车把特写",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "black scooter handlebar close-up",
-          "hazard light button with two concentric triangle icons",
-          "yellow turn indicator icons",
+          "RIGHT handlebar control cluster based on hand-drawn reference",
+          "large upper horizontal three-position headlight slider labeled Auto On Off",
+          "bottom-left hazard light button with triangle icon",
+          "bottom-right green power button with lightning icon",
           "red traffic light blurred in background"
         ]
       },
-      "composition_hint": "extreme close-up of the black scooter handlebar control panel only, no full bodies: one small white rabbit paw points at or presses the hazard light button marked with two concentric triangle icons; yellow turn indicator lights/icons on the dashboard are blinking; a red traffic light is softly blurred in the far background; crop tightly around handlebars, dashboard, and paws, do not show full characters, do not show seating posture",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-03.png"
+      "composition_hint": "extreme close-up of ONLY the RIGHT handlebar control cluster of a black scooter, matching a simple hand-drawn reference layout. The panel is a rounded rectangle near the right throttle grip. At the TOP is one large horizontal three-position headlight slider with tiny labels Auto / On / Off above it. At the BOTTOM LEFT is the hazard light button with a triangle warning icon. At the BOTTOM RIGHT is a GREEN power button with a lightning icon. A small white rabbit paw points to or presses the BOTTOM-LEFT hazard triangle button. Red traffic light softly blurred in the background. Crop tightly around the RIGHT handlebar buttons, throttle grip, mirror stem, and paw only; no left handlebar, no dashboard, no full bodies.",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-03.webp"
     },
     {
       "page": 4,
@@ -108,19 +109,20 @@
       "emotion": "学会",
       "characters_in_scene": [],
       "scene_state": {
-        "location": "踏板摩托仪表盘和左车把特写",
+        "location": "路口起步后的左侧车把和仪表盘特写",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "speedometer dashboard close-up",
-          "18 KM/H display",
-          "cruise control button with speedometer icon",
-          "purple light bars",
-          "left handlebar controls"
+          "LEFT handlebar control cluster based on hand-drawn reference",
+          "middle large horizontal left-right turn signal rocker with left arrow and right arrow",
+          "bottom-left red horn button with horn icon",
+          "bottom-right cruise control button with speedometer icon",
+          "speedometer dashboard reading 18 KM/H",
+          "purple dashboard light bars"
         ]
       },
-      "composition_hint": "extreme close-up of the scooter dashboard and left handlebar controls only, no full bodies: the speedometer display clearly reads 18 KM/H, a small white rabbit paw presses the cruise control button marked with a speedometer icon, purple light bars glow on both sides of the dashboard; crop tightly around dashboard, buttons, and paws, do not show full characters, do not show seating posture",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-04.png"
+      "composition_hint": "extreme close-up of ONLY the LEFT handlebar control cluster plus part of the scooter dashboard, matching a simple hand-drawn reference layout. The panel is a rounded rectangle near the left grip. In the MIDDLE is one large horizontal left-right turn signal rocker with a left arrow icon on the left, a narrow central toggle, and a right arrow icon on the right. At the BOTTOM LEFT is a RED horn button with a horn icon. At the BOTTOM RIGHT is the cruise control button with a speedometer icon. A small white rabbit paw presses the BOTTOM-RIGHT cruise control button. Beside it, the dashboard display clearly reads 18 KM/H with purple light bars. Crop tightly around the LEFT handlebar controls, left grip, dashboard, and paw only; no right handlebar, no full bodies.",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-04.webp"
     },
     {
       "page": 5,
@@ -151,7 +153,7 @@
         ]
       },
       "composition_hint": "eye-level medium view at a park lakeside parking area, black scooter parked nearby; shuishui holds and eats one small vacuum-packed braised beef piece with her own paw, NOT hanging from clothing, no food attached to jacket; red panda holds a pink-lidded water bottle in one paw and a small feeding food bag in the other paw; lake trees in background, clear object positions",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-05.png"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-05.webp"
     },
     {
       "page": 6,
@@ -319,7 +321,7 @@
         ]
       },
       "composition_hint": "from behind shuishui on the flat glass walkway: shuishui runs forward toward several small sparrow-like birds pecking crumbs ahead, and the birds flap upward and fly away; red panda remains farther behind watching; clear glass panels underfoot and lake railing at the side; camera follows from behind shuishui, not a front view",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-11.png"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-11.webp"
     },
     {
       "page": 12,
@@ -349,7 +351,7 @@
         ]
       },
       "composition_hint": "three-quarter wide-medium view on the glass walkway: shuishui and red panda stay together at a respectful distance from several small birds far ahead; shuishui gently tosses a tiny bread crumb onto the ground near the birds from far away, one bird hops toward the crumb; make the distance clear, no crouching close to birds, lake railing behind",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-12.png"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-12.webp"
     },
     {
       "page": 13,
@@ -404,7 +406,7 @@
         ]
       },
       "composition_hint": "low-angle wide view of a cone-shaped earthen mound in the cypress maze, like a small conical hill with a flat circular top; on the front face is one straight stone staircase leading directly to the top; around the cone body, a separate spiral gravel path wraps downward; shuishui and red panda hold paws and climb up the straight stone stairs; cypress hedges around; not a tower, not a cylinder, not a vertical platform",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-14.png"
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-14.webp"
     },
     {
       "page": 15,
@@ -415,27 +417,26 @@
           "text": "绕呀绕，终于下来啦！"
         }
       ],
-      "shot": "wide",
-      "camera_angle": "high-angle",
+      "shot": "medium",
+      "camera_angle": "eye-level",
       "emotion": "满足",
       "characters_in_scene": [
         "shuishui",
         "papa"
       ],
       "scene_state": {
-        "location": "圆锥形小土坡盘旋石子路",
+        "location": "圆锥形小土坡盘旋石子路近处中段",
         "weather": "晴",
         "time_of_day": "下午",
         "props": [
-          "same cone-shaped earthen mound",
-          "spiral gravel path wrapping down around cone",
-          "straight stone staircase visible on front",
-          "flat circular top",
-          "cypress maze below"
+          "one visible curve of the spiraling stone path",
+          "curving low stone edge beside the path",
+          "sloped grassy earthen mound wall on one side",
+          "cypress maze greenery glimpsed in background"
         ]
       },
-      "composition_hint": "high-angle wide view of the same cone-shaped earthen mound with a flat circular top; a spiral gravel path wraps around the outside of the cone and descends in several loops to the ground; the straight stone staircase to the top is also visible on one side for clarity; shuishui and red panda walk down the spiral gravel path together; cypress maze paths below; not a cylindrical tower",
-      "image_path": "/generated/duck-fish-park-2026-06-18/page-15.png"
+      "composition_hint": "STRICT medium shot at character height, camera standing ON THE SAME spiraling stone path halfway down the cone-shaped earthen mound, close enough to clearly see shuishui and red panda full bodies but NOT the whole mound. shuishui and red panda walk together on the curving stone path, holding paws; only one nearby curve of the path is visible behind and in front of them, with a low stone edge and sloped grassy earthen mound wall beside them. Cypress maze greenery is only a background glimpse. NO aerial view, NO bird's-eye view, NO high-angle map view, DO NOT show the whole cone mound, DO NOT show the straight staircase as the main subject.",
+      "image_path": "/generated/duck-fish-park-2026-06-18/page-15.webp"
     },
     {
       "page": 16,
