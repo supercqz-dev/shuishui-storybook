@@ -1,0 +1,365 @@
+{
+  "id": "aranya-holiday-part3-2026-06-18",
+  "title": "The Secret Playground",
+  "subtitle": "阿那亚度假下集：水水发现地下小探险",
+  "theme": "下沉儿童乐园里的空间探险",
+  "moral": "在安全陪伴下勇敢探索复杂的新空间；自己尝试、观察路径、发现秘密通道，体验探险的成就感。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "度假村真是太好玩了。爸爸妈妈带着水水散步，又发现了一个新的小儿童乐园。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "发现",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "度假村小区步道",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "seaside resort residential walkway",
+          "green shrubs",
+          "low wall",
+          "distant upper part of a tall space-capsule slide"
+        ]
+      },
+      "composition_hint": "eye-level medium-wide view on a seaside resort residential walkway, shuishui walking with red panda and taller white rabbit through greenery; in the far background beyond trees and a low wall, only the upper part of a tall space-capsule slide is visible, hinting at a hidden playground ahead; do not show the full playground layout yet, no miniature model, no underground openings, no skylight holes, no sloped ramp",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-01.webp"
+    },
+    {
+      "page": 2,
+      "narration": "这个小广场像一个圆圆的小秘密基地，四周藏着好多好玩的东西。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "high-angle",
+      "emotion": "新奇",
+      "characters_in_scene": [],
+      "scene_state": {
+        "location": "圆形下沉儿童乐园平面图式建场",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "two-level space-capsule slide on east side",
+          "two swings on south side",
+          "red green yellow seesaw in center",
+          "crescent-shaped sloped ramp on northwest half",
+          "two round skylight openings at the top of the slope"
+        ]
+      },
+      "composition_hint": "bird's-eye view of one circular sunken playground plaza, clearly lower than the surrounding walkway; east side has a tall two-level space-capsule slide with round porthole windows and a small antenna; south side has two swings; center has a red-green-yellow seesaw; northwest half is a crescent-shaped sloped ramp with colorful climbing footholds; at the top of that crescent slope are exactly two separate round skylight openings, both circular, with rope net glimpsed inside; no text labels, no humans",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-02.webp"
+    },
+    {
+      "page": 3,
+      "narration": "东边有一个高高的两层滑梯，上面像太空舱，还有圆圆的小窗户和一根小天线。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "这个滑梯像太空飞船！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "惊喜",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "圆形下沉广场东侧太空舱滑梯旁",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "two-level space-capsule slide",
+          "round porthole windows",
+          "small antenna",
+          "circular plaza edge"
+        ]
+      },
+      "composition_hint": "eye-level view from inside the lower circular plaza, looking toward the east side only; shuishui stands on the plaza floor looking up at a tall two-level space-capsule slide, with round porthole windows and a small antenna on the upper cabin, slide chute descending to the plaza floor; red panda and taller white rabbit stand nearby; no skylight holes in this scene, no crescent slope in this scene",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-03.webp"
+    },
+    {
+      "page": 4,
+      "narration": "西北边有一大片半月形的斜坡，斜坡上铺着攀岩脚蹬。斜坡顶上，还有两个圆圆的天井。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "好奇",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "下层圆形广场看向西北半月形斜坡",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "crescent-shaped outdoor sloped ramp",
+          "colorful climbing footholds",
+          "two separate circular skylight openings",
+          "round safety rims",
+          "lower circular plaza floor"
+        ]
+      },
+      "composition_hint": "from the lower circular plaza floor, three-quarter wide view facing the northwest side: a crescent-shaped OUTDOOR sloped ramp rises along the curved wall from the lower plaza up to the upper walkway level; the ramp surface is covered with colorful climbing footholds; at the top flat edge of the slope are exactly two separate circular skylight openings with round safety rims; shuishui, red panda, and taller white rabbit stand at the bottom looking up; outdoor daylight, no interior room, no tunnel, no windows, no cave",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-04.webp"
+    },
+    {
+      "page": 5,
+      "narration": "水水和爸爸踩着攀岩脚蹬，一点一点爬到了斜坡上。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，咱们去上面看看！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "半月形斜坡攀爬面",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "crescent-shaped sloped ramp",
+          "colorful climbing footholds",
+          "lower circular plaza floor",
+          "two round skylight openings at top"
+        ]
+      },
+      "composition_hint": "side three-quarter view from the lower plaza floor: shuishui is climbing upward on the crescent-shaped sloped ramp using colorful footholds, red panda climbs beside her on the SAME sloped outdoor surface with a protective posture, taller white rabbit remains on the lower circular plaza floor watching; the two round skylight openings are visible at the top of the slope ahead; not a vertical climbing wall, not indoors, no tunnel, no cave",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-05.webp"
+    },
+    {
+      "page": 6,
+      "narration": "到了斜坡顶上，水水看着两个圆圆的天井，眼睛亮了起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，咱俩一人一个天井往下爬吧！"
+        },
+        {
+          "speaker": "papa",
+          "text": "好呀，你能自己爬下去吗？"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "想探险",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "半月形斜坡顶部两个圆形天井旁",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "two separate circular skylight openings",
+          "raised round safety rims",
+          "vertical rope-net climbing shaft inside each opening",
+          "slope top platform"
+        ]
+      },
+      "composition_hint": "eye-level view on the flat top of the crescent slope: exactly two separate circular skylight openings side by side, each a perfect round hole with a raised round safety rim; shuishui stands beside the left round opening, red panda stands beside the right round opening; inside each opening, a vertical rope-net climbing shaft descends downward; keep the two circles clearly separated, not oval, not peanut-shaped, no underground room visible yet, no cave",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-06.webp"
+    },
+    {
+      "page": 7,
+      "narration": "于是，水水和爸爸一人一个天井，顺着攀爬网慢慢往下爬。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "勇敢",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "两个圆形天井剖面和空地下空间",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "two separate vertical round skylight shafts",
+          "three horizontal rope-net levels in each shaft",
+          "empty crescent-shaped underground chamber"
+        ]
+      },
+      "composition_hint": "clean cutaway side-section diagram style in storybook CGI: two separate vertical round skylight shafts descend from the slope top; shuishui climbs down the left shaft, red panda climbs down the right shaft; each shaft has exactly three horizontal rope-net levels; at the bottom both shafts open into the same EMPTY crescent-shaped underground chamber with plain curved walls and floor, no toys, no furniture, no slides, no ball pit, no decorations, no lamps, no playroom",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-07.webp"
+    },
+    {
+      "page": 8,
+      "narration": "水水和爸爸下到了地下空间。再抬头一看，妈妈正在天井口上方跟水水招手。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "Hi 妈妈！我下来啦，厉不厉害？"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "low-angle",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "空的半月形地下空间内部抬头看天井",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "empty crescent-shaped underground chamber",
+          "two circular skylight openings above",
+          "rope-net climbing shafts",
+          "sunlight beams"
+        ]
+      },
+      "composition_hint": "low-angle view from inside the EMPTY crescent-shaped underground chamber: shuishui and red panda stand on the chamber floor and look upward; above them are two circular skylight openings with rope-net climbing shafts hanging down; taller white rabbit is visible ONLY at the rim of one skylight opening above, waving down from outside; do not place the taller white rabbit inside the underground chamber; no toys, no furniture, plain curved walls and floor",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-08.webp"
+    },
+    {
+      "page": 9,
+      "narration": "说话的时候，地下空间里传来了回声。水水和爸爸试着喊了起来。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "啊——啊——啊——！"
+        },
+        {
+          "speaker": "papa",
+          "text": "哦——哦——哦——！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "好玩",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "空的半月形地下回声空间",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "plain curved underground walls",
+          "two circular skylight openings overhead",
+          "descending rope-net climbing structures",
+          "echo wave lines"
+        ]
+      },
+      "composition_hint": "medium view inside the EMPTY crescent-shaped underground chamber, plain curved walls and floor; shuishui and red panda call toward the curved wall, subtle echo wave lines in the air; overhead, both circular skylight openings and the descending rope-net climbing structures are still visible, showing where they came from; no other characters, no toys, no furniture, no cave decorations",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-09.webp"
+    },
+    {
+      "page": 10,
+      "narration": "水水忽然发现，地下空间的一边还有一个小山洞洞口。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "爸爸，咱去看看那能通到哪里！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "探索",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "空地下空间侧壁洞口前",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "empty crescent-shaped underground chamber",
+          "low rounded doorway-like opening in side wall",
+          "faint skylight openings overhead"
+        ]
+      },
+      "composition_hint": "inside the EMPTY crescent-shaped underground chamber, shuishui holds red panda's paw and points toward a low rounded doorway-like opening in the SIDE WALL; they have NOT entered it yet; the opening is short and simple, not a long tunnel; overhead, faint circular skylight openings and rope nets are visible; plain curved walls, no toys, no furniture, no outside plaza visible yet, no natural cave",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-10.webp"
+    },
+    {
+      "page": 11,
+      "narration": "爸爸弯着腰，和水水一起从小山洞钻了出去。原来，洞口通到了下层广场！",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "豁然开朗",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "下层圆形广场斜坡侧壁洞口外侧",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "low rounded opening built into side wall of crescent slope",
+          "circular playground plaza floor",
+          "red-green-yellow seesaw in background",
+          "space-capsule slide partly visible"
+        ]
+      },
+      "composition_hint": "eye-level view from the lower circular sunken plaza floor, facing the side wall of the crescent-shaped slope structure; a low rounded opening is built into that side wall; shuishui is just stepping out of the opening, red panda bends slightly behind her; outside the opening is immediately the circular playground plaza floor, with the red-green-yellow seesaw or part of the space-capsule slide visible in the background to match the earlier layout; not a long tunnel, not a natural cave, not a forest tunnel",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-11.webp"
+    },
+    {
+      "page": 12,
+      "narration": "妈妈站在斜坡顶上，看到水水从下层广场冒出来，笑着招手。",
+      "dialogue": [
+        {
+          "speaker": "mama",
+          "text": "小水水，你从哪里冒出来的？"
+        },
+        {
+          "speaker": "shuishui",
+          "text": "这里有个山洞！我从这儿出来的！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "three-quarter",
+      "emotion": "得意",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama"
+      ],
+      "scene_state": {
+        "location": "同一个圆形下沉广场上下层关系",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "same circular sunken playground plaza",
+          "crescent-shaped sloped ramp",
+          "two round skylight openings near slope top",
+          "low rounded opening built into side wall",
+          "red-green-yellow seesaw",
+          "space-capsule slide"
+        ]
+      },
+      "composition_hint": "wide three-quarter view of the SAME circular sunken playground plaza from page 2: the crescent-shaped sloped ramp curves along the northwest edge, with two round skylight openings near its top; taller white rabbit stands at the top of the slope waving down; below on the circular plaza floor, shuishui and red panda stand beside a low rounded opening built into the side wall of the slope, shuishui proudly points at the opening; include the red-green-yellow seesaw or space-capsule slide in the background to anchor the same layout; not a natural hill tunnel, not a long tunnel",
+      "image_path": "/generated/aranya-holiday-part3-2026-06-18/page-12.webp"
+    }
+  ],
+  "created_at": "2026-06-18T00:00:00.000Z",
+  "status": "finished",
+  "cover_image": "/generated/aranya-holiday-part3-2026-06-18/cover.webp"
+}
