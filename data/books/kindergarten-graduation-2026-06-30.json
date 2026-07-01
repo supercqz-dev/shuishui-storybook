@@ -207,37 +207,15 @@
         "props": [
           "little yellow stools",
           "graduation backdrop",
-          "three photo rows"
+          "three photo rows",
+          "mixed everyday outfits"
         ]
       },
-      "composition_hint": "front-facing wide view of a carefully arranged kindergarten graduation photo lineup with three rows: first row small animal classmates sit on little yellow stools and shuishui sits exactly in the center; second row small animal classmates stand in a row; third row has the giant panda teacher, Dalmatian dog teacher, and giraffe teacher standing behind; clear orderly photo formation",
+      "composition_hint": "front-facing wide view of a carefully arranged kindergarten graduation photo lineup with three rows: first row small animal classmates sit on little yellow stools and shuishui sits exactly in the center in her usual pink dress; every classmate wears their own everyday outfit, varied colors and styles, absolutely no matching school uniforms; include many different small animal classmates such as kitten, fawn, bear cub, fox, monkey, piglet, raccoon, small elephant, and calf; second row small animal classmates stand in a row; third row has the giant panda teacher, Dalmatian dog teacher, and giraffe teacher standing behind in natural teacher clothes; clear orderly photo formation, all animals no humans",
       "image_path": "/generated/kindergarten-graduation-2026-06-30/page-08.webp"
     },
     {
       "page": 9,
-      "narration": "大家一起开心地笑着，比出小小的“耶”。咔嚓，第一张照片拍好啦！",
-      "dialogue": [],
-      "shot": "wide",
-      "camera_angle": "eye-level",
-      "emotion": "开心",
-      "characters_in_scene": [
-        "shuishui"
-      ],
-      "scene_state": {
-        "location": "操场毕业照正面",
-        "weather": "晴",
-        "time_of_day": "上午",
-        "props": [
-          "little yellow stools",
-          "graduation backdrop",
-          "V hand gestures"
-        ]
-      },
-      "composition_hint": "front-facing formal graduation photo composition, everyone smiling and making V hand gestures; shuishui sits in the center of the first row on a little yellow stool, second row animal classmates stand, giant panda teacher, Dalmatian dog teacher, and giraffe teacher stand in the third row; bright playground, joyful clear faces",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-09.webp"
-    },
-    {
-      "page": 10,
       "narration": "第二张照片，是一组同学一起摆出酷酷的姿势。",
       "dialogue": [],
       "shot": "medium",
@@ -254,11 +232,11 @@
           "cool poses"
         ]
       },
-      "composition_hint": "eye-level medium group photo of several small animal classmates posing in cool playful stances on the playground, such as a bear cub, little fox, monkey, piglet, and raccoon, graduation decorations behind them; no shuishui as the main subject, no teachers, all animals no humans",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-10.webp"
+      "composition_hint": "eye-level medium group photo of several small animal classmates posing in cool playful stances on the playground, such as a bear cub, little fox, monkey, piglet, raccoon, small elephant, and calf; each classmate wears a different everyday outfit with varied colors, no matching uniforms, no formal academic clothing; graduation decorations behind them; no shuishui as the main subject, no teachers, all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-09.webp"
     },
     {
-      "page": 11,
+      "page": 10,
       "narration": "第三张照片，是一组同学一起坐在操场上。水水坐在中间，开心地举起小手。",
       "dialogue": [],
       "shot": "medium",
@@ -274,14 +252,15 @@
         "props": [
           "playground turf",
           "graduation flowers",
-          "small animal classmates sitting"
+          "small animal classmates sitting",
+          "mixed everyday outfits"
         ]
       },
-      "composition_hint": "eye-level medium group photo of small animal classmates sitting together on the playground turf in pretty graduation outfits; shuishui sits in the center and happily raises both paws, classmates around her smile brightly, no teachers, all-animal world",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-11.webp"
+      "composition_hint": "eye-level medium group photo of small animal classmates sitting together on the playground turf in their own everyday clothes, varied colors and casual childlike outfits, absolutely no academic gowns and no mortarboard caps; shuishui sits in the center in her usual pink dress and happily raises both paws; classmates around her include varied animals such as kitten, fawn, bear cub, small elephant, calf, fox, and monkey, smiling brightly; no teachers, all-animal world",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-10.webp"
     },
     {
-      "page": 12,
+      "page": 11,
       "narration": "最后，小朋友们一起拍了一张大合影。这一次，只有小朋友，没有老师。",
       "dialogue": [],
       "shot": "wide",
@@ -297,14 +276,15 @@
         "props": [
           "handwritten sign",
           "I ♥ 幼儿园",
-          "graduation decorations"
+          "graduation decorations",
+          "mixed everyday outfits"
         ]
       },
-      "composition_hint": "front-facing wide group photo of only small animal classmates, no teachers; shuishui sits in the center; nearby classmates hold a small handmade sign with clear thick childlike handwritten text reading \"I ♥ 幼儿园\"; everyone smiles happily, playground graduation decorations, all animals no humans",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-12.webp"
+      "composition_hint": "front-facing wide group photo of only small animal classmates, no teachers; shuishui sits in the center in her usual pink dress; classmates wear varied everyday outfits, no uniforms, no academic gowns, no mortarboard caps; include kitten, fawn, bear cub, fox, monkey, piglet, raccoon, small elephant, and calf; one handmade sign is held in front, and the sign text must be copied EXACTLY as: I ♥ 幼儿园. Do not add any extra Chinese characters before 幼儿园. Do not write 小动物园 or 动物园. all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-11.webp"
     },
     {
-      "page": 13,
+      "page": 12,
       "narration": "接着，王老师给大家颁发幼儿园小班的录取通知书。",
       "dialogue": [
         {
@@ -328,11 +308,11 @@
           "small flowers"
         ]
       },
-      "composition_hint": "three-quarter medium view on the playground ceremony area, a kind giant panda teacher gently hands an admission notice envelope to shuishui and lightly pats her head, shuishui receives it with both paws, graduation backdrop and small flowers behind them, warm proud moment",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-13.webp"
+      "composition_hint": "three-quarter medium view on the playground ceremony area, a kind giant panda teacher wearing a casual everyday button-up shirt and simple teacher trousers, not a formal suit, gently hands an admission notice envelope to shuishui and lightly pats her head, shuishui receives it with both paws, graduation backdrop and small flowers behind them, warm proud moment",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-12.webp"
     },
     {
-      "page": 14,
+      "page": 13,
       "narration": "这是水水的录取通知书，里面藏着一个新的开始。",
       "dialogue": [],
       "shot": "close-up",
@@ -340,20 +320,20 @@
       "emotion": "纪念",
       "characters_in_scene": [],
       "scene_state": {
-        "location": "录取通知书特写二分格",
+        "location": "录取通知书特写上下二分格",
         "weather": "晴",
         "time_of_day": "上午",
         "props": [
-          "two-panel close-up",
+          "vertical two-panel close-up",
           "admission notice cover",
           "opened admission notice"
         ]
       },
-      "composition_hint": "a clean two-panel close-up page like a keepsake document spread, left panel shows the admission notice cover with clear Chinese text \"北京市海淀区美和园幼儿园 录取通知书\"; right panel shows the opened notice with clear Chinese text \"欢迎水水小朋友，加入美和园幼儿园小班。\"; neat paper texture, small flower decorations, no characters, text is the main subject",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-14.webp"
+      "composition_hint": "a clean vertical two-panel close-up page, stacked top and bottom panels, not left-right split; no characters; top panel is an admission notice cover with ONLY this exact Chinese title text: 美和园幼儿园 录取通知书. bottom panel is the opened notice with ONLY this exact Chinese text: 欢迎水水小朋友，加入美和园幼儿园小班。 Copy the Chinese characters exactly. Do not add 小动物园, 动物园, or any extra animal-school wording. neat paper texture and small flower decorations",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-13.webp"
     },
     {
-      "page": 15,
+      "page": 14,
       "narration": "欢乐的一天结束了。水水带着录取通知书回到家，迫不及待地讲起毕业典礼的故事。",
       "dialogue": [
         {
@@ -380,33 +360,7 @@
         ]
       },
       "composition_hint": "eye-level medium view in a cozy living room, shuishui holds the admission notice and excitedly performs the story of being accepted into the next kindergarten class, a taller white rabbit and a sheep sit on the sofa listening with warm smiles, evening home light",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-15.webp"
-    },
-    {
-      "page": 16,
-      "narration": "宝宝班毕业啦。水水长大了一点点，也要去小班啦！",
-      "dialogue": [],
-      "shot": "medium",
-      "camera_angle": "three-quarter",
-      "emotion": "自豪",
-      "characters_in_scene": [
-        "shuishui",
-        "papa",
-        "mama",
-        "laolao"
-      ],
-      "scene_state": {
-        "location": "家里温暖合影",
-        "weather": "晴",
-        "time_of_day": "傍晚",
-        "props": [
-          "admission notice",
-          "graduation photo memory",
-          "small flowers"
-        ]
-      },
-      "composition_hint": "three-quarter medium warm family closing scene at home, shuishui proudly hugs the admission notice in the center, red panda, taller white rabbit, and sheep gather around her smiling, small graduation photo memory and flowers nearby, cozy celebratory mood, all animals no humans",
-      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-16.webp"
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-14.webp"
     }
   ],
   "created_at": "2026-06-30T00:00:00.000Z",
