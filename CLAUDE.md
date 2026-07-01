@@ -81,7 +81,7 @@ scripts/                    — 自动化脚本
 - 标准闭环：LLM 写脚本分镜 → 生成内页 → 用 `scripts/make-cover.mjs` 正确通路生成封面 → 检查 PNG 严重问题 → 对明显错误页面主动重 roll → 转 WebP → 删除 PNG → 保存 JSON → commit + push → 确认 GitHub Pages Actions 绿了。
 - **WebP 转换后自动删除 PNG，不需要再问用户确认**；这是本项目既定发布规则。
 - 除非涉及改模型、改部署架构、外部破坏性操作、或需要用户审美选择封面候选，否则不要中途等待确认。
-- 封面生成必须使用项目沉淀的 `scripts/make-cover.mjs`，首选 `COVER_MODE=story`，并传 `TITLE`、`STORY_THEME`、`SCENE`、`CHARS=shuishui,papa,...` 注入角色圣经；不要绕过脚本直接手写 OpenAI 图片 prompt。`TITLE_STYLE` 默认 `auto`，除非有明确主题预设需求。
+- 封面生成必须使用项目沉淀的 `scripts/make-cover.mjs`，首选 `COVER_MODE=story`，并传 `TITLE`、`STORY_THEME`、`SCENE`、`CHARS=shuishui,papa,...` 注入角色圣经；默认 `N=3` 生成 3 张候选后 3 选 1，提升效率；不要绕过脚本直接手写 OpenAI 图片 prompt。`TITLE_STYLE` 默认 `auto`，除非有明确主题预设需求。
 - 可用自动发布脚本：`BOOK=xxx PUBLISH=1 node scripts/book-runner.mjs`；已生成/返工后的单本发布用 `BOOK_ID=xxx node scripts/publish-book.mjs`。
 
 

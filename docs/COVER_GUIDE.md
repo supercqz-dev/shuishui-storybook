@@ -77,7 +77,7 @@ large SOLID rounded sandy letters, warm golden sand material, turquoise wave und
 
 1. 生成封面时必须传 `CHARS=shuishui,papa,...`,让 `make-cover.mjs` 自动注入角色圣经。
 2. `SCENE` 只写动作/构图/场景,不要手写“爸爸穿白 T”这类角色设定。
-3. 每次至少生成 3-4 张候选。
+3. 每次生成 3 张候选，默认 3 选 1，兼顾质量和效率。
 4. 选择标准排序:
    - 标题拼写和可读性
    - 封面构图是否平衡(标题不能压倒主体)
