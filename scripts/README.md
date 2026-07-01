@@ -4,7 +4,8 @@
 
 | 脚本 | 用途 | 用法 |
 |---|---|---|
-| `book-runner.mjs` | 端到端生成一本绘本(故事→分页→逐页生图,带 moderation 重试/降级) | `BOOK=childrensday node scripts/book-runner.mjs`(BOOK 见文件内 BOOKS 表;`BOOK=all` 跑全部) |
+| `book-runner.mjs` | 端到端生成一本绘本(故事→分页→逐页生图,带 moderation 重试/降级);`PUBLISH=1` 时生成成功后自动发布 | `BOOK=childrensday PUBLISH=1 node scripts/book-runner.mjs`(BOOK 见文件内 BOOKS 表;`BOOK=all` 跑全部) |
+| `publish-book.mjs` | 发布指定绘本:转 WebP、删 PNG、校验文件、git commit/push、等待 GitHub Pages Actions 成功 | `BOOK_ID=xxx node scripts/publish-book.mjs`;检查用 `BOOK_ID=xxx DRY_RUN=1 SKIP_GIT=1 node scripts/publish-book.mjs` |
 | `make-cover.mjs` | 生成带英文标题的封面候选(电影海报风),出 N 张供人工挑选 | `BOOK_ID=xxx TITLE="ShuiShui's Big Slide" N=3 node scripts/make-cover.mjs` → 产物落 `experiments/<date>/<book>-cover/` |
 | `build-pages.sh` | GitHub Pages 静态构建(构建期临时摘掉 dev-only 的 api/editor/characters 路由) | `bash scripts/build-pages.sh` → 产物 `out/` |
 

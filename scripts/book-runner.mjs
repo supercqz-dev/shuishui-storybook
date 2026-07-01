@@ -5,6 +5,7 @@
 //        BOOK=all node scripts/book-runner.mjs
 import fs from 'fs';
 import path from 'path';
+import { execFileSync } from 'child_process';
 import { Agent, setGlobalDispatcher } from 'undici';
 
 // Azure image generation can take 90+ seconds; default undici headers timeout (5min) is fine
@@ -16,6 +17,7 @@ setGlobalDispatcher(new Agent({
 }));
 
 const BASE = 'http://localhost:3000';
+const PUBLISH = process.env.PUBLISH === '1' || process.env.PUBLISH === 'true';
 
 const BOOKS = {
   // 阿那亚度假(上): 出发、路书、午饭、高速、抵达民宿、儿童房和小院子。
@@ -637,6 +639,21 @@ async function runBook(spec) {
   const saveRes = await postJson(`${BASE}/api/save-book/`, { book });
   if (saveRes.ok) log(`book saved: ${saveRes.body.saved_to}`);
   else log(`save FAIL ${JSON.stringify(saveRes.body)}`);
+
+  if (PUBLISH && failed.length === 0 && saveRes.ok) {
+    log(`=== ${book_id}: STEP 4 publish-book ===`);
+    execFileSync('node', ['scripts/publish-book.mjs'], {
+      cwd: process.cwd(),
+      stdio: 'inherit',
+      env: {
+        ...process.env,
+        BOOK_ID: book_id,
+        COMMIT_MESSAGE: process.env.COMMIT_MESSAGE || `Publish ${book_id}`,
+      },
+    });
+  } else if (PUBLISH) {
+    log(`publish skipped: failed=${failed.length} save_ok=${saveRes.ok}`);
+  }
 
   return {
     ok: failed.length === 0,
