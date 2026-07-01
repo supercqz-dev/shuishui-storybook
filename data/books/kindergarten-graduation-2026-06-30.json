@@ -1,0 +1,415 @@
+{
+  "id": "kindergarten-graduation-2026-06-30",
+  "title": "Little Class Graduation",
+  "subtitle": "水水宝宝班毕业啦",
+  "theme": "宝宝班毕业典礼和成长回顾",
+  "moral": "回顾这一年学会的事情、感谢老师和朋友，带着自豪与期待进入幼儿园小班。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "今天是重要的日子，美和园幼儿园宝宝班要举行毕业典礼啦。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "宝宝班毕业啦！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "美和园幼儿园操场入口",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "graduation bunting",
+          "flower decorations",
+          "kindergarten playground",
+          "little yellow stools"
+        ]
+      },
+      "composition_hint": "eye-level wide view of Meiheyuan kindergarten playground entrance decorated for a graduation ceremony, colorful bunting and small flower decorations, rows of little yellow stools visible in the distance; shuishui stands excitedly in her usual pink dress and floral headband, all-animal kindergarten world, no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-01.webp"
+    },
+    {
+      "page": 2,
+      "narration": "这一年里，水水长大了。她已经会在学校自己吃饭。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室餐桌",
+        "weather": "晴",
+        "time_of_day": "中午",
+        "props": [
+          "small dining table",
+          "small chair",
+          "meal tray",
+          "little spoon",
+          "soup bowl"
+        ]
+      },
+      "composition_hint": "eye-level medium view in a bright kindergarten classroom dining area, shuishui sits on a small chair at a small table and eats by herself with a little spoon, tidy meal tray and soup bowl in front of her, several background animal classmates seated farther away, warm proud mood",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-02.webp"
+    },
+    {
+      "page": 3,
+      "narration": "水水也会在学校午睡了。小床软软的，小被子香香的。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "安稳",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园午睡房",
+        "weather": "晴",
+        "time_of_day": "中午",
+        "props": [
+          "rows of small nap beds",
+          "little blanket",
+          "soft curtains",
+          "small pillow"
+        ]
+      },
+      "composition_hint": "eye-level medium view in a quiet kindergarten nap room with rows of small beds, shuishui sleeps peacefully in her own small bed under a little blanket, a kind giant panda teacher stands nearby checking quietly, soft daylight through curtains, calm warm mood",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-03.webp"
+    },
+    {
+      "page": 4,
+      "narration": "这一年里，水水还和爸爸一起做了好多亲子活动。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "回忆",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "亲子活动回忆四分格",
+        "weather": "晴",
+        "time_of_day": "下午",
+        "props": [
+          "four-panel layout",
+          "bunny-shaped flowerpot",
+          "peanut seeds",
+          "orange clay",
+          "orange tabby clay cat",
+          "colorful paper",
+          "safe rounded scissors"
+        ]
+      },
+      "composition_hint": "a clean four-panel memory page with soft white borders, exactly four panels: top-left shuishui and red panda plant peanut seeds in a round bunny-shaped flowerpot; top-right shuishui and red panda shape orange clay into a small orange tabby cat; bottom-left shuishui and red panda make a paper-cutting craft with colorful paper and safe rounded scissors; bottom-right shuishui proudly shows a finished craft while red panda smiles; no extra panels",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-04.webp"
+    },
+    {
+      "page": 5,
+      "narration": "水水还参加了唱歌比赛。她穿着蓝色鲨鱼服，唱得可认真啦。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园唱歌比赛小舞台",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "small stage",
+          "blue shark costume",
+          "bunny costume",
+          "chick costume",
+          "microphones",
+          "stage decorations"
+        ]
+      },
+      "composition_hint": "eye-level wide view of a small kindergarten singing stage, shuishui is clearly a white rabbit wearing a blue shark costume over her usual character design, face visible, singing seriously; nearby small animal classmates wear a bunny costume and a chick costume, all singing together, cheerful stage decorations, no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-05.webp"
+    },
+    {
+      "page": 6,
+      "narration": "水水也交到了好朋友。毛毛西、果儿、十一，大家一起玩得可开心了。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我们一起玩吧！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "快乐",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园教室游戏角",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "blocks",
+          "picture books",
+          "toy basket"
+        ]
+      },
+      "composition_hint": "three-quarter medium view in a kindergarten play corner: shuishui plays happily with three named animal classmates, Maomaoxi is a small white kitten, Guoer is a small fawn/deer, Shiyi is a small bear cub, the four friends build blocks and look at picture books together, clear species differences, warm friendship mood",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-06.webp"
+    },
+    {
+      "page": 7,
+      "narration": "毕业照时间到了。三位老师带着宝宝班全体同学来到操场上。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "热闹",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "幼儿园操场",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "playground",
+          "graduation backdrop",
+          "little yellow stools",
+          "animal classmates"
+        ]
+      },
+      "composition_hint": "eye-level wide view of a kindergarten playground graduation photo setup; a kind giant panda teacher, a Dalmatian dog teacher, and a giraffe teacher lead many small animal classmates onto the playground; little yellow stools and a graduation backdrop are ready, sunny cheerful ceremony mood, all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-07.webp"
+    },
+    {
+      "page": 8,
+      "narration": "第一张毕业照，大家排好队。水水坐在第一排中间。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "郑重",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "毕业照队形操场",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "little yellow stools",
+          "graduation backdrop",
+          "three photo rows"
+        ]
+      },
+      "composition_hint": "front-facing wide view of a carefully arranged kindergarten graduation photo lineup with three rows: first row small animal classmates sit on little yellow stools and shuishui sits exactly in the center; second row small animal classmates stand in a row; third row has the giant panda teacher, Dalmatian dog teacher, and giraffe teacher standing behind; clear orderly photo formation",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-08.webp"
+    },
+    {
+      "page": 9,
+      "narration": "大家一起开心地笑着，比出小小的“耶”。咔嚓，第一张照片拍好啦！",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "开心",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "操场毕业照正面",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "little yellow stools",
+          "graduation backdrop",
+          "V hand gestures"
+        ]
+      },
+      "composition_hint": "front-facing formal graduation photo composition, everyone smiling and making V hand gestures; shuishui sits in the center of the first row on a little yellow stool, second row animal classmates stand, giant panda teacher, Dalmatian dog teacher, and giraffe teacher stand in the third row; bright playground, joyful clear faces",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-09.webp"
+    },
+    {
+      "page": 10,
+      "narration": "第二张照片，是一组同学一起摆出酷酷的姿势。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "酷酷",
+      "characters_in_scene": [],
+      "scene_state": {
+        "location": "操场小组合影",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "playground",
+          "graduation decorations",
+          "cool poses"
+        ]
+      },
+      "composition_hint": "eye-level medium group photo of several small animal classmates posing in cool playful stances on the playground, such as a bear cub, little fox, monkey, piglet, and raccoon, graduation decorations behind them; no shuishui as the main subject, no teachers, all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-10.webp"
+    },
+    {
+      "page": 11,
+      "narration": "第三张照片，是一组同学一起坐在操场上。水水坐在中间，开心地举起小手。",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "灿烂",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "操场坐姿小组合影",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "playground turf",
+          "graduation flowers",
+          "small animal classmates sitting"
+        ]
+      },
+      "composition_hint": "eye-level medium group photo of small animal classmates sitting together on the playground turf in pretty graduation outfits; shuishui sits in the center and happily raises both paws, classmates around her smile brightly, no teachers, all-animal world",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-11.webp"
+    },
+    {
+      "page": 12,
+      "narration": "最后，小朋友们一起拍了一张大合影。这一次，只有小朋友，没有老师。",
+      "dialogue": [],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "热烈",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "操场小朋友大合影",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "handwritten sign",
+          "I ♥ 幼儿园",
+          "graduation decorations"
+        ]
+      },
+      "composition_hint": "front-facing wide group photo of only small animal classmates, no teachers; shuishui sits in the center; nearby classmates hold a small handmade sign with clear thick childlike handwritten text reading \"I ♥ 幼儿园\"; everyone smiles happily, playground graduation decorations, all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-12.webp"
+    },
+    {
+      "page": 13,
+      "narration": "接着，王老师给大家颁发幼儿园小班的录取通知书。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "谢谢王老师！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "骄傲",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "操场颁发通知书处",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "admission notice envelope",
+          "graduation backdrop",
+          "small flowers"
+        ]
+      },
+      "composition_hint": "three-quarter medium view on the playground ceremony area, a kind giant panda teacher gently hands an admission notice envelope to shuishui and lightly pats her head, shuishui receives it with both paws, graduation backdrop and small flowers behind them, warm proud moment",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-13.webp"
+    },
+    {
+      "page": 14,
+      "narration": "这是水水的录取通知书，里面藏着一个新的开始。",
+      "dialogue": [],
+      "shot": "close-up",
+      "camera_angle": "eye-level",
+      "emotion": "纪念",
+      "characters_in_scene": [],
+      "scene_state": {
+        "location": "录取通知书特写二分格",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "two-panel close-up",
+          "admission notice cover",
+          "opened admission notice"
+        ]
+      },
+      "composition_hint": "a clean two-panel close-up page like a keepsake document spread, left panel shows the admission notice cover with clear Chinese text \"北京市海淀区美和园幼儿园 录取通知书\"; right panel shows the opened notice with clear Chinese text \"欢迎水水小朋友，加入美和园幼儿园小班。\"; neat paper texture, small flower decorations, no characters, text is the main subject",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-14.webp"
+    },
+    {
+      "page": 15,
+      "narration": "欢乐的一天结束了。水水带着录取通知书回到家，迫不及待地讲起毕业典礼的故事。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "幼儿园录取我去小班啦！"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "eye-level",
+      "emotion": "兴奋",
+      "characters_in_scene": [
+        "shuishui",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里客厅",
+        "weather": "晴",
+        "time_of_day": "傍晚",
+        "props": [
+          "admission notice",
+          "sofa",
+          "warm living room light"
+        ]
+      },
+      "composition_hint": "eye-level medium view in a cozy living room, shuishui holds the admission notice and excitedly performs the story of being accepted into the next kindergarten class, a taller white rabbit and a sheep sit on the sofa listening with warm smiles, evening home light",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-15.webp"
+    },
+    {
+      "page": 16,
+      "narration": "宝宝班毕业啦。水水长大了一点点，也要去小班啦！",
+      "dialogue": [],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "自豪",
+      "characters_in_scene": [
+        "shuishui",
+        "papa",
+        "mama",
+        "laolao"
+      ],
+      "scene_state": {
+        "location": "家里温暖合影",
+        "weather": "晴",
+        "time_of_day": "傍晚",
+        "props": [
+          "admission notice",
+          "graduation photo memory",
+          "small flowers"
+        ]
+      },
+      "composition_hint": "three-quarter medium warm family closing scene at home, shuishui proudly hugs the admission notice in the center, red panda, taller white rabbit, and sheep gather around her smiling, small graduation photo memory and flowers nearby, cozy celebratory mood, all animals no humans",
+      "image_path": "/generated/kindergarten-graduation-2026-06-30/page-16.webp"
+    }
+  ],
+  "created_at": "2026-06-30T00:00:00.000Z",
+  "status": "finished",
+  "cover_image": "/generated/kindergarten-graduation-2026-06-30/cover.webp"
+}
