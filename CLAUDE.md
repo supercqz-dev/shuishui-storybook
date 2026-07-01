@@ -75,6 +75,14 @@ scripts/                    — 自动化脚本
 5. `git add + commit + push` → 自动部署到 GitHub Pages
 6. 推完后确认 Actions 绿了
 
+### 自主发布要求（重要）
+
+- 用户给完故事大纲后，默认目标是**自主完成整本绘本生成并发布到手机端图书馆可见**，不要停在半流程。
+- 标准闭环：LLM 写脚本分镜 → 生成内页和封面 → Read PNG 给用户在聊天里看 → 对明显错误页面主动重 roll → 转 WebP → 删除 PNG → 保存 JSON → commit + push → 确认 GitHub Pages Actions 绿了。
+- **WebP 转换后自动删除 PNG，不需要再问用户确认**；这是本项目既定发布规则。
+- 除非涉及改模型、改部署架构、外部破坏性操作、或需要用户审美选择封面候选，否则不要中途等待确认。
+- 可用自动发布脚本：`BOOK=xxx PUBLISH=1 node scripts/book-runner.mjs`；已生成/返工后的单本发布用 `BOOK_ID=xxx node scripts/publish-book.mjs`。
+
 
 ## 今日沉淀（2026-06-11）
 
