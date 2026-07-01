@@ -1,0 +1,101 @@
+{
+  "id": "dance-class-test-2026-07-01",
+  "title": "Duck Dance Day",
+  "subtitle": "水水去上舞蹈课",
+  "theme": "周末清晨的舞蹈课和亲子表演",
+  "moral": "跟着老师认真学习，在表演中感受节奏、自信和陪伴。",
+  "age_target": "3-4",
+  "pages": [
+    {
+      "page": 1,
+      "narration": "周末的清晨，水水来到明亮的舞蹈课教室。镜子亮亮的，木地板香香的。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "我要跳舞啦！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "期待",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "舞蹈教室入口",
+        "weather": "晴",
+        "time_of_day": "清晨",
+        "props": [
+          "dance studio mirrors",
+          "wooden floor",
+          "soft morning light",
+          "small dance bags"
+        ]
+      },
+      "composition_hint": "eye-level wide view of a bright dance studio in soft morning light, wall mirrors and warm wooden floor, shuishui stands excitedly in her usual pink dress with floral headband near the studio entrance, small dance bags along the wall, all-animal world, no humans",
+      "image_path": "/generated/dance-class-test-2026-07-01/page-01.webp"
+    },
+    {
+      "page": 2,
+      "narration": "漂亮的孔雀老师展开蓝绿色的羽毛，带着大家学习《数鸭子》的舞步。",
+      "dialogue": [
+        {
+          "speaker": "teacher",
+          "text": "一二三，像小鸭子一样摇一摇。"
+        }
+      ],
+      "shot": "medium",
+      "camera_angle": "three-quarter",
+      "emotion": "认真",
+      "characters_in_scene": [
+        "shuishui"
+      ],
+      "scene_state": {
+        "location": "舞蹈教室中央",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "studio mirrors",
+          "wooden floor",
+          "duck dance gesture",
+          "small animal classmates"
+        ]
+      },
+      "composition_hint": "three-quarter medium view in the center of the dance studio, an elegant anthropomorphic peacock dance teacher with beautiful blue-green tail feathers demonstrates a cute duck-counting dance gesture; shuishui and several small animal classmates follow carefully on the wooden floor, clear mirror reflections, lively but tidy class mood, all animals no humans",
+      "image_path": "/generated/dance-class-test-2026-07-01/page-02.webp"
+    },
+    {
+      "page": 3,
+      "narration": "亲子时间到了。爸爸走进教室，在孔雀老师的带领下，水水和小朋友们完成了今天的表演。",
+      "dialogue": [
+        {
+          "speaker": "shuishui",
+          "text": "看我跳数鸭子！"
+        }
+      ],
+      "shot": "wide",
+      "camera_angle": "eye-level",
+      "emotion": "自信",
+      "characters_in_scene": [
+        "shuishui",
+        "papa"
+      ],
+      "scene_state": {
+        "location": "舞蹈教室亲子表演区",
+        "weather": "晴",
+        "time_of_day": "上午",
+        "props": [
+          "studio mirrors",
+          "wooden floor",
+          "small performance line",
+          "duck dance pose"
+        ]
+      },
+      "composition_hint": "eye-level wide view of a warm parent-child performance moment in the dance studio, shuishui and several small animal classmates perform the duck-counting dance in a neat line, an elegant peacock dance teacher guides from the side, a red panda joins the classroom and watches proudly while copying the simple dance gesture, studio mirrors and wooden floor, confident joyful mood, all animals no humans",
+      "image_path": "/generated/dance-class-test-2026-07-01/page-03.webp"
+    }
+  ],
+  "created_at": "2026-07-01T00:00:00.000Z",
+  "status": "finished",
+  "cover_image": "/generated/dance-class-test-2026-07-01/cover.webp"
+}
